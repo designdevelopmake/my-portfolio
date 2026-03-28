@@ -1,0 +1,824 @@
+#FreeFormatPage{
+	width: 100%;
+	font-size: 100%;
+}
+#FreeFormatPage a{ text-decoration: none; }
+#FreeFormatPage hr.clear{ 
+    display: block;
+    float: left;
+    width: 100%;
+    height: 0;
+    background: none;
+    border: none;
+    margin: 0;
+ }
+#FreeFormatPage header{
+position: relative;
+overflow: hidden;
+}
+#FreeFormatPage header img{
+	width: 100%;
+    display: block;
+}
+#FreeFormatPage header h1{
+	position: absolute;
+	text-align: center;
+	width: 100%;
+	color: #FFF;
+	padding: 0.7em 0 0 0;
+    margin: 0;
+
+}
+#FreeFormatPage header h1 span.Text1{
+	display: block;
+	font: italic 9vw/0.6em "Times New Roman", Times, Baskerville, Georgia, serif;
+	color: #FFF;
+}
+#FreeFormatPage header h1 span.Text2{
+	display: block;
+	font: italic 12vw/0.8em "Times New Roman", Times, Baskerville, Georgia, serif;
+	color: #FFF;
+	letter-spacing: 0.1em;
+}
+
+#FreeFormatPage header h1 img.Tag{
+    display: none;
+}
+#FreeFormatPage header .Link{
+color: #FFF;
+text-decoration: none;
+overflow: hidden;
+display: block;
+float: left;
+height: 100%;
+
+}
+
+#FreeFormatPage header p{
+	position: relative;
+	margin: 26% auto 0 auto;
+	width: 350px; 
+}
+
+
+#FreeFormatPage header p span{
+	display: block;
+	background: #FFF;
+	padding: 0.6em 0;
+	color: #bd761f;
+	width: 350px;
+	text-align: center;
+	font-size: 1em;
+}
+#FreeFormatPage header .CenteredButton{
+	margin: 0 auto;
+	position: absolute;
+	width: 100%;
+}
+@media only screen and (min-width : 736px) {
+
+#FreeFormatPage {
+  width: 130%;
+  max-width: 1280px;
+  position: relative;
+  margin: 0 auto;
+}
+#FreeFormatPage header h1 span.Text1{
+	font-size: 1.5em;
+}
+#FreeFormatPage header h1 span.Text2{
+	font-size: 2.1em;
+}
+    #FreeFormatPage header{ margin-bottom: 10px; }
+	#FreeFormatPage header h1{ padding: 1.5em 0 0 0 }
+	#FreeFormatPage header p span{ font-size: 1.6em; }
+}
+@media only screen and (min-width : 1024px) {
+	#FreeFormatPage header h1 img.Tag{right: 56px;top: 86%;}
+}
+.hp-cta .hp-text {
+	display: inline-block;
+	font: 1em/1em "GibsonRegular";
+	letter-spacing: .1em;
+	position: relative;
+	text-transform: uppercase;
+	vertical-align: top;
+	padding: 0 .75em 0 1.75em;
+}
+
+.hp-cta .hp-text:after {
+    content:'>';
+	position:absolute;
+	right:1em;
+	-webkit-transition:all 100ms ease;
+			transition:all 100ms ease;
+	-webkit-transform:scale(0.65,1.3);
+			transform:scale(0.65,1.3);
+}
+
+.hp-cta .hp-text::after {
+    content:'>';
+	position:absolute;
+	right:1em;
+	-webkit-transition:all 100ms ease;
+			transition:all 100ms ease;
+	-webkit-transform:scale(0.65,1.3);
+			transform:scale(0.65,1.3);
+}
+
+.hp-link:hover .hp-cta,
+.hp-cta:hover {
+	-webkit-box-shadow: 3px 3px 1px 0 rgba(0,0,0,0.6);
+		    box-shadow: 3px 3px 1px 0 rgba(0,0,0,0.6);
+}
+.hp-link::hover .hp-cta,
+.hp-cta::hover {
+	-webkit-box-shadow: 3px 3px 1px 0 rgba(0,0,0,0.6);
+		    box-shadow: 3px 3px 1px 0 rgba(0,0,0,0.6);
+}
+.hp-cta:hover .hp-text:after {
+	right:0.6em;
+}
+.hp-cta:hover .hp-text::after {
+	right:0.6em;
+}
+
+
+.hide{ display:none;}/*-------TO HIDE TEXT IN LM KEYS--------*/
+
+/*-------TO FIX WIDTH ON TABLET--------*/
+@media only screen and (max-width : 1024px) {
+#FreeFormatPage{
+  width: 100%;
+  margin: 0
+}
+}
+
+/*-------------------------------------
+LAYOUT One - Gifts For.........
+--------------------------------------*/
+
+
+#FreeFormatPage section.LayoutOne{
+  margin: 0;
+  position: relative;
+  padding: 0;
+    float: left;
+  border-bottom: 10px solid #FFF;
+  width: 100%;
+
+}
+#FreeFormatPage section.LayoutOne .TextArea{
+  position: relative;
+  display: block;
+  height: auto;
+}
+#FreeFormatPage section.LayoutOne .TextArea .Copy{
+  position: relative;
+  width: 80%;
+  text-align: center;
+  margin: 10%;
+  display: block;
+}
+#FreeFormatPage section.LayoutOne .Copy h2{
+font: italic 3em/1em "Times New Roman", Times, Baskerville, Georgia, serif;
+color: #FFF;
+padding:0;
+}
+#FreeFormatPage section.LayoutOne .Copy h2 span{
+	font: 1.3em/1em "GibsonSemiBold";
+	text-transform: uppercase;
+	display: block;
+
+}
+#FreeFormatPage section.LayoutOne .Large .Copy hr.bow {
+    background: url(images/gold-bow.png) no-repeat top center;
+    height: 48px;
+    border: none;
+    margin-top: 1em;
+}
+#FreeFormatPage section.LayoutOne .Large .Copy hr {
+    background: #bd761f;
+    width: 123px;
+    margin: 0.6em auto;
+    height: 1px;
+    border: none;
+}
+#FreeFormatPage section.LayoutOne .Copy p{
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	width: 70%;
+	margin: 0 auto;
+}
+#FreeFormatPage section.LayoutOne .Copy p span{
+border: 1px solid #FFF;
+display: block;	
+	color: #FFF;
+margin: 0 auto;
+	padding: 1em 0;
+    width: 100%;
+    text-align: center;
+position: relative;
+}
+#FreeFormatPage section.LayoutOne .Large{
+display: block;
+margin: 10px 0;
+overflow: hidden;
+position: relative;
+}
+#FreeFormatPage section.LayoutOne .Large .Copy {
+    width: 48%;
+    text-align: center;
+    position: absolute;
+    display: block;
+    top: 1%;
+    margin: 0;
+    left: 0;
+}
+#FreeFormatPage section.LayoutOne .Large .Copy h2 {
+    font: italic 1.2em/1em "Times New Roman", Times, Baskerville, Georgia, serif;
+    color: #FFF;
+    padding: 0;
+}
+#FreeFormatPage section.LayoutOne .Large .Copy h2{color: #aa142b}
+#FreeFormatPage section.LayoutOne .Large a{ 
+display:block;
+height:100%;
+width:100%;
+}
+
+#FreeFormatPage section.LayoutOne .Large img{
+  position: relative;
+  top: 0;
+	width: 100%;
+	float: left;
+}
+#FreeFormatPage section.LayoutOne .Top img{
+	width: 100%;
+	display: block;
+	margin: 0 auto;
+}
+#FreeFormatPage section.LayoutOne .Bottom{
+	position: relative;
+	display: block;
+	margin-top: 10px;
+}
+#FreeFormatPage section.LayoutOne .Bottom .Copy h2{
+	margin:10px 0;
+}
+#FreeFormatPage section.LayoutOne .Bottom img{
+	width: 100%;
+    display: block;
+}
+#FreeFormatPage section.LayoutOne .Bottom .Copy{
+	width: 50%;
+	text-align: center;
+	position: absolute;
+	right: 0;
+	display: block;
+	top: 0;
+	margin: 20% 0;
+}
+
+
+@media only screen and (min-width : 736px) {
+
+#FreeFormatPage section.LayoutOne .Large .Copy h2{ font-size:1em;}
+#FreeFormatPage section.LayoutOne .Large{ width: 61%; float: right; margin: 0;}
+#FreeFormatPage section.LayoutOne .TextArea{width: 37.8%;float: left;}
+#FreeFormatPage section.LayoutOne .Bottom .Copy h2{font-size: 2.4em;}
+}
+
+
+
+@media only screen and (min-width : 1025px) {
+    #FreeFormatPage header h1 img.Tag{
+width: auto;
+   position: absolute;
+    /*right: -3%;
+     top: 28%;*/
+    display: block;
+    }
+#FreeFormatPage section.LayoutOne .TextArea{width: 38%}
+#FreeFormatPage section.LayoutOne .Bottom .Copy h2{font-size: 3.4em;}
+#FreeFormatPage section.LayoutOne .Bottom p span {font-size: initial;}
+}
+/*-------------------------------------
+LAYOUT Two - Christmas Shop
+--------------------------------------*/
+
+
+#FreeFormatPage section.LayoutTwo{
+  margin: 0;
+  position: relative;
+  padding: 0;
+    float: left;
+
+}
+#FreeFormatPage section.LayoutTwo .TextArea{
+  position: relative;
+  display: block;
+  height: auto;
+}
+#FreeFormatPage section.LayoutTwo .TextArea .Copy{
+  position: relative;
+  width: 80%;
+  text-align: center;
+  margin: 10%;
+  display: block;
+}
+#FreeFormatPage section.LayoutTwo .Copy h2{
+font: italic 2.8em/1em "Times New Roman", Times, Baskerville, Georgia, serif;
+color: #FFF;
+}
+#FreeFormatPage section.LayoutTwo .Copy h2 span{
+	font: 1.5em/1em "GibsonSemiBold";
+	text-transform: uppercase;
+	display: block;
+
+}
+#FreeFormatPage section.LayoutTwo .Copy p{
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	width: 180px;
+	margin: 10px auto;
+
+}
+#FreeFormatPage section.LayoutTwo .Copy p span{
+border: 1px solid #FFF;
+display: block;	
+color: #FFF;
+margin: 0 auto;
+padding: 1em 0;
+width: 100%;
+text-align: center;
+position: relative;
+}
+#FreeFormatPage section.LayoutTwo .Large{
+display: block;
+margin: 0 0 10px 0;
+overflow: hidden;
+background: #0a6d76 url(images/christmas-at-home_BG.jpg) top right no-repeat;
+}
+#FreeFormatPage section.LayoutTwo .Large a{ 
+display:block;
+height:100%;
+width:100%;
+}
+
+#FreeFormatPage section.LayoutTwo .Large img{
+  position: relative;
+  top: 0;
+}
+
+#FreeFormatPage section.LayoutTwo .Large img{
+	width: 100%;
+	float: left;
+}
+#FreeFormatPage section.LayoutTwo .Large .Copy{
+	width: 100%;
+	text-align: center;
+	display: block;
+	top: 0;
+	margin: 0;
+	float: left;
+}
+#FreeFormatPage section.LayoutTwo .Large .Copy hr{
+	background: #FFF;
+	width: 123px;
+	margin: 1em auto;
+	height: 1px;
+	border: none;
+}
+#FreeFormatPage section.LayoutTwo .Large .Copy hr.bow{
+	background: url(images/whitebow.png) no-repeat top center;
+	height: 34px;
+	border: none;
+	margin-top: 2em;
+}
+#FreeFormatPage section.LayoutTwo .Large .Copy .GiftTag{
+	background: url(images/gift-tag.png) no-repeat top center;
+	background-size: contain;
+	height: 237px;
+	width: 100%;
+	margin: 2em auto 1em auto;
+	display: block;
+}
+#FreeFormatPage section.LayoutTwo .Large .Copy .GiftTag h3{
+	font:italic 2.8em/1em "Times New Roman", Times, Baskerville, Georgia, serif;
+	display: block;
+	padding: 1.5em 0 0 0;
+	color:#bd761f;
+    margin: 0;
+}
+#FreeFormatPage section.LayoutTwo .Large .Copy .GiftTag h3 span{
+	display: block;
+	font: 0.6em/1em "Times New Roman", Times, Baskerville, Georgia, serif;
+	text-transform: uppercase;
+}
+#FreeFormatPage section.LayoutTwo .Large .Copy .GiftTag p span{ border: 1px solid #000; color: #000; }
+
+#FreeFormatPage section.LayoutTwo .Top img{
+	width: 100%;
+	display: block;
+	margin: 0 auto;
+}
+#FreeFormatPage section.LayoutTwo .Bottom{
+	position: relative;
+	display: block;
+	margin-top: 10px;
+}
+#FreeFormatPage section.LayoutTwo .Bottom img{
+	width: 100%;
+}
+#FreeFormatPage section.LayoutTwo .Bottom .Copy{
+	width: 100%;
+	text-align: center;
+	display: block;
+	top: 0;
+	margin: 0;
+}
+#FreeFormatPage section.LayoutTwo .Bottom .Copy h2{ color: #000; }
+#FreeFormatPage section.LayoutTwo .Bottom .Copy p{ color: #000; }
+#FreeFormatPage section.LayoutTwo .Bottom .Copy p span{ color: #000; border: 1px solid #000 }
+#FreeFormatPage section.LayoutTwo .Bottom .Copy{
+	padding: 5% 0;
+}
+#FreeFormatPage section.LayoutTwo .Bottom .Copy h3 {
+    font: italic 1.5em/1em "Times New Roman", Times, Baskerville, Georgia, serif;
+    color: #000;
+    margin-bottom: 20px;
+}
+#FreeFormatPage section.LayoutTwo .Bottom .Copy h4{ 
+	color: #000; 
+		font: 0.8em/1em "GibsonRegular";
+	text-transform: uppercase;
+	display: block;
+	letter-spacing: 0.1em;
+	margin: 20px;
+
+	 }
+
+@media only screen and (min-width : 736px) {
+#FreeFormatPage section.LayoutTwo .Large{ width: 100%; margin: 0; max-height: 786px;}
+#FreeFormatPage section.LayoutTwo .TextArea{width: 100%;}
+#FreeFormatPage section.LayoutTwo .Large img{ width: 70%; }
+#FreeFormatPage section.LayoutTwo .Large .Copy{	width: 30%;}
+#FreeFormatPage section.LayoutTwo .Bottom{ float: left; display: inline-block; }
+#FreeFormatPage section.LayoutTwo .Bottom.One{ width: 34.25%; margin-right: 1%; }
+#FreeFormatPage section.LayoutTwo .Bottom.Two{ width: 31%; margin-right: 1%;}
+#FreeFormatPage section.LayoutTwo .Bottom.Three{ width: 32.65%; }
+}
+@media only screen and (min-width : 1025px) {
+#FreeFormatPage section.LayoutTwo .Large img{width: 64%}
+#FreeFormatPage section.LayoutTwo .Large .Copy{	width: 36%;	margin-top: 8%;}
+#FreeFormatPage section.LayoutTwo .Large .Copy .GiftTag{ margin-top: 15% }
+
+}
+/*-------------------------------------
+LAYOUT Three - Partywear
+--------------------------------------*/
+.LayoutThree{ float: left; }
+.LayoutThree a{ overflow: hidden;  }
+.LayoutThree img{ width: 95%; display: block; margin: 2.5%; }
+.LayoutThree .TopRight img,
+.LayoutThree .BottomLeft img{ width: 46.25%; float: left; margin:2.5%; }
+.LayoutThree .BottomLeft img{ float: left; margin:0 2.5% 2.5% 1.25%; }
+.LayoutThree .TopRight img{ float: left; margin:0 1.25% 2.5% 2.5%; }
+
+@media only screen and (min-width : 736px) {
+	.LayoutThree{ display: block; position: relative; width: 100%; margin: 10px 0;}
+	.LayoutThree img{ margin: 0 }
+	.LayoutThree .TopLeft img,
+	.LayoutThree .TopRight img,
+	.LayoutThree .BottomLeft img,
+	.LayoutThree .BottomRight img,
+	.LayoutThree .All img{ position: absolute; }
+	.LayoutThree .TopRight img{ top:0; right: 0; width: 32.8%; margin:0;  }
+	.LayoutThree .TopLeft img{ top:0; left: 0; width: 66.3%; margin:0; }
+	.LayoutThree .BottomLeft img{ bottom: 0; width: 32.8%; margin: 0; }
+	.LayoutThree .BottomRight img{ bottom: 0;  width: 66.3%; right: 0; margin: 0;}
+	.LayoutThree .All img{ width: 32.8%; top: 33.6%; left: 33.6%; margin: 0; }
+}
+@media only screen and (min-width: 736px) {.LayoutThree{ height: 732px;}}
+@media only screen and (min-width: 768px) {.LayoutThree{ height: 768px;}}
+@media only screen and (min-width: 800px) {.LayoutThree{ height: 797px;}}
+@media only screen and (min-width: 850px) {.LayoutThree{ height: 847px;}}
+@media only screen and (min-width: 900px) {.LayoutThree{ height: 897px;}}
+@media only screen and (min-width: 950px) {.LayoutThree{ height: 947px;}}
+@media only screen and (min-width: 1024px) {.LayoutThree{ height: 1025px;}}
+@media only screen and (min-width: 1025px) {.LayoutThree{ height: 1281px;}}
+
+/*-------------------------------------
+LAYOUT Four - Winter Warmers
+--------------------------------------*/
+
+#FreeFormatPage section.LayoutFour{
+  margin: 0;
+  position: relative;
+  padding: 0;
+  float: left;
+}
+#FreeFormatPage section.LayoutFour .TextArea{
+  position: relative;
+  display: block;
+  height: auto;
+}
+#FreeFormatPage section.LayoutFour .TextArea .Copy{
+  position: relative;
+  width: 80%;
+  text-align: center;
+  margin: 10%;
+  display: block;
+}
+#FreeFormatPage section.LayoutFour .Large .Copy hr.bow {
+    background: url(images/gold-bow.png) no-repeat top center;
+    height: 58px;
+    border: none;
+    margin-top: 1em;
+}
+#FreeFormatPage section.LayoutFour .Large .Copy hr {
+    background: #bd761f;
+    width: 123px;
+    margin: 0.6em auto;
+    height: 1px;
+    border: none;
+}
+#FreeFormatPage section.LayoutFour .Copy h2{
+font: italic 1.2em/1em "Times New Roman", Times, Baskerville, Georgia, serif;
+color: #FFF;
+padding: 0;
+    margin: 0;
+}
+#FreeFormatPage section.LayoutFour .Copy h2 span{
+	font: 0.9em/1em "GibsonSemiBold";
+	text-transform: uppercase;
+	display: block;
+
+}
+#FreeFormatPage section.LayoutFour .Copy p{
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	width: 80%;
+	margin: 0 auto;
+
+}
+#FreeFormatPage section.LayoutFour .Copy p span{
+border: 1px solid #FFF;
+display: block;	
+color: #FFF;
+margin: 0 auto;
+padding: 1em 0;
+width: 100%;
+text-align: center;
+position: relative;
+font-size: initial;
+}
+#FreeFormatPage section.LayoutFour .Large{
+display: block;
+margin: 10px 0;
+overflow: hidden;
+}
+#FreeFormatPage section.LayoutFour .Large .Copy{
+	width: 48%;
+	text-align: center;
+	position: absolute;
+	display: block;
+	top: 1%;
+	margin: 0;
+	left: 5%;
+}
+#FreeFormatPage section.LayoutFour .Large a{ 
+display:block;
+height:100%;
+width:100%;
+}
+
+#FreeFormatPage section.LayoutFour .Large img{
+  position: relative;
+  top: 0;
+}
+
+#FreeFormatPage section.LayoutFour .Large img{
+	width: 100%;
+	float: left;
+}
+#FreeFormatPage section.LayoutFour .Top img{
+	width: 100%;
+	display: block;
+	margin: 0 auto;
+}
+#FreeFormatPage section.LayoutFour .Bottom h2{
+	margin:10px 0;
+	font-size: 3.5em
+}
+#FreeFormatPage section.LayoutFour .Bottom p span{
+	font-size: 1em;
+
+}
+#FreeFormatPage section.LayoutFour .Bottom,
+#FreeFormatPage section.LayoutFour .BottomLeft,
+#FreeFormatPage section.LayoutFour .BottomRight{
+	position: relative;
+	display: block;
+	margin-top: 10px;
+	width: 100%;
+	overflow: hidden;
+}
+#FreeFormatPage section.LayoutFour .Bottom img,
+#FreeFormatPage section.LayoutFour .BottomLeft img,
+#FreeFormatPage section.LayoutFour .BottomRight img{
+	width: 100%;
+	float: left;
+}
+#FreeFormatPage section.LayoutFour .Bottom .Copy{
+	width: 50%;
+	text-align: center;
+	position: absolute;
+	right: 0;
+	display: block;
+	top: 0;
+	margin: 20% 0;
+}
+#FreeFormatPage section.LayoutFour .BottomRight .Copy{
+	width: 40%;
+	text-align: center;
+	position: absolute;
+	display: block;
+	top: 4%;
+	margin: 0;
+	left: 4%;
+}
+#FreeFormatPage section.LayoutFour .BottomRight .Copy hr.bow {
+    background: url(images/red-bow.png) no-repeat top center;
+    height: 58px;
+    border: none;
+    margin-top: 1em;
+}
+#FreeFormatPage section.LayoutFour .BottomRight .Copy hr {
+    background: #aa142b;
+    width: 123px;
+    margin: 0.6em auto;
+    height: 1px;
+    border: none;
+}
+
+
+
+@media only screen and (min-width : 736px) {
+#FreeFormatPage section.LayoutFour .Copy h2{ font-size:1em;}
+#FreeFormatPage section.LayoutFour .Large{ width: 61%; float: left; margin: 0; position: relative;}
+#FreeFormatPage section.LayoutFour .TextArea{width: 37.8%;float: right;}
+#FreeFormatPage section.LayoutFour .BottomLeft{ width: 38%; float: left;margin-top: 10px;}
+#FreeFormatPage section.LayoutFour .BottomRight{ width: 61%; float: right;margin-top: 10px;}
+#FreeFormatPage section.LayoutFour .Bottom .Copy h2{font-size: 2.4em;}
+}
+@media only screen and (min-width : 1025px) {
+	#FreeFormatPage section.LayoutFour .TextArea{width: 38%;}
+	#FreeFormatPage section.LayoutFour .Bottom .Copy h2{font-size: 3.4em;}
+	#FreeFormatPage section.LayoutFour .Bottom p span {
+	font-size: initial;}
+}
+/*-------------------------------------
+LAYOUT Five - Beauty & Fragrance
+--------------------------------------*/
+#FreeFormatPage section.LayoutFive{
+  margin: 0;
+  position: relative;
+  padding: 0;
+  float: left;
+  width: 100%;
+  margin-top: 10px;
+}
+#FreeFormatPage section.LayoutFive .Left img,
+#FreeFormatPage section.LayoutFive .Right img{
+	margin: 2%auto;
+	display: block;
+	width: 49%;
+	float: left;
+}
+#FreeFormatPage section.LayoutFive .Left img{
+	margin-right: 2%;
+}
+
+
+#FreeFormatPage section.LayoutFive .Copy{
+	background: #c75617;
+	padding: 60px 0;
+}
+#FreeFormatPage section.LayoutFive .Copy hr{
+    background: #FFF;
+    width: 123px;
+    margin: 1em auto;
+    color: #FFF;
+    height: 1px;
+    padding: 0;
+    border: none;
+}
+
+#FreeFormatPage section.LayoutFive .Copy hr.bow{
+background: url(images/whitebow.png) no-repeat top center;
+    height: 34px;
+    border: none;
+}
+
+#FreeFormatPage section.LayoutFive .Copy h2{
+	text-align: center;
+	font: 4em/1em "Times New Roman", Times, Baskerville, Georgia, serif;
+	color: #FFF;
+	text-transform: uppercase;
+	padding: 2% 0 2% 0;
+    margin: 0;
+}
+#FreeFormatPage section.LayoutFive .Copy h2 span{
+	display: block;
+	font: italic 0.75em/1em "Times New Roman", Times, Baskerville, Georgia, serif;
+	text-transform: lowercase;
+}
+#FreeFormatPage section.LayoutFive .Copy p{
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	width: 200px;
+	margin: 0 auto;
+
+}
+#FreeFormatPage section.LayoutFive .Copy p span{
+border: 1px solid #FFF;
+display: block;	
+color: #FFF;
+margin: 20px auto;
+padding: 1em 0;
+width: 200px;
+text-align: center;
+position: relative;
+font-size:1.2em;
+}
+#FreeFormatPage section.LayoutFive .Marisanta{
+	background: url(images/fill-your-boots.jpg) top left,
+				url(images/in-time-for-christmas.jpg) top right,
+				#aa142b ;
+	background-repeat: no-repeat;
+	display: block ;
+	float: left ;
+	background-size: contain ;
+	width: 90% ;
+	padding: 0 5% ;
+}
+#FreeFormatPage section.LayoutFive .Marisanta img{
+	margin: 5% auto;
+	display: block;
+	width: 100%;
+}
+@media only screen and (min-width : 736px) {
+		#FreeFormatPage section.LayoutFive .Marisanta img{ width: auto; }
+}
+
+@media only screen and (min-width : 1024px) {
+#FreeFormatPage section.LayoutFive{display:block;position:relative}
+#FreeFormatPage section.LayoutFive .Copy{width:26%;margin:0 auto;padding:6.6% 0}
+#FreeFormatPage section.LayoutFive .Left img{position:absolute;top:0;left:0;margin:0;width:36%}
+#FreeFormatPage section.LayoutFive .Right img{position:absolute;top:0;right:0;margin:0;width:36%}
+#FreeFormatPage section.LayoutFive .Marisanta{margin-top:10px}
+}
+@media only screen and (min-width : 1025px) {
+	#FreeFormatPage section.LayoutFive .Copy{padding: 4% 0;width: 38.5%;}
+	#FreeFormatPage section.LayoutFive .Left img,
+	#FreeFormatPage section.LayoutFive .Right img {width: auto;}
+}
+
+/*--------------------------------
+FONT SIZE TRICK cross device
+-------------------------------*/
+
+@media only screen and (min-width: 414px) {
+	#FreeFormatPage header h1,
+	#FreeFormatPage section.LayoutOne .Large,
+	#FreeFormatPage section.LayoutFour .Large,
+	#FreeFormatPage section.LayoutFour .BottomRight{  font-size: 136% !important;}
+}
+@media only screen and (min-width: 568px) {
+	#FreeFormatPage header h1,
+	#FreeFormatPage section.LayoutOne .Large,
+	#FreeFormatPage section.LayoutFour .Large,
+	#FreeFormatPage section.LayoutFour .BottomRight{  font-size: 188% !important;}
+}
+@media only screen and (min-width: 667px) {
+	#FreeFormatPage header h1,
+	#FreeFormatPage section.LayoutOne .Large,
+	#FreeFormatPage section.LayoutFour .Large,
+	#FreeFormatPage section.LayoutFour .BottomRight{  font-size: 219% !important;}
+}
+@media only screen and (min-width: 736px) {
+	#FreeFormatPage header h1,
+	#FreeFormatPage section.LayoutOne .Large,
+	#FreeFormatPage section.LayoutFour .Large,
+	#FreeFormatPage section.LayoutFour .BottomRight{  font-size: 242% !important;}
+}
+@media only screen and (min-width: 768px) {	#FreeFormatPage header h1{  font-size: 252% !important;}}
+@media only screen and (min-width: 800px) {	#FreeFormatPage header h1{  font-size: 263% !important;}}
+@media only screen and (min-width: 850px) {	#FreeFormatPage header h1{  font-size: 280% !important;}}
+@media only screen and (min-width: 900px) {	#FreeFormatPage header h1{  font-size: 294% !important;}}
+@media only screen and (min-width: 950px) {	#FreeFormatPage header h1{  font-size: 313% !important;}}
+@media only screen and (min-width: 1024px){	#FreeFormatPage header h1{  font-size: 336% !important;}}
+@media only screen and (min-width: 1025px){	#FreeFormatPage header h1{  font-size: 420% !important;}}
+
