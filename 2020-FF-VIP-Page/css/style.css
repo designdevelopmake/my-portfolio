@@ -1,0 +1,393 @@
+#FF-container {
+	background: #FFF;
+	overflow: hidden;
+	margin: 0 auto;
+	max-width: 1300px;
+}
+#FF-container hr{ 
+	background: none; 
+	width: 100%; 
+	display: block;
+	border: none; 
+	height: 0; 
+	margin: 0; 
+	padding: 0;
+}
+#FF-container header{
+	display: block;
+	background: #2e3d4f;
+	width: 100%;
+	text-align: center;
+	height: 320px;
+}
+#FF-container header h1{
+	padding-top: 0.8em;
+	font:25px/1.5em "GibsonRegular",Arial,Helvetica,sans-serif;
+	text-transform: uppercase;
+	color:#FFF;
+	letter-spacing: 0.2em;
+	margin: 0;
+}
+#FF-container header h1 span{
+	display: block;
+	background: #86754f;
+	font:70px/1.1em "GibsonSemiBold",Arial,Helvetica,sans-serif;
+	color: #FFF;
+}
+#FF-container header h1 sup{
+	display: block;
+	font:38px/1.8em "Times New Roman", Times, serif;
+	letter-spacing: 0;
+}
+#FF-container section{ 
+	position: relative;
+	text-align: center;
+}
+#FF-container section h2{
+	color: #2e3d4f;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	padding:2% 0 2% 0;
+	font: 1.7em/1em "GibsonRegular",Arial,Helvetica,sans-serif;
+	margin: 0;
+}
+#FF-container section h3{
+	margin: 0 0 5% 0;
+	font:1.4em/1em "GibsonRegular",Arial,Helvetica,sans-serif;
+	color: #86754f;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+}
+#FF-container section p{
+	margin: 1em;
+	font:1em/1.2em "GibsonRegular",Arial,Helvetica,sans-serif;
+	color: #666;
+	letter-spacing: 0.1em;
+}
+#FF-container section .roundal{
+	display: block;
+	text-align: center;
+}
+#FF-container section.white{
+	background: #FFF;
+}
+.border {
+    background-color: #FFF;
+    margin: 0 auto;
+    height: 80%;
+    width: 80%;
+}
+.border:before {
+    background: none;
+    border: 30px solid #72c0a8;
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    pointer-events: none;
+}
+/*------------------------
+SECTION ONE
+-------------------------*/
+#FF-container section.One.border:before{border: 30px solid #72c0a8;}
+#FF-container section.One{padding: 10%;}
+/*------------------------
+SECTION TWO
+-------------------------*/
+#FF-container section.Two{ padding:0 0 5% 0;}
+#FF-container section.Two.border:before{border:none;}
+#FF-container section.Two{ width: 100%;}
+/*------------------------
+SECTION THREE
+-------------------------*/
+#FF-container section.Three{
+	margin: 4em 0;
+}
+#FF-container section.Three img{
+	display: block;
+	margin:0 auto;
+}
+/*------------------------
+SECTION FOUR
+-------------------------*/
+#FF-container section.Four{ padding: 10%;}
+#FF-container section.Four h2{ padding-top: 0;}
+#FF-container section.Four.border:before{border: 30px solid #f0d3c1;}
+/*------------------------
+SECTION FIVE
+-------------------------*/
+#FF-container section.Five{ background: #2e3d4f;padding: 10%;color: #FFF; padding: 0; width: 100%;}
+#FF-container section.Five.border:before{border: none;}
+#FF-container section.Five h2{
+	color: #FFF;
+}
+#FF-container section.Five ul{ 
+	margin:0; 
+	padding:0 0 4% 0;
+}
+#FF-container section.Five ul li{
+	padding: 1% 0;
+	text-align: left;
+	width: 100%;
+	display: block;
+	border-top: 1px solid #FFF;
+	font:1em/1.5em "GibsonRegular",Arial,Helvetica,sans-serif;
+	overflow: hidden;
+}
+#FF-container section.Five ul li span{ 
+	width: 43%;
+	display: inline-block; 
+	padding-left: 4%; 
+	float: left; 
+	text-align: left;
+}
+#FF-container section.Five ul li sup{ 
+	width: 25%;
+	background: url(VIP-assets/tick.png) center center no-repeat;
+	height: 21px; 
+	vertical-align: top; 
+	float: right;
+}
+#FF-container section.Five .logos{ position: relative; padding-bottom: 5%; overflow: hidden;}
+#FF-container section.Five .space{ 
+	float: left;
+	height: 76px;
+	display: inline-block; 
+	width: 50%;
+}
+#FF-container section.Five .roundal.vip{
+	background: url(VIP-assets/blue-vip.png) center center no-repeat;
+	height: 76px;
+	width: 25%;
+	float: left;
+	background-size: contain;
+}
+#FF-container section.Five .roundal.vip-elite{
+	background: url(VIP-assets/blue-vip-elite.png) center center no-repeat;
+	height: 76px;
+	width: 25%;
+	float: left;
+	background-size: contain;
+}
+/*------------------------
+SECTION SIX
+-------------------------*/
+#FF-container section.Six{
+	max-width: 425px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+#FF-container section.Six img{ width: 100%; float: left;}
+#FF-container section.Six .link{
+		font:0.8em/1.5em "GibsonRegular",Arial,Helvetica,sans-serif;
+		letter-spacing: 0.1em;
+		color: #86754f;
+}
+#FF-container section.Six .home{
+	position: relative;
+	float: left;
+	width: 100%;
+}
+#FF-container section.Six .home .link{
+	position: absolute;
+	bottom: 0;
+	background: #FFF;
+	width: 90%;
+	padding: 1em 0;
+	left: 0;
+	text-transform: uppercase;
+	margin: 5%;
+}
+#FF-container section.Six .womens{
+width: 50%;
+float: left; 
+}
+#FF-container section.Six .womens .link{
+	background: #f0d3c1;
+	width: 86%;
+	padding: 0 7% 7% 7%;
+	text-transform: uppercase;
+	display: block;
+	float: left;
+}
+#FF-container section.Six .womens .link span{
+	background: #FFF;
+	padding: 0.5em 0;
+	width: 100%;
+	display: block;
+}
+#FF-container section.Six .mens{
+width: 50%;
+float: left;
+}
+#FF-container section.Six .mens .link{
+	background: #2e3d50;
+	width: 86%;
+	padding: 0 7% 7% 7%;
+	text-transform: uppercase;
+	display: block;
+	float: left;
+}
+#FF-container section.Six .mens .link span{
+	background: #FFF;
+	padding: 0.5em 0;
+	width: 100%;
+	display: block;
+	margin: 0;
+}
+/*-----------------------------
+Tablet STYLES
+-------------------------------*/
+.desktop{ display: none;}
+
+@media only screen and (min-width: 768px) {/*Anything Above 768px*/
+
+	#FF-container section .flexbox {
+  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;      /* TWEENER - IE 10 */
+  display: -webkit-flex;     /* NEW - Chrome */
+  display: flex;
+  flex-wrap: wrap;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
+}
+#FF-container section.Two p{padding: 0 10%;}
+#FF-container section.Two{ width: 80%; padding: 10%;}
+#FF-container section.Two.border:before{border: 30px solid #f2edd4;}
+
+#FF-container section.Three{
+	position: relative;
+	width: 100%;
+	margin: 7em 0;
+}
+#FF-container section.Three div{ 
+	width: 600px;
+	margin: 0 auto;
+}
+#FF-container section.Three img{
+	margin: 0;
+	padding: 0;
+	width: 50%;
+	height: 50%;
+}
+
+#FF-container section.Four div{ margin: 1em auto; }
+#FF-container section.Four div .roundal{
+display: inline-block;
+width: 120px;
+margin: 0 2em 0 0;
+}
+#FF-container section.Four div p{
+display: inline-block;
+width: 200px;
+margin: 2% 0;
+text-align: left;
+vertical-align: top;
+}
+#FF-container section.Six{margin:5em auto; }
+	#FF-container section.SixTwo{margin-top: 5px;}
+#FF-container section.SixTwo div img{ width: 100%;}
+#FF-container section.SixTwo div .link{ overflow: hidden; display: block;}
+#FF-container section.SixTwo div.box{ display: inline-block;}
+#FF-container section.SixTwo div.box.one{width: 39.5%}
+#FF-container section.SixTwo div.box.two{width: 59.5%;vertical-align: top;}
+
+#FF-container section.SixTwo div.box.two .one img.one{width: 66.4%}
+#FF-container section.SixTwo div.box.two .one img.two{width: 32.6%}
+
+#FF-container section.SixTwo div.box.two .two .one{width: 33%;display: inline-block;}
+#FF-container section.SixTwo div.box.two .two .two{width: 66%;display: inline-block;vertical-align: top;}
+#FF-container section.SixTwo div.box.two .two .two img{width: 49.5%;float: left;}
+}
+/*-----------------------------
+TABLET Landscape STYLES
+-------------------------------*/
+@media only screen and (min-width: 1000px) {/*Anything Above 1000px*/
+.mobile{ display: none;}
+.desktop{ display: block;}
+
+#FF-container section{	float: left;}
+#FF-container section.SixTwo{ width: 100%;}
+#FF-container section.Two{ width: 40%;padding: 5%;}
+#FF-container section.Three{width: 50%;	margin: 0;}
+#FF-container section.Three div{width: 100%;height: 100%;}
+
+#FF-container section.Four{ width: 40%; padding: 5%;}
+
+#FF-container section.Five{width: 50%;	margin: 0;}
+#FF-container section.Five.border:before{
+	border-top: 30px solid #2e3d4f;
+	border-right: 30px solid #2e3d4f;
+	border-left: 30px solid #2e3d4f;
+}
+#FF-container section.Five ul li span{	padding-left: 30px;}
+#FF-container section.Five div{width: 100%;height: 100%;}
+#FF-container section.Five h2{ position: absolute; top: 0; left: 1em; text-align: left; padding: 6% 0; font-size: 2em;}
+
+#FF-container .center{
+	position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+	width: 100%;
+}
+}
+
+@media only screen and (min-width: 1000px) {/*Anything Above 1000px*/
+	#FF-container header{height: 250px;}
+	#FF-container header h1{ padding-top: 0.3em;}
+	#FF-container header h1 span{
+		background: url(VIP-assets/vip.png) top center no-repeat;
+		text-indent: -9999px;
+		height: 125px;
+		display: inline-block;
+		width: 125px;
+	}
+#FF-container header h1 sup{ letter-spacing: 0.1em; font-size: 1.5em;}
+#FF-container section.One{padding-top: 27%;}
+#FF-container section.One .center{
+	padding:0.5% 5% 0.5% 38%;
+	 width: 51.3%;
+	background: url(VIP-assets/gift-box.jpg) center left no-repeat;
+}
+#FF-container section.Two{padding-top: 44.2%;}
+#FF-container section.Four{padding-top: 59.1%;}
+#FF-container section.Five{padding-top: 2.8%;}
+}
+@media only screen and (min-width: 1024px) {/*Anything Above 1000px*/
+	#FF-container section.One {padding-top: 26.5%;}
+	#FF-container section.One .center{padding:1% 5% 1% 38%;	width: 51.3%;}
+	#FF-container section.Four{padding-top: 58.2%;}
+}
+@media only screen and (min-width: 1025px) {/*Anything Above 1000px*/
+#FF-container section.One{padding-top: 238px}
+#FF-container section.One .center{ width: 51.3%;padding: 2.2% 10% 2.3% 34%;}
+#FF-container section.Two .center{width: 70%}
+
+}
+
+@media only screen and (min-width: 1025px) {/*Anything Above 1000px*/
+#FF-container section.Four {
+        padding-top: 46.9%;
+    }
+}
+
+
+/*-----------------------
+WIDTH FIX
+------------------------*/
+
+@media only screen and (min-width: 1025px) {/*Anything Above 1000px*/
+	/*
+	#FF-container{
+	    width: 130%;
+    	margin: 0 -15%;
+	}
+	#FF-container header{ max-width: 1300px;
+	}*/
+}
+
