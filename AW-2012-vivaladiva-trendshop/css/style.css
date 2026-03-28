@@ -1,0 +1,302 @@
+#FreeFormatPage{
+    width: 100%;
+    width: 1000px;
+    margin: 0 auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#trendshop h2,
+#trendshop h3 {
+    margin: 0;
+}
+
+#trendshop img {
+    float: left;
+}
+#trendshop {
+    color: #FFFFFF;
+    float: left;
+    height: 709px;
+    list-style: none outside none;
+    margin: 0 auto;
+    overflow: scroll;
+    padding: 0;
+    width: 1000px;
+}
+#trendshop li {
+    height: 709px;
+    position: relative;
+}
+#trendshop .slide_handle {
+    background: url("../images/1211aw_VLD_FF_Trends_handles.png") no-repeat scroll 0 0 transparent;
+    bottom: 0;
+    cursor: pointer;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 55px;
+}
+#trendshop .slide2 .slide_handle {
+    background-position: -55px 0;
+}
+#trendshop .slide3 .slide_handle {
+    background-position: -110px 0;
+}
+#trendshop .slide4 .slide_handle {
+    background-position: -165px 0;
+}
+#trendshop .slide5 .slide_handle {
+    background-position: -220px 0;
+}
+#trendshop .slide_handle div {
+    background: url("../images/120322ss_VLD_FF_Trends_arrows.gif") no-repeat scroll 0 0 transparent;
+    height: 13px;
+    left: 20px;
+    position: absolute;
+    top: 20px;
+    width: 14px;
+}
+#trendshop .slide_opened .slide_handle {
+    cursor: default;
+}
+#trendshop .slide_opened .slide_handle div {
+    background-position: 0 -13px;
+}
+#trendshop .slide_content {
+    bottom: 0;
+    left: 55px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+#trendshop .slide_content a img {
+    border: 0 none;
+}
+#trendshop .Theme_Intro {
+    left: 30px;
+    padding: 10px 20px;
+    position: absolute;
+    top: 30px;
+    width: 343px;
+}
+#trendshop a:hover {
+    text-decoration: none;
+}
+#trendshop a.shop_btn {
+    transition: 0.5s;
+}
+#trendshop .slide4 .slide_content {
+    background: url("../images/digital-noise.png") repeat scroll 100% 0 transparent;
+}
+#trendshop .slide1 .Theme_Intro, #trendshop .slide2 .Theme_Intro, #trendshop .slide3 .Theme_Intro, #trendshop .slide4 .Theme_Intro, #trendshop .slide5 .Theme_Intro {
+    color: #000000;
+    font-size: 14px;
+    font-weight: normal;
+    height: 91px;
+    padding: 10px 20px;
+    position: absolute;
+}
+#trendshop .slide1 .Theme_Intro {
+    height: 350px;
+}
+#trendshop .slide1 .Theme_Intro h2 {
+    width: 281px;
+    top: 66px;
+}
+#trendshop .slide2 .Theme_Intro {
+}
+#trendshop .slide2 .Theme_Intro h2 {
+    color: #FFFFFF;
+    top: 141px;
+    width: 333px;
+}
+#trendshop .slide3 .Theme_Intro {
+}
+#trendshop .slide3 .Theme_Intro h2 {
+    left: 191px;
+    top: 322px;
+    width: 269px;
+}
+#trendshop .slide4 .Theme_Intro {
+}
+#trendshop .slide4 .Theme_Intro h2 {
+    top: 137px;
+}
+#trendshop .slide5 .Theme_Intro {
+}
+#trendshop .slide5 .Theme_Intro h2 {
+    top: 141px;
+}
+.Theme_Intro h2 {
+	font-size: 15px;
+    font-weight: normal;
+    left: 10px;
+    line-height: 17px;
+    padding: 14px;
+    position: absolute;
+    text-align: center;
+    width: 337px;
+}
+#trendshop .slide_content h3 {
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 16px;
+    position: absolute;
+    text-align: center;
+}
+#trendshop .slide_content h3 strong {
+    font-size: 14px;
+}
+#trendshop .slide_content h3#GetLook1 {
+    left: 505px;
+    top: 67px;
+    width: 122px;
+}
+#trendshop .slide_content h3#StyleTip1 {
+color: #000000;
+    left: 380px;
+    top: 134px;
+    width: 122px;
+}
+#trendshop .slide_content h3#GetLook2 {
+    left: 458px;
+    top: 74px;
+    width: 122px;
+}
+#trendshop .slide_content h3#StyleTip2 {
+    left: 293px;
+    top: 373px;
+    width: 122px;
+}
+#trendshop .slide_content h3#GetLook3 {
+    left: 485px;
+    top: 46px;
+    width: 110px;
+}
+#trendshop .slide_content h3#StyleTip3 {
+    left: 546px;
+    top: 47px;
+    width: 120px;
+}
+#trendshop .slide_content h3#GetLook4 {
+    color: #000000;
+    left: 483px;
+    top: 41px;
+    width: 122px;
+}
+#trendshop .slide_content h3#StyleTip4 {
+    color: #FFFFFF;
+    left: 292px;
+    top: 363px;
+    width: 119px;
+}
+#trendshop .slide_content h3#GetLook5 {
+    left: 505px;
+    top: 67px;
+    width: 122px;
+}
+#trendshop .slide_content h3#StyleTip5 {
+color: #000000;
+    left: 465px;
+    top: 51px;
+    width: 120px;
+}
+#trendshop a.shop_btn, #trendshop a.shop_btn:link, #trendshop a.shop_btn:visited, #trendshop a.shop_btn:active, #trendshop a.shop_btn:hover {
+    color: #FFFFFF;
+    font-weight: bold;
+    left: 70px;
+    padding: 7px 15px;
+    position: absolute;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: none;
+    text-transform: uppercase;
+    width: 210px;
+}
+#trendshop .slide1 a.shop_btn {
+    background: url("../images/1211aw_VLD_FF_Trends_button.png") no-repeat top left;
+    display: block;
+    height: 18px;
+    left: 38px;
+    text-indent: -9999px;
+    top: 188px;
+}
+#trendshop .slide1 a.shop_btn:hover {
+    background: url("../images/1211aw_VLD_FF_Trends_button.png") no-repeat bottom left;
+}
+#trendshop .slide2 a.shop_btn {
+    background: url("../images/1211aw_VLD_FF_Trends_button2.png") no-repeat bottom left;
+    display: block;
+    height: 18px;
+    left: 68px;
+    text-indent: -9999px;
+    top: 247px;
+}
+#trendshop .slide2 a.shop_btn:hover {
+    background: url("../images/1211aw_VLD_FF_Trends_button2.png") no-repeat top left;
+}
+#trendshop .slide3 a.shop_btn {
+    background: url("../images/1211aw_VLD_FF_Trends_button.png") no-repeat top center;
+    display: block;
+    height: 18px;
+    left: 270px;
+    text-indent: -9999px;
+    top: 415px;
+    width: 106px;
+}
+#trendshop .slide3 a.shop_btn:hover {
+    background: url("../images/1211aw_VLD_FF_Trends_button.png") no-repeat bottom center;
+}
+#trendshop .slide4 a.shop_btn {
+    top: 248px;
+    background: url("../images/1211aw_VLD_FF_Trends_button.png") no-repeat top left;
+    display: block;
+    height: 18px;
+    left: 68px;
+    text-indent: -9999px;
+}
+#trendshop .slide4 a.shop_btn:hover {
+    background: url("../images/1211aw_VLD_FF_Trends_button.png") no-repeat bottom left;
+}
+#trendshop .slide5 a.shop_btn {
+    background: url("../images/1211aw_VLD_FF_Trends_button.png") no-repeat top left;
+    display: block;
+    height: 18px;
+    left: 68px;
+    text-indent: -9999px;
+    top: 248px;
+}
+#trendshop .slide5 a.shop_btn:hover {
+    background: url("../images/1211aw_VLD_FF_Trends_button.png") no-repeat bottom left;
+}
+#trendshop a.shop_btn:hover {
+    background: #000000;
+    color: #CCCCCC;
+}
+#brandsHeader {
+    background: url("../images/1208aw_VLD_FF_Trends_trendshop.jpg") no-repeat scroll left top transparent;
+    float: left;
+    height: 111px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 1000px;
+}
+#brandsHeader h2 {
+    height: 0;
+    margin: 0;
+    padding: 0;
+    text-indent: -9999px;
+    width: 0;
+}
+#brandsText p {
+    color: #FFFFFF;
+    font-size: 13px;
+    left: 300px;
+    padding: 0 0 5px;
+    position: absolute;
+    text-align: center;
+    top: 18px;
+    width: 400px;
+}
