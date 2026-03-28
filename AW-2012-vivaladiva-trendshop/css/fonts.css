@@ -1,0 +1,18 @@
+@font-face {
+	font-family:'GibsonRegular';
+	src: url(http://images.drct2u.com/repo/JDW/mobile/common/02-5-fonts/GibsonRegular/Gibson-Regular-webfont.eot) ;
+	src: url(http://images.drct2u.com/repo/JDW/mobile/common/02-5-fonts/GibsonRegular/Gibson-Regular-webfont.eot?#iefix)  format('embedded-opentype'), 
+	url(http://images.drct2u.com/repo/JDW/mobile/common/02-5-fonts/GibsonRegular/Gibson-Regular-webfont.woff)  format('woff'), 
+	url(http://images.drct2u.com/repo/JDW/mobile/common/02-5-fonts/GibsonRegular/Gibson-Regular-webfont.ttf)  format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family:'GibsonSemiBold';
+	src: url(http://images.drct2u.com/repo/JDW/mobile/common/02-5-fonts/GibsonSemiBold/Gibson-SemiBold-webfont.eot) ;
+	src: url(http://images.drct2u.com/repo/JDW/mobile/common/02-5-fonts/GibsonSemiBold/Gibson-SemiBold-webfont.eot?#iefix)  format('embedded-opentype'), 
+	url(http://images.drct2u.com/repo/JDW/mobile/common/02-5-fonts/GibsonSemiBold/Gibson-SemiBold-webfont.woff)  format('woff'), 
+	url(http://images.drct2u.com/repo/JDW/mobile/common/02-5-fonts/GibsonSemiBold/Gibson-SemiBold-webfont.ttf)  format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
