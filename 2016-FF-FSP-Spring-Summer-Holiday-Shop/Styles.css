@@ -1,0 +1,345 @@
+
+#FreeFormatPage {
+  width: 130%;
+  max-width: 1280px;
+  position: relative;
+  margin: 0 -13.8%;
+  overflow: hidden;
+}
+
+
+
+#FreeFormatPage {
+  margin: 0 auto;
+}
+.hide{ display:none;}
+
+@media only screen and (max-width : 1024px) {
+#FreeFormatPage{
+  width: 100%;
+  margin: 0
+}
+}
+#FreeFormatPage a{
+  text-decoration:none;
+  color:#222;
+}
+/*-------------------------------------
+INTRO
+--------------------------------------*/
+
+#FreeFormatPage header {
+width:100%;
+text-align:center;
+}
+
+
+
+#FreeFormatPage header .Button{
+  display: block;
+  padding: 2em 5em;
+  font: 0.8em/1em AvalonDemi,Arial,Helvetica,sans-serif;
+  text-transform: uppercase;
+  color: #FFF;
+  letter-spacing: 0.3em; 
+}
+#FreeFormatPage header h1 {
+font:3em/1em AvalonBook,Arial,Helvetica,sans-serif;
+text-transform:uppercase;
+color:#222;
+width:240px;
+background:#a4f0d3;
+position:absolute;
+padding:20px 0;
+}
+
+#FreeFormatPage header h1 strong {
+display:block;
+font:1.5em/1em AvalonDemi,Arial,Helvetica,sans-serif;
+
+}
+
+
+#FreeFormatPage section.Trend {
+margin:10px 0;
+position:relative;
+padding:0;
+width:100%;
+float:left
+}
+
+#FreeFormatPage section.Trend .TextArea {
+width:750px;
+position:relative;
+z-index:3
+}
+
+#FreeFormatPage section.Trend .Copy {
+position:relative;
+text-align:center;
+z-index:3;
+margin:0 auto;
+width: 100%;
+padding:0.6em 0;
+}
+
+#FreeFormatPage section.Trend .Copy h2 {
+font:1.9em/1em AvalonDemi,Arial,Helvetica,sans-serif;
+text-transform:uppercase;
+margin:0;
+padding:0;
+letter-spacing:0.1em;
+color:#222;
+text-align:center;
+}
+
+#FreeFormatPage section.Trend .Copy h3 {
+font:2em/1em AvalonBook,Arial,Helvetica,sans-serif;
+margin:0;
+padding:0
+}
+
+#FreeFormatPage section.Trend .Copy p {
+font:13px/16px AvalonBook,Arial,Helvetica,sans-serif;
+padding:13px 0 32px
+}
+
+#FreeFormatPage section.Trend span {
+text-align:center;
+margin:0 auto;
+font:0.8em/1em AvalonDemi,Arial,Helvetica,sans-serif;
+text-transform:uppercase;
+display:block;
+padding:10px 0 0 0;
+letter-spacing:0.3em;
+}
+
+#FreeFormatPage section.Trend .Lifestyle {
+display:block;
+width:100%;
+}
+
+#FreeFormatPage section.Trend .Lifestyle .Box {
+display:block;
+width:100%;
+}
+/*----------------------------------
+SMALL BOX
+------------------------------------*/
+#FreeFormatPage section.Trend.SmallBox{ width: 50.7%; padding: 0;}
+#FreeFormatPage section.Trend.SmallBox img{margin: 20px 4.5%;}
+#FreeFormatPage section.Trend.SmallBox .Lifestyle{ 
+ float: left; 
+ position: relative;
+}
+/*----------------------------------
+BIG BOX
+------------------------------------*/
+#FreeFormatPage section.Trend.BigBox{ width: 49.3%;}
+#FreeFormatPage section.Trend.BigBox .Lifestyle{  float: left; }
+/*----------------------------------
+FULLWIDTH BOX
+------------------------------------*/
+#FreeFormatPage section.Trend.FullWidth{ width: 100%; position: relative;}
+
+/*--------------------------------------------------
+DESKTOP QUERIES -  
+---------------------------------------------------*/
+
+@media only screen and (min-width : 640px) {
+#FreeFormatPage header{
+  margin-top: 3em;
+}
+#FreeFormatPage header .MainImage {
+background: url(images/HS_Main.jpg) top center;
+display: block;
+width: 100%;
+height: 619px;
+border-top: 63px solid #FFF;
+margin-bottom: 2em;
+}
+#FreeFormatPage header a{width: 100px;position: absolute;left: 240px;}
+
+  #FreeFormatPage section.Trend.FullWidth .Copy{
+    position: absolute;
+    top: 92px;
+    right: 14%;
+    width: auto;
+  }
+  #FreeFormatPage section.Trend.FullWidth .Copy strong{ padding: 0;}
+  #FreeFormatPage section.Trend.FullWidth .Copy strong.Text1{
+    font: 0.8em/1em AvalonBook,Arial,Helvetica,sans-serif;
+    display: block;
+  }
+    #FreeFormatPage section.Trend.FullWidth .Copy strong.Text2{
+    font: 0.8em/1em AvalonDemi,Arial,Helvetica,sans-serif;
+    display: block;
+  }
+  #FreeFormatPage section.Trend.FullWidth .Copy strong.Text3{
+    font: 2.6em/1.2em AvalonDemi,Arial,Helvetica,sans-serif;
+    letter-spacing: 0.15em;
+    display: block;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    margin: 17px 0;
+  }
+}
+/*--------------------------------------------------
+MEDIA QUERIES -  iPad Landscape
+---------------------------------------------------*/
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+#FreeFormatPage section.Trend.FullWidth.Footwear .Copy{
+  top: 350px;
+  right: 8%
+}
+}
+
+
+/*--------------------------------------------------
+MEDIA QUERIES -  iPad Portrait
+---------------------------------------------------*/
+@media only screen and (max-width: 768px){
+#FreeFormatPage header h1 {
+font: 3em/1em "AvalonBook",Arial,Helvetica,sans-serif;
+}
+#FreeFormatPage section.Trend{
+width: 100%;
+padding: 0;
+}
+#FreeFormatPage section.Trend .Lifestyle{  
+width: 100%;
+float: left;
+}
+#FreeFormatPage section.Trend .Lifestyle .Box{
+height: 24em;
+}
+#FreeFormatPage section.Trend img{ 
+  width: 100%; 
+  margin: 0 !important;
+   }
+#FreeFormatPage section.Trend.BigBox img{
+  border-bottom: 5px solid #222;
+}
+}
+
+/*--------------------------------------------------
+MEDIA QUERIES - Mobile Styles
+---------------------------------------------------*/
+@media only screen and (max-width: 640px) {
+#FreeFormatPage {font-size:100%!important}
+#FreeFormatPage header .MainImage{
+    display: block;
+    width: 100%;
+    background: url(images/HS_MainMob.jpg) top center no-repeat;
+    background-size: contain;
+    height: 18em;
+  }
+#FreeFormatPage header h1 {
+  width: 100%;
+  height: auto;
+  position: relative;}
+#FreeFormatPage header p {display:none}
+
+#FreeFormatPage header h1 strong {
+  display: block;
+height:auto;
+padding:0;
+background-size:contain;
+  width: 100%;
+  margin: 0;
+}
+
+#FreeFormatPage section.Trend {
+width:100%!important;
+min-height:auto!important;
+height:auto!important;
+float:left;
+}
+#FreeFormatPage section.Trend .Lifestyle .Box{
+height: auto !important;
+}
+#FreeFormatPage section.Trend img{
+width: 100%;
+}
+#FreeFormatPage section.Trend.SmallBox img{
+  width: 87%;
+  margin: 20px 6.5% !important;
+
+}
+#FreeFormatPage section.Trend .Lifestyle {
+min-height:auto!important;
+background-size:contain!important;
+height:auto!important
+}
+
+#FreeFormatPage section.Trend .Copy {
+position:relative!important;
+height:auto!important;
+margin:0 auto;
+padding:0.5em 0;
+}
+#FreeFormatPage section.Trend.BigBox .Copy{
+  padding: 1.5em 0;}
+
+}
+
+@media only screen and (max-width: 480px) {
+#FreeFormatPage {
+  font-size: 120% !important;
+}
+}
+
+@media only screen and (max-width: 360px) {
+#FreeFormatPage {
+  font-size: 110% !important;
+}
+}
+@media only screen and (max-width: 320px) {
+#FreeFormatPage {
+  font-size: 100% !important;
+}
+}
+/* Bounce In */
+.hvr-bounce-in {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+.hvr-bounce-in:hover, .hvr-bounce-in:focus, .hvr-bounce-in:active {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+}
+
+/* Fade */
+.hvr-fade {
+  background: #f36186;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: color, background-color;
+  transition-property: color, background-color;
+}
+.hvr-fade:hover, .hvr-fade:focus, .hvr-fade:active {
+  background-color: #222;
+  color: white;
+}
