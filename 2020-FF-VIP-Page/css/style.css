@@ -146,7 +146,7 @@ SECTION FIVE
 }
 #FF-container section.Five ul li sup{ 
 	width: 25%;
-	background: url(VIP-assets/tick.png) center center no-repeat;
+	background: url(../VIP-assets/tick.png) center center no-repeat;
 	height: 21px; 
 	vertical-align: top; 
 	float: right;
@@ -159,14 +159,14 @@ SECTION FIVE
 	width: 50%;
 }
 #FF-container section.Five .roundal.vip{
-	background: url(VIP-assets/blue-vip.png) center center no-repeat;
+	background: url(../VIP-assets/blue-vip.png) center center no-repeat;
 	height: 76px;
 	width: 25%;
 	float: left;
 	background-size: contain;
 }
 #FF-container section.Five .roundal.vip-elite{
-	background: url(VIP-assets/blue-vip-elite.png) center center no-repeat;
+	background: url(../VIP-assets/blue-vip-elite.png) center center no-repeat;
 	height: 76px;
 	width: 25%;
 	float: left;
@@ -341,7 +341,7 @@ TABLET Landscape STYLES
 	#FF-container header{height: 250px;}
 	#FF-container header h1{ padding-top: 0.3em;}
 	#FF-container header h1 span{
-		background: url(VIP-assets/vip.png) top center no-repeat;
+		background: url(../VIP-assets/vip.png) top center no-repeat;
 		text-indent: -9999px;
 		height: 125px;
 		display: inline-block;
@@ -352,7 +352,7 @@ TABLET Landscape STYLES
 #FF-container section.One .center{
 	padding:0.5% 5% 0.5% 38%;
 	 width: 51.3%;
-	background: url(VIP-assets/gift-box.jpg) center left no-repeat;
+	background: url(../VIP-assets/gift-box.jpg) center left no-repeat;
 }
 #FF-container section.Two{padding-top: 44.2%;}
 #FF-container section.Four{padding-top: 59.1%;}
