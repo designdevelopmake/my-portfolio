@@ -1,0 +1,400 @@
+#maincontainer .button.pink-bg{ background: #d9a1a6; color: #FFF}
+#maincontainer .button:hover{
+  cursor: pointer;background: #000; color: #FFF; transition: 0.5s;}
+#maincontainer{
+  width:100%;
+  margin:0;
+  background: #FFF;
+}
+#maincontainer header{
+  position:relative;
+  border-bottom:2px solid #999;
+  padding-bottom:2%;
+}
+#maincontainer header .textarea{
+  bottom:0;
+}
+#maincontainer header h1{
+  display:block;
+  width:100%;
+  text-align:center;
+  padding:1em 0 1em 0;
+  margin:0 auto;
+  text-transform:uppercase;
+  color:#222;
+  font:2em/1em "Times New Roman", Times, serif;
+  letter-spacing:0.05em;
+}
+#maincontainer header h1 span{
+  font:2em/0.8em "Times New Roman", Times, serif;
+}
+#maincontainer section a{
+  position:relative;
+  float:left;
+  display:inline-block;
+  margin:0;
+  width:50%;
+}
+#maincontainer section{
+  overflow:hidden;
+  text-align:center;
+  position:relative;
+}
+#maincontainer h2{ 
+  font:1em/1em "GibsonRegular";
+  letter-spacing:0.1em;
+  display:block;
+  width:100%;
+  text-align:center;
+  padding:1em 0;
+  margin:0;
+  text-transform:uppercase;
+  color:#222;
+  margin:0;
+}
+#maincontainer h2 hr{ 
+  display: block;
+  height: 0;
+  background: none;
+  color: #FFF; 
+  margin: 0; 
+  border: none;
+}
+#maincontainer h2 span{
+  font: 2.5em/1em "Times New Roman", Times, serif;
+  letter-spacing: 0.1em;
+}
+#maincontainer p{
+  text-align: center;
+  font:1.2em/1.5em "GibsonRegular";
+  margin: 0 1em 1em 1em;
+}
+#maincontainer h4{ 
+  font:1em/1em Arial, Helvetica, sans-serif;
+  letter-spacing:0.1em;
+  position:absolute;
+  top:0;
+  left:0;
+  background:#eee;
+  display:block;
+  width:100%;
+  text-align:center;
+  padding:1em 0;
+  margin:0;
+  text-transform:uppercase;
+  color:#222;
+}
+#maincontainer img{
+  width:100%;
+  z-index:0;
+}
+#maincontainer a.outfits{
+    width: 48.3%;
+    padding:0 4%; 
+}
+#maincontainer a.fulllength{
+    width: 43.7%;
+}
+#maincontainer a.fullwidth{
+  margin:0 auto;
+  width:100%;
+  display:block;
+}
+.dropdown [data-toggle="dropdown"],
+.dropdown .dropdown-menu .link{
+  color:#222;
+  letter-spacing:0.2em;
+  font:1.2em/1.8em "GibsonRegular", Arial, Helvetica, sans-serif; 
+}
+
+#maincontainer .button {
+  float:none;
+  display:block;
+  background:#eee;
+  text-decoration:none;
+  text-align:center;
+  text-transform:uppercase;
+  color:#222;
+  padding:1em 0;
+  font:1.2em/1.3em "GibsonRegular", Arial, Helvetica, sans-serif;
+  margin:2% auto;
+  letter-spacing:0.2em;
+  width:100%;
+}
+#maincontainer .button:after{
+  content: '>';
+  position:absolute;
+  right: 2em;
+}
+#maincontainer section .fulllength,
+#maincontainer section .fullwidth,
+#maincontainer section .outfits{ position: relative;}
+/*----------------
+SECTION FOUR
+------------------*/
+#maincontainer .Four article{
+background: #d9a1a6;
+padding: 2em 0;
+}
+#maincontainer .Four article h2{
+  color: #FFF;
+  text-align: center;
+  font: 1em/1em "Times New Roman", Times, serif;
+}
+#maincontainer .Four article h2 b{ 
+  font: italic 2em/0.9em "Times New Roman", Times, serif;
+  font-weight: normal;
+  display: block; 
+  text-transform: lowercase;
+}
+#maincontainer .Four article h2 span{
+  font-size: 5em;
+  line-height: 0.9em;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+#maincontainer .Four article p{
+  margin: 0 auto;
+  color: #FFF;
+  max-width: 500px;
+  letter-spacing: 0.1em;
+}
+#maincontainer .Four .arrow{
+    background: url(/assets/arrow.png) top center no-repeat;
+    display: block;
+    height: 43px;
+    width: 100%;
+    margin-bottom: 3em;
+}
+#maincontainer .Four .grid .box{
+  width: 49%;
+  display: inline-block;
+}
+#maincontainer .Four .grid .box h3{
+ font: italic 1.5em/1em "Times New Roman", Times, serif;
+ text-transform: lowercase;
+}
+#maincontainer .Four .grid .box h3 strong{
+ font: 1.2em/1em "GibsonRegular", Arial, Helvetica, sans-serif;
+ text-transform: uppercase;
+ display: block;
+ font-weight: normal;
+ letter-spacing: 0.1em
+}
+#maincontainer .Four .grid .box p{ display: none;}
+
+/*----------------
+SECTION FIVE
+------------------*/
+#maincontainer .Five h2{ font-size: 1.5em}
+#maincontainer .Five h3{
+ font: 1.5em/1em "GibsonRegular", Arial, Helvetica, sans-serif;
+text-transform: uppercase;
+letter-spacing: 0.1em;
+ padding: 56px 0 20px 0;
+ margin-top: 1em;
+}
+#maincontainer .Five h3.one{ background: url(../assets/one-star.png) top center no-repeat;}
+#maincontainer .Five h3.two{ background: url(../assets/two-star.png) top center no-repeat;}
+#maincontainer .Five h3.three{ background: url(../assets/three-star.png) top center no-repeat;}
+#maincontainer .Five ul{ margin: 0; padding: 0;}
+#maincontainer .Five ul li{
+  position: relative;
+}
+#maincontainer .Five ul.finder-one li:hover{
+transition: 0.5s;
+cursor: pointer;
+opacity: 1;
+}
+#maincontainer .Five ul.finder-one li:hover b{
+  background-color: #000;
+transition: 0.5s;
+}
+#maincontainer .Five ul.finder-three { max-width: 600px; margin: 0 auto}
+#maincontainer .Five ul.finder-two li:hover,
+#maincontainer .Five ul.finder-three li:hover{
+  background-color: #000;
+  transition: 0.5s;
+  color: #FFF;
+  cursor: pointer;
+}
+#maincontainer .Five ul.finder-two li b,
+#maincontainer .Five ul.finder-three li b{
+  position: absolute;
+top: 50%;
+left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-transform: uppercase;
+   font: 1em/1em "GibsonRegular", Arial, Helvetica, sans-serif;
+   letter-spacing: 0.1em;
+  width: 100%;
+}
+#maincontainer .Five ul.finder-one li {
+  height: 200px;
+  width: 100%;
+  display: block;
+  background: #EEE;
+}
+#maincontainer .Five ul.finder-one li b{
+  position: absolute;
+  bottom: 0;
+  background: #86bbd1;
+  width: 100%;
+  margin: 0 auto;
+  left: 0;
+  padding: 1em 0;
+  text-transform: uppercase;
+  color: #FFF;
+}
+#maincontainer .Five ul.finder-two li {
+    border-radius: 100%;
+  height: 163px;
+  width: 163px;
+  background: #EEE;
+  display: inline-block;
+    margin: 0.5em;
+}
+#maincontainer .Five ul.finder-three li {
+    border-radius: 100%;
+  height: 80px;
+  width: 80px;
+  background: #EEE;
+  display: inline-block;
+    margin: 0.5em;
+}
+#maincontainer .Five #findagift{ 
+  margin: 3em 0;
+
+}
+#maincontainer .Five ul li#holiday{background-image: url(../assets/mob-holiday.jpg);}
+#maincontainer .Five ul li#occasion{background-image: url(../assets/mob-occasion.jpg);}
+#maincontainer .Five ul li#everyday{background-image: url(../assets/mob-everyday.jpg);}
+
+
+@media only screen and (min-width: 568px) and (max-width: 736px) {/*iPhone Landscape*/
+#maincontainer header, #maincontainer section {max-width: 414px;margin: 0 auto;}
+}
+/*-----------------------------
+DESKTOP/TABLET
+-------------------------------*/
+@media only screen and (min-width: 768px){/*Tablet Portrait*/
+#maincontainer section .fulllength:hover .hoverBag,
+#maincontainer section .fullwidth:hover .hoverBag{
+    visibility: visible;
+    opacity: 1;
+}
+#maincontainer .outfits:hover .hoverBag{
+  background-size:50px;
+background-position: center center;
+    visibility: visible;
+    opacity: 1;
+}
+  #maincontainer .Four .grid .box p{ display: block; text-align: center;}
+  #maincontainer header{ margin-bottom: 1em;}
+  #maincontainer section{ margin: 5em 0;}
+.dropdown, 
+#maincontainer header .button{ 
+  width: 48%; 
+  display:inline-block;  
+  vertical-align: top; 
+  text-align: center;
+  margin:0;
+}
+.dropdown{ margin: 0 1%}
+.dropdown .show, .dropdown .hide{ position: absolute; width: 48%; z-index: 2;}
+#maincontainer h2 hr{ display: none; }
+#maincontainer h2,#maincontainer p{ text-align: left; padding-top: 0;}
+#maincontainer article p{margin:0 0 1em 0}
+
+#maincontainer section.One .outfits .modalHotspot.one{ width: 51%; height: 51%; top: 46%; z-index: 10;position: absolute;}
+#maincontainer section.One .outfits .modalHotspot.two{  width: 51%; height: 51%; top: 0; position: absolute;  left: 23%;}
+#maincontainer section.One .outfits .modalHotspot.three{  width: 37%; height: 60%; top: 26%; position: absolute;  left: 55%;}
+
+#maincontainer section.Two .outfits .modalHotspot.one{ width: 51%; height: 51%; top: 26%; z-index: 10;position: absolute;}
+#maincontainer section.Two .outfits .modalHotspot.two{  width: 51%; height: 51%; top: 0; position: absolute;  left: 23%;}
+#maincontainer section.Two .outfits .modalHotspot.three{  width: 37%; height: 51%; top: 46%; position: absolute;  left: 53%;}
+
+#maincontainer section.Three .outfits .modalHotspot.one{ width: 49%; height: 51%; top: 43%; z-index: 10;position: absolute; left: 2%;}
+#maincontainer section.Three .outfits .modalHotspot.two{  width: 51%; height: 34%; top: 0; position: absolute;  left: 31%;}
+#maincontainer section.Three .outfits .modalHotspot.three{  width: 37%; height: 60%; top: 22%; position: absolute;  left: 55%;}
+
+#maincontainer section.One article,
+#maincontainer section.Three article{ position: absolute; width: 22%; top: 0; left: 36.5%; z-index: 1; height: 96%; border-left: 4px solid #222; padding-left: 2%;}
+#maincontainer section.One .outfits,
+#maincontainer section.Three .outfits{ width: 25.5%; position: absolute; padding: 0; right: 21%;  }
+#maincontainer section.One .fulllength,
+#maincontainer section.Three .fulllength{ width: 20%; float: right; }
+
+#maincontainer section.One .fullwidth,
+#maincontainer section.Three .fullwidth{ width: 35.5%; float: left;}
+
+#maincontainer section.Two article{ position: absolute; width: 22%; top: 0; z-index: 1; right: 36.5%; height: 96%; border-right: 4px solid #222; padding-right: 2%;}
+#maincontainer section.Two article h2,
+#maincontainer section.Two article p{ text-align: right;}
+#maincontainer section.Two .outfits{ width: 26.5%; position: absolute; left: 20%;  }
+#maincontainer section.Two .fulllength{ width: 20%; float: left;  }
+#maincontainer section.Two .fullwidth{ width: 35.5%; float: right;  }
+
+#maincontainer .Four article h2 b{ display: inline-block;}
+#maincontainer .Four article p{ text-align: center; margin-top: 0; font-size: 16px;}
+
+#maincontainer .Four .grid .box{ width: 22%; text-align: center; margin: 0 1%;}
+#maincontainer .Five h2 { text-align: center;}
+#maincontainer .Five ul.finder-one li{
+  border-radius: 100%;
+    height: 300px;
+    width: 300px;
+    background: #EEE;
+    display: inline-block;
+    margin: 0.5em;
+  background-size: contain;
+  opacity: 0.5;
+  }
+  #maincontainer .Five ul.finder-one li.ff-selected{
+    opacity: 1;
+  }
+  #maincontainer .Five ul.finder-one li.ff-selected b{
+    border: 2px solid #000;
+  }
+  #maincontainer .Five ul.finder-one li b{ 
+    width: 60%;
+    margin: 0 auto;
+    display:block;
+    position: relative; 
+    top: 67%; 
+    font-size: 12px;
+  }
+#maincontainer .Five ul li#holiday{background-image: url(../assets/holiday.jpg);}
+#maincontainer .Five ul li#occasion{background-image: url(../assets/occasion.jpg);}
+#maincontainer .Five ul li#everyday{background-image: url(../assets/everyday.jpg);}
+#maincontainer .Five #findagift{ width: 280px; margin: 3em auto}
+
+}
+@media only screen and (min-width: 1000px){/*Tablet Landscape*/
+#maincontainer header .button{line-height: 0.9em}
+#maincontainer p{ font-size: 1em}
+#maincontainer section .button{ font-size: 1em;}
+}
+@media only screen and (min-width: 1025px){/*Desktop*/
+#maincontainer {
+    width: 120%;
+    max-width: 1200px;
+    display: block;
+    text-align: center;
+    padding: 0;
+    margin: 0 auto;
+}
+#maincontainer .Five ul.finder-one li{
+  width: 380px;
+  height: 380px;
+}
+#maincontainer section .button{ font-size: 0.8em}
+#maincontainer header .button{ font-size: 0.8em; line-height: 2.2em;}
+.dropdown{margin:0 1% 0 0;width: 49%;}
+#maincontainer header .button{width: 49%;}
+.dropdown .show, .dropdown .hide{width: 49%;}
+.dropdown [data-toggle="dropdown"], .dropdown .dropdown-menu .link{ font-size: 0.8em; line-height: 2.7em}
+.dropdown .arrow-wrap{ width: 3.4em;}
+}
