@@ -1,0 +1,1985 @@
+/* Updated: 28/06/22 10:35 */
+
+@font-face {
+  font-family: "BodoniDisplay";
+  font-weight: normal;
+  font-style: normal;
+  src: url("//images.drct2u.com/repo/JDW/desktop/common/04-fonts/BodoniDisplay-webfont.woff") format("woff");
+}
+@font-face {
+  font-family: "BodoniDisplayDemi";
+  font-weight: normal;
+  font-style: normal;
+  src: url("//images.drct2u.com/content/stylesheets/BodoniDisplay-DemiBold-webfont.woff");
+}
+@font-face {
+  font-family: "BodoniDisplayItalic";
+  font-weight: normal;
+  font-style: normal;
+  src: url("//images.drct2u.com/content/stylesheets/BodoniDisplay-Italic-webfont.woff") format("woff");
+}
+@font-face {
+  font-family: "BodoniDisplayDemiItalic";
+  font-weight: normal;
+  font-style: normal;
+  src: url("//images.drct2u.com/content/stylesheets/BodoniDisplay-DemiBoldIt-webfont.woff") format("woff");
+}
+@font-face {
+  font-family: "GibsonSemiBold";
+  font-weight: normal;
+  font-style: normal;
+  src: url("//images.drct2u.com/content/stylesheets/Gibson-SemiBold-webfont.woff") format("woff");
+}
+@font-face {
+  font-family: "GibsonLight";
+  font-weight: normal;
+  font-style: normal;
+  src: url("//images.drct2u.com/repo/JDW/desktop/common/04-fonts/Gibson-Light-webfont.woff") format("woff");
+}
+@font-face {
+  font-family: "GibsonRegular";
+  font-weight: normal;
+  font-style: normal;
+  src: url("//images.drct2u.com/repo/JDW/desktop/common/04-fonts/Gibson-Regular-webfont.woff") format("woff");
+}
+@font-face {
+  font-family: "VivaBeautiful";
+  font-weight: normal;
+  font-style: normal;
+  src: url("//images.drct2u.com/repo/AWL/desktop/common/04-fonts/vivabeautiful-webfont.woff") format("woff");
+}
+#maContentContainer {
+  clear: both;
+}
+body {
+  width: 100%;
+  height: auto;
+  background: url("//images2.drct2u.com/content/images/homepages/nav-rules-bg.gif") repeat-x transparent center 118px;
+}
+h1, h2, h3, h4, h1 span, .largetitle {
+  color: #000000;
+}
+a, a:link, a:visited {
+  text-decoration: none;
+  color: #000000;
+}
+a, a:link, a:active, a:focus {
+  outline: 0;
+}
+img a:link, img a:hover, img a:visited {
+  background-color: transparent;
+}
+#outerPageContainer {
+  width: 1000px;
+}
+#primaryNav, #secondaryNav {
+  font-size: 0;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+#primaryNav *, #secondaryNav * {
+  -webkit-box-sizing: initial !important;
+  box-sizing: initial !important;
+  /* Overide PDP style */
+}
+#primaryNav > li, #secondaryNav > li {
+  display: inline-block;
+  float: none;
+  margin: 0;
+  padding: 0;
+}
+#primaryNav a {
+  text-decoration: none;
+}
+#primaryNav > li > a {
+  font: 14px GibsonRegular, Arial, "Helvetica Neue", Helvetica, sans-serif;
+  padding: 11px 0.7em 0;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #000;
+}
+#primaryNav > li > a:after {
+  position: relative;
+  left: 50%;
+  display: block;
+  width: 0;
+  margin: 10px 0 0;
+  content: "";
+  -webkit-transition: all 300ms ease 0s;
+  transition: all 300ms ease 0s;
+  opacity: 0;
+  border-width: 0 0 1px;
+  border-style: solid;
+}
+#primaryNav > li:hover > a:after {
+  left: 0;
+  width: 98.5%;
+  opacity: 1;
+}
+#secondaryNav > li > a {
+  font: 14px GibsonRegular, Arial, "Helvetica Neue", Helvetica, sans-serif;
+  padding: 7px 1.8em 0;
+  letter-spacing: 0.02em;
+}
+#secondaryNav > li > a:after {
+  position: relative;
+  left: 50%;
+  display: block;
+  width: 0;
+  margin: 10px 0 0;
+  content: "";
+  -webkit-transition: all 300ms ease 0s;
+  transition: all 300ms ease 0s;
+  opacity: 0;
+  border-width: 0 0 1px;
+  border-style: solid;
+}
+#secondaryNav > li:hover > a:after {
+  left: 0;
+  width: 98.5%;
+  opacity: 1;
+}
+#secondaryNav .over280005starreviews {
+  padding: 3px 1.8em 0;
+  background-image: url(//images2.drct2u.com/content/images/FGN/170424-tiny%20start.png);
+  background-repeat: no-repeat;
+  background-position: 0% 43%;
+}
+ul#secondaryNav .wishlist {
+  padding: 3px 1.8em 0;
+  background-image: url(//images2.drct2u.com/content/common/images/commongui/icons/buttons/icon-heart-outline-black.svg);
+  background-repeat: no-repeat;
+  background-position: 0;
+  background-size: 21%;
+}
+#primaryNav .navColumnContainer {
+  top: 39px;
+}
+#primaryNav .navColumnContainer, #secondaryNav .navColumnContainer {
+  width: 920px;
+  min-height: 352px;
+  padding: 30px 40px;
+  border: medium none;
+  -webkit-box-shadow: 0 28px 33px -8px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 28px 33px -8px rgba(0, 0, 0, 0.25);
+}
+#primaryNav .navColumn, #secondaryNav .navColumn {
+  float: left;
+  width: 190px;
+  height: 100%;
+  margin: 0 40px 0 0;
+  text-align: left;
+  text-transform: none;
+}
+nav *, nav *:before, nav *:after {}
+#primaryNav .navColumnContainer .categoryHeading, #secondaryNav .navColumnContainer .categoryHeading {
+  font-family: "GibsonSemiBold";
+  font-size: 14px;
+  font-weight: normal;
+  padding: 4px 5px;
+  letter-spacing: 0.17em;
+  text-transform: uppercase;
+  color: #000;
+}
+#primaryNav .navColumn li:last-child {
+  margin-bottom: 20px;
+}
+.mainNav .navGroup {
+  margin-bottom: 0;
+}
+#primaryNav .navColumn a {
+  font: 13px "GibsonRegular";
+  position: relative;
+  display: block;
+  padding: 3px 5px;
+  letter-spacing: 0.05em;
+  text-transform: capitalize;
+  color: #000;
+}
+#primaryNav .navColumn .categoryHeading a, #primaryNav .navColumn .subCategoryHeading a {
+  font-family: "GibsonSemiBold";
+  font-size: 14px;
+  font-weight: normal !important;
+  line-height: normal;
+  position: relative;
+  display: block;
+  padding: 4px 5px;
+  text-decoration: none;
+  letter-spacing: 0.17em;
+  text-transform: uppercase;
+  color: #000;
+}
+#primaryNav .navColumn a:after {
+  position: absolute;
+  right: 0.75em;
+  content: ">";
+  -webkit-transition: all 300ms ease 0s;
+  transition: all 300ms ease 0s;
+  -webkit-transform: scale(0.65, 1.3);
+  transform: scale(0.65, 1.3);
+  opacity: 0;
+}
+/* #primaryNav .navColumn a:hover {
+    background-color: #EFF1F4;
+} */
+#primaryNav .womens .navColumn a:hover {
+  background-color: #96d9e1;
+}
+#primaryNav .accessories .navColumn a:hover {
+  background-color: #ffdb8a;
+}
+#primaryNav .footwear .navColumn a:hover {
+  background-color: #fe7974;
+}
+#primaryNav .kidsandtoys .navColumn a:hover {
+  background-color: #fe7974;
+}
+#primaryNav .homeandgarden .navColumn a:hover {
+  background-color: #96d9e1;
+}
+#primaryNav .electricals .navColumn a:hover {
+  background-color: #ffdb8a;
+}
+#primaryNav .gifts .navColumn a:hover {
+  background-color: #fe7974;
+}
+#primaryNav .womens .navColumn3 .stylesavers.subCategoryHeading a:hover, #primaryNav .womens .navColumn3 .navGroup1 a:hover, #primaryNav .footwear .navColumn3 .stylesaver.subCategoryHeading a:hover, #primaryNav .footwear .navColumn3 .navGroup4 a:hover, #primaryNav .lingerie .navColumn3 .subCategoryHeading a:hover, #primaryNav .lingerie .navColumn3 .navGroup1 a:hover, #primaryNav .mens .navColumn3 .subCategoryHeading a:hover, #primaryNav .mens .navColumn3 a:hover, #primaryNav .homeandgarden .navColumn3 .navGroup2 a:hover, #primaryNav .sale .subCategoryHeading a:hover, #primaryNav .sale .navColumn a:hover {
+  background-color: #f6dedd;
+}
+#primaryNav .navColumn a:hover:after {
+  right: 0.5em;
+  opacity: 1;
+}
+#primaryNav li .navColumnContainer .navColumn4 div a:last-child:after, #primaryNav .mens .navColumnContainer .navColumn3 div a:last-child:after {
+  display: none;
+}
+#primaryNav li .navColumnContainer .navColumn4 div a:last-child {
+  padding: 0;
+}
+#primaryNav .sale .navColumnContainer .navColumn4 div a:last-child {}
+.womens ul li .womens_image a {
+  display: block;
+  width: 228px;
+  height: 380px;
+  text-indent: -9999px;
+  background: url("//images2.drct2u.com/content/images/homepages/190228-AWL-NAV-DD-sprite.jpg") no-repeat scroll 0 0 transparent;
+}
+.accessories ul li .accessories_image a {
+  display: block;
+  width: 229px;
+  height: 380px;
+  text-indent: -9999px;
+  background: url("//images2.drct2u.com/content/images/homepages/190228-AWL-NAV-DD-sprite.jpg") no-repeat scroll -230px 0 transparent;
+}
+.footwear ul li .footwear_image a {
+  display: block;
+  width: 229px;
+  height: 380px;
+  text-indent: -9999px;
+  background: url("//images2.drct2u.com/content/images/homepages/190228-AWL-NAV-DD-sprite.jpg") no-repeat scroll -461px 0 transparent;
+}
+.lingerie ul li .lingerie_image a {
+  display: block;
+  width: 230px;
+  height: 380px;
+  text-indent: -9999px;
+  background: url("//images2.drct2u.com/content/images/homepages/190228-AWL-NAV-DD-sprite.jpg") no-repeat scroll -690px 0 transparent;
+}
+.swimwear ul li .swimwear_image a {
+  display: block;
+  width: 230px;
+  height: 380px;
+  text-indent: -9999px;
+  background: url("//images2.drct2u.com/content/images/homepages/190228-AWL-NAV-DD-sprite.jpg") no-repeat scroll -690px 0 transparent;
+}
+.mens ul li .mens_image a {
+  display: block;
+  width: 229px;
+  height: 380px;
+  text-indent: -9999px;
+  background: url("//images2.drct2u.com/content/images/homepages/190228-AWL-NAV-DD-sprite.jpg") no-repeat scroll -920px 0 transparent;
+}
+.homeandgarden ul li .home_image a {
+  display: block;
+  width: 230px;
+  height: 380px;
+  text-indent: -9999px;
+  background: url("//images2.drct2u.com/content/images/homepages/190228-AWL-NAV-DD-sprite.jpg") no-repeat scroll -1380px 0 transparent;
+}
+.electricals ul li .electricals_image a {
+  display: block;
+  width: 225px;
+  height: 380px;
+  text-indent: -9999px;
+  background: url("//images2.drct2u.com/content/images/homepages/190228-AWL-NAV-DD-sprite.jpg") no-repeat scroll -1610px 0 transparent;
+}
+.kidsandtoys ul li .kids_image a {
+  display: block;
+  width: 230px;
+  height: 380px;
+  text-indent: -9999px;
+  background: url("//images2.drct2u.com/content/images/homepages/190228-AWL-NAV-DD-sprite.jpg") no-repeat scroll -1150px 0 transparent;
+}
+.gifts ul li .gifts_image a {
+  display: block;
+  width: 225px;
+  height: 380px;
+  text-indent: -9999px;
+  background: url("//images2.drct2u.com/content/images/homepages/190228-AWL-NAV-DD-sprite.jpg") no-repeat scroll -1840px 0 transparent;
+}
+.christmas ul li .christmasimage a {
+  display: block;
+  height: 380px;
+  text-indent: -9999px;
+  background: url("//images2.drct2u.com/content/images/homepages/190228-AWL-NAV-DD-sprite.jpg") no-repeat scroll -2070px 0 transparent;
+}
+.christmas .navColumnSize4 {
+  top: 39px;
+  left: -683.95px;
+}
+.christmas ul li .christmasimage a:hover {
+  background-color: #fff !important;
+}
+#bagArea-5 {
+  position: absolute;
+  top: 44px;
+  left: 576px;
+  width: 300px;
+  height: auto;
+}
+#bagArea-5 p {
+  float: right;
+  height: 30px;
+  margin: 0;
+  padding: 0;
+  text-align: right;
+  color: #000000;
+}
+#bagArea-5 p#viewMiniBagLink {
+  font-size: 12px;
+  padding: 0;
+  color: #ffffff;
+}
+#bagArea-5 p#numberBagItems {
+  font-size: 12px;
+  height: 21px;
+  padding: 9px 8px 0 34px;
+  color: #423a3c;
+}
+ul#bagList {
+  position: relative;
+  padding: 0;
+  background: none repeat scroll 0 0 transparent;
+}
+ul#bagList li {
+  float: left;
+}
+li#ShoppingBagHeaderLink {
+  position: absolute;
+  top: 20px;
+  right: 128px;
+  width: 86px;
+  text-align: left;
+}
+li#ShoppingBagHeaderLink a, li#ShoppingBagHeaderLink a:visited {
+  font-size: 1.1em;
+  font-weight: bold;
+  text-decoration: none;
+  color: #000000;
+}
+li#ShoppingBagHeaderLink a:hover {
+  text-decoration: underline;
+}
+li#GoToCheckoutHeaderLink {
+  position: absolute;
+  top: 43px;
+  right: 8px;
+  width: 102px;
+  height: 24px;
+}
+li#GoToCheckoutHeaderLink a, li#GoToCheckoutHeaderLink a:visited {
+  font-size: 11px;
+  display: block;
+  width: 102px;
+  height: 19px;
+  padding: 5px 0 0;
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+}
+li#GoToCheckoutHeaderLink a:hover {
+  color: #ffffff;
+}
+#bagList li.wishlist {
+  position: absolute;
+  top: 20px;
+  left: 351px;
+  width: 73px;
+}
+li.quickorder {
+  position: absolute;
+  top: -34px;
+  left: -107px;
+  width: 73px;
+}
+li.quickorder a {
+  font-size: 12px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #423a3c !important;
+}
+#bagList li.wishlist a {
+  font-size: 1em;
+  font-weight: normal;
+  text-decoration: none;
+  color: #000000;
+}
+#bagList li.wishlist a:hover, li.quickorder a:hover {
+  text-decoration: underline;
+}
+.qtip {
+  margin: 5px 0 0 28px;
+}
+.gui-minibag-content header {
+  width: auto;
+}
+#greeting-10 {
+  position: absolute;
+  top: 10px;
+  left: 351px;
+  width: 300px;
+  padding: 0;
+}
+#greeting-10 p {
+  font-size: 11px;
+  float: left;
+  margin: 0 6px 0 0;
+  padding: 0 !important;
+}
+#greeting-10 p.logInTitle {
+  font-size: 12px;
+  font-weight: bold;
+}
+#greeting-10 p.logInTitleCredit {
+  font-weight: normal;
+  color: #000000;
+}
+#greeting-10 #clientName {
+  color: #d91473;
+}
+#availableToSpendMessageContainer {
+  float: left;
+}
+#greeting-10 a #questionMark {
+  margin: -1px 0 0;
+}
+#previousSite-6 {
+  height: auto;
+  margin: 5px 0;
+}
+#previousSite-6 ul {
+  margin: 0;
+  padding: 0;
+  list-style: none outside none;
+}
+#previousSite-6 ul li {
+  padding: 6px;
+}
+#previousSite-6 ul li:first-child {
+  padding: 6px 6px 6px 0;
+  background: none repeat scroll 0 0 transparent;
+}
+#previousSite-6 ul li {
+  padding: 6px;
+  background: none repeat scroll 0 0 #f4f4f4;
+}
+#previousSite-6 ul li a {
+  font-weight: bold;
+  display: block;
+  text-decoration: none;
+}
+#previousSite-6 ul li a:hover {
+  text-decoration: underline;
+}
+.tablecell {
+  background: none repeat scroll 0 0 #111111;
+}
+#LPT3_breadcrumbTop1 {
+  display: block !important;
+}
+#breadcrumbNav {
+  margin: 0;
+}
+#breadcrumbNav a {
+  font-family: "GibsonRegular", Arial, Helvetica, sans-serif;
+  font-size: 12px !important;
+  font-weight: normal !important;
+  text-decoration: none;
+  color: #000000;
+}
+#breadcrumbNav h1, #breadcrumbNav span {
+  font-family: "GibsonRegular", Arial, Helvetica, sans-serif;
+  font-size: 12px !important;
+  font-weight: normal !important;
+  color: #000000;
+}
+.breadcrumbcuelink {}
+#LPT3_breadcrumbTop1 {
+  display: none;
+}
+.mainsitecolour {
+  background: none repeat scroll 0 0 #185b86;
+}
+.sidebartext {
+  color: #ffffff;
+}
+.acctssubtitle {
+  color: #185b86;
+}
+.qofheadingnumber {
+  color: #ffffff;
+}
+.qofheadingtitle {
+  color: #ffffff;
+}
+.productArea a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #b96511;
+}
+.productArea a:hover {
+  text-decoration: underline;
+  color: #e3bd83;
+}
+.productArea {
+  background-color: #ffedde;
+}
+.shopWindow a:hover {
+  background-color: transparent;
+}
+h1.LifestyleDefault {
+  font-size: 1.56em;
+  color: #ffffff;
+  background-color: #1e1e1e;
+}
+.category {
+  font-size: 0.88em;
+  font-weight: bold;
+  color: #ffffff;
+}
+.shopwindowfolder {
+  border: 1px solid #b96511;
+  background-color: #ffffff;
+}
+h2.LifestyleDefault {
+  font-size: 0.75em;
+  color: #ffffff;
+  background-color: #1e1e1e;
+}
+.marqueBox {
+  background-color: #e3bd83;
+}
+.marqueBox h2 {
+  color: #ffffff;
+}
+.pwHeader h2 {
+  font-size: 0.69em;
+  color: #ffffff;
+  background-color: #e3bd83;
+}
+h1.NoLifestyleDefault {
+  font-size: 1.56em;
+  color: #ffffff;
+  background-color: #1e1e1e;
+  background-image: url("//images2.drct2u.com/content/images/freeformat/SEO-Product-header.gif");
+  background-repeat: no-repeat;
+  background-position: right 50%;
+}
+.shopwindowfolder2 {
+  border: 1px solid #b96511;
+  background-color: #ffffff;
+}
+h2.NoLifestyleDefault {
+  font-size: 0.88em;
+  color: #ffffff;
+}
+h1.Catwalk {
+  font-size: 1.56em;
+  font-weight: normal;
+  color: #ffffff;
+  background-color: #1e1e1e;
+  background-image: url("//images2.drct2u.com/content/images/freeformat/SEO-Product-header.gif");
+  background-repeat: no-repeat;
+  background-position: right 50%;
+}
+h2.Catwalk {
+  font-size: 0.75em;
+  color: #ffffff;
+  background-color: #1e1e1e;
+}
+#guidedNav-8 {
+  line-height: 1.4em;
+  display: block;
+  float: left;
+  width: 190px !important;
+  margin: 0 0 5px !important;
+  padding: 14px 0 5px !important;
+}
+#guidedNav-8 ul {}
+#guidedNav-8 p {
+  padding: 3px 0;
+}
+#guidedNav-8 a, #guidedNav-8 a:link, #guidedNav-8 a:visited {
+  font-weight: normal;
+}
+#guidedNav-8 a:hover {
+  color: #000000;
+}
+#guidedNav-8 p.narrowByTitle {
+  display: none;
+}
+#guidedNav-8 #selectedFilters #selectedFiltersHeader {
+  font-family: "GibsonSemiBold", Arial, Helvetica, sans-serif;
+  font-size: 15px !important;
+  font-weight: normal !important;
+}
+#currentSelection li {
+  font-family: "GibsonRegular", Arial, Helvetica, sans-serif;
+  font-size: 14px !important;
+}
+#guidedNav-8 .refinementHeader {
+  font-family: "GibsonSemiBold", Arial, Helvetica, sans-serif;
+  font-size: 15px !important;
+  font-weight: normal !important;
+  text-transform: capitalize;
+}
+#guidedNav-8 .refinementHeader span {
+  padding: 0 6px 0 0 !important;
+  color: #000000;
+  background: none repeat scroll 0 0 transparent !important;
+}
+#guidedNav-8 .availableFiltersContainer ul li a {
+  font-family: "GibsonRegular", Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+#guidedNav-8 .availableFiltersContainer ul li a span.count {
+  display: none;
+}
+#guidedNav-8 .checkList a.checked {
+  font-family: "GibsonSemiBold", Arial, Helvetica, sans-serif;
+  padding: 0.25em 0 !important;
+  background: none repeat scroll 0 0 transparent !important;
+}
+#guidedNav-8 .checkList a, #guidedNav-8 .checkList .disabled {
+  position: relative; /* Required for the tick to be in the correct place */
+  padding: 0.25em 0 !important;
+  background: none repeat scroll 0 0 transparent !important;
+}
+#currentSelection li span {
+  /*display: block;
+    height: 12px;
+    overflow: hidden;
+    padding: 8px 10px 0 0;
+    width: 12px;*/
+}
+#currentSelection li span a {
+  /*background: url("//images2.drct2u.com/content/images/FGN/1506AW_G1_LHN_clear.png") no-repeat scroll 0 0 transparent;
+    display: block;
+    height: 12px;
+    text-indent: 9999px;
+    width: 12px;*/
+}
+.magnify {
+  background-image: url("//images2.drct2u.com/content/images/freeformat/magnify.gif");
+}
+a.magnify, a.magnify:link, a.magnify:visited {
+  text-decoration: underline;
+  color: #185b86;
+}
+a.magnify:hover {
+  text-decoration: none;
+  color: #185b86;
+  background-color: #ffffff;
+}
+.hoverStyle {
+  border: 1px solid black;
+  background-color: white;
+}
+tr.tablecell a:link, tr.tablecell a:visited {
+  font-size: 12px;
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+}
+tr.tablecell a:hover {
+  color: #ffffff;
+}
+#searchResultsHeader {
+  width: 90%;
+  margin: 0 !important;
+  padding: 0 5%;
+}
+#searchResultsHeader h2, #searchResultsHeader p {
+  text-align: center;
+  color: #231f20;
+}
+#searchResultsHeader h2 {
+  font-family: "VivaBeautiful", Times, Baskerville, Georgia, serif;
+  font-size: 60px;
+  font-weight: normal;
+  line-height: 40%;
+  margin: 20px;
+  letter-spacing: normal;
+}
+#searchResultsHeader #strapline {
+  font-family: "GibsonRegular", Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  position: relative;
+  left: -0.7em;
+}
+#searchResultsHeader p {
+  font-family: "GibsonRegular", Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 1.3em;
+  margin: 0;
+  letter-spacing: 0.03em;
+}
+.productSort {
+  width: 810px !important;
+  height: 40px;
+  margin-top: 0 !important;
+  margin-bottom: 2px !important;
+  padding-top: 8px !important;
+  background-color: #ffffff;
+}
+#sortByOptions, .recordsPerPage {
+  margin: 0 20px 0 0;
+  padding: 8px 0;
+  background: none repeat scroll 0 0 #ffffff;
+}
+.resultsPages {
+  padding: 5px 0 0;
+  background: none repeat scroll 0 0 #ffffff;
+}
+.resultsPages .productPages {
+  padding: 3px 0 0;
+}
+#sortByOptions p, .recordsPerPage p, .productPages .productPagesTxt {
+  font-family: "GibsonRegular", Arial, Helvetica, sans-serif;
+  font-size: 13px !important;
+  padding: 3px 8px 0 0 !important;
+}
+#sortByOptions select, .recordsPerPage select {
+  margin: 2px 0 0 !important;
+}
+.productPages .current {
+  font-family: "GibsonRegular", Arial, Helvetica, sans-serif;
+  font-weight: normal !important;
+  width: 20px;
+  height: 20px !important;
+  color: #ffffff;
+  background: url("//images2.drct2u.com/content/images/FGN/1506AW_G1_PS_current.png") no-repeat scroll 0 0 transparent;
+}
+.productPages .current strong, .productPages .last a {
+  font-weight: normal;
+  padding: 0 3px !important;
+}
+.productPages span {
+  float: left;
+  padding: 2px 0 0 !important;
+}
+.productPages .next {
+  padding: 0 !important;
+}
+.productPages .next a, .productPages .next a:link, .productPages .next a:visited {
+  font-family: "GibsonSemiBold", Arial, Helvetica, sans-serif;
+  padding: 1px 3px 2px !important;
+  text-decoration: none;
+  background: none repeat scroll 0 0 transparent !important;
+}
+.productPages .next a:hover {
+  text-decoration: underline;
+  background: none repeat scroll 0 0 transparent !important;
+}
+.productPages .spacer {
+  font-size: 13px !important;
+}
+.productPages a, .productPages a:link, .productPages a:visited, .productPages a:hover {
+  font-family: "GibsonRegular", Arial, Helvetica, sans-serif;
+  font-size: 13px !important;
+  display: inline-block;
+  float: left;
+  padding: 0 5px;
+  text-decoration: none;
+  color: #000000;
+}
+.productPages a:hover {
+  text-decoration: underline;
+  color: #000000;
+  background: none repeat scroll 0 0 #ffffff;
+}
+#numItemsContainer p {
+  font-family: "GibsonRegular", Arial, Helvetica, sans-serif;
+  padding: 0 0 10px;
+}
+.productPreview .rating {
+  padding: 4px 0;
+}
+.productPreviewImage {}
+p.productTitle {
+  padding: 0 0 10px;
+}
+p.productTitle a {
+  font-family: "GibsonRegular", Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  line-height: 16px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+p.productTitle a:hover {
+  text-decoration: underline;
+}
+p.salePrice, p.wasPriceFormat, p.moreColours, span.reviews {
+  /*float: left; */
+  font-family: "GibsonRegular", Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: normal !important;
+  padding: 0 10px 0 0;
+}
+p.moreColours {
+  float: none;
+}
+p.productPrice {
+  font-family: "GibsonLight", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: normal !important;
+  clear: both;
+  letter-spacing: 1px;
+}
+p.salePrice {
+  color: #d04d4d;
+}
+#productWindowContent .overImg {
+  width: auto !important;
+  height: auto !important;
+  margin-left: 4px !important;
+}
+#productWindowContent p.productIncentiveSpecialOffer {
+  padding: 4px 0 !important;
+}
+.fantasticOffers {
+  float: left;
+  width: 645px;
+  height: 39px;
+  margin: -10px -13px;
+  border-radius: 0.5em 0 0 0;
+  background-image: url("//images2.drct2u.com/content/common/images/orderBuilding/jdw-ob-fantastic-deals-header.png") !important;
+}
+.orderContainer .sHeader1 {
+  width: 250px;
+  height: 32px;
+  background: url("//images2.drct2u.com/content/common/images/orderBuilding/jdw-ob-banner-sprite-n.png") no-repeat scroll 0 0 transparent !important;
+}
+.orderContainer .sHeader2 {
+  width: 250px;
+  height: 32px;
+  background: url("//images2.drct2u.com/content/common/images/orderBuilding/jdw-ob-banner-sprite-n.png") no-repeat scroll 0 -33px transparent !important;
+}
+.orderContainer .sHeader3 {
+  width: 250px;
+  height: 32px;
+  background: url("//images2.drct2u.com/content/common/images/orderBuilding/jdw-ob-banner-sprite-n.png") no-repeat scroll 0 -66px transparent !important;
+}
+a#fantasticDealsContinue {
+  background-image: url("//images2.drct2u.com/content/common/images/commongui/GUI_btnTintedBg.gif") !important;
+}
+a#fantasticDealsContinue:hover {
+  color: #009900 !important;
+}
+.modalButtonForward .buttonCapLt {
+  width: 29px;
+  background-image: url("//images2.drct2u.com/content/common/images/commongui/GUI_btnTintedContinueCapLt.png") !important;
+}
+.modalButtonForward .buttonCapRt {
+  background-image: url("//images2.drct2u.com/content/common/images/commongui/GUI_btnTintedCapRt.png") !important;
+}
+.nowPriceFormat {
+  font-size: 25px !important;
+  color: black;
+}
+#LPT3_slot3, #LPT3_slot4, #LPT3_slot5, #LPT3_slot6, #LPT3_slot7, #LPT3_slot8, #LPT3_slot9, #LPT3_slot10, #LPT3_slot11, #LPT3_slot12, #LPT3_main1, #LPT3_main2, #LPT3_main3, #LPT3_main4, #LPT3_main5, #LPT3_main6, #LPT3_main7, #LPT3_main8, #LPT3_main9 {
+  margin-right: 0 !important;
+}
+.ui-autocomplete {
+  position: absolute;
+  z-index: 999;
+  top: -1165px;
+  left: 760px;
+  display: block;
+  width: 228px !important;
+  padding: 5px;
+  list-style-type: none;
+  border: 1px solid #cccccc;
+  background-color: white;
+}
+.ui-autocomplete a {
+  font-style: italic;
+  cursor: pointer;
+  text-decoration: none;
+  color: #999999;
+}
+.ui-autocomplete a:hover {
+  text-decoration: underline;
+}
+#productHeading h1 {
+  font-family: "Times New Roman", Times, Baskerville, Georgia, serif !important;
+  font-size: 2.8em;
+  font-weight: normal !important;
+  font-style: italic;
+  line-height: 1.1em !important;
+  width: 90% !important;
+  margin: 0;
+  padding: 0;
+  text-transform: lowercase;
+}
+em.productWasPrice {
+  font-size: 0.9em !important;
+  font-weight: bolder !important;
+  display: block;
+  margin: 3px 0;
+  color: #afacad !important;
+}
+.savePriceRange {
+  font-weight: normal !important;
+  margin: 3px 0 0 !important;
+  color: #d91473;
+}
+#atbInner {
+  border: 1px solid #dddddd !important;
+  background-color: #ffffff !important;
+}
+#addToWishListBtn {
+  position: relative !important;
+  top: 10px !important;
+  float: left !important;
+}
+#copyWasPriceContainer span {
+  font-size: 9px !important;
+  font-weight: normal !important;
+  color: #999999 !important;
+}
+#copyWasPriceContainer {
+  margin: 10px 0 0 !important;
+  padding: 0 !important;
+  border: medium none !important;
+}
+#copyWasPriceContainer ul {
+  float: left !important;
+  width: 393px !important;
+  margin: 0 0 10px;
+  padding: 0;
+  color: #999999 !important;
+}
+#copyWasPriceContainer li {
+  float: left !important;
+  margin: 0;
+  padding: 0;
+  color: #999999 !important;
+}
+em.wasPriceStyle {
+  font-size: 0.9em !important;
+  font-style: normal;
+  display: block !important;
+  text-decoration: line-through;
+  color: #d91473 !important;
+}
+.productDetails .productInfo {
+  font-family: "GibsonRegular", Arial, Helvetica, sans-serif !important;
+}
+#productDescription .ProductCopy > p {
+  font-size: 0.875em;
+}
+#productDescription ul {
+  display: block;
+  margin: 10px !important;
+  padding: 0 !important;
+}
+#productDescription .ProductCopy ul li, #characteristics ul li {
+  font-size: 0.875em;
+  margin: 5px auto;
+}
+.deliveryOptions thead th {
+  background: none repeat scroll 0 0 #f4f4f4 !important;
+}
+.carouselContainer .carouselHeader {
+  font-family: "GibsonSemiBold", Arial, Helvetica, sans-serif !important;
+  font-size: 18px !important;
+  font-weight: normal !important;
+  padding: 5px 0 5px 5px !important;
+  text-align: left;
+  color: #000000 !important;
+  border-bottom: 1px solid #dddddd !important;
+  background: none repeat scroll 0 0 transparent !important;
+}
+.carouselHeader {
+  background: none repeat scroll 0 0 transparent;
+}
+.mainFirstValue getFittingValue {
+  margin: 5px 0 !important;
+}
+#affinityWrapper {
+  min-height: 16em !important;
+}
+#characteristics {
+  margin-top: 10px !important;
+}
+#characteristics li {
+  position: relative;
+  top: 0;
+  color: #000000 !important;
+}
+#careLogoContainer {
+  position: relative;
+  top: 0;
+}
+#productHeading h2 {
+  margin: 3px 0 6px;
+  color: #423a3c;
+}
+#prodCatNumber {}
+#totalPriceValue {
+  color: #000000 !important;
+}
+h2#affinityHeader {
+  font-family: "GibsonRegular", Arial, Helvetica, sans-serif !important;
+  font-size: 1.4em;
+  font-weight: normal !important;
+  padding: 4px 10px !important;
+  text-transform: none !important;
+}
+.fadeMsgBox {
+  margin-top: 5px;
+}
+.priceRange {
+  font-family: "GibsonRegular", Arial, Helvetica, sans-serif !important;
+  font-size: 1.7em;
+  font-weight: normal !important;
+  text-transform: none !important;
+  color: #000000 !important;
+}
+#guidedNav-8 a.clearRefinement {
+  font-family: Arial, Helvetica, sans-serif !important;
+}
+.nav-tabs > li#promotionsTab a, .nav-tabs > li#promotionsTab a:hover, .nav-tabs > li#promotionsTab.active > a, .nav-tabs > li#promotionsTab.active > a:hover {
+  text-decoration: none !important;
+  color: #d91473 !important;
+}
+.nav-tabs > li#promotionsTab.active > a:hover, .nav-tabs > li#promotionsTab a:hover {
+  text-decoration: underline !important;
+}
+.nav-tabs > li > a {
+  text-decoration: none;
+}
+.nav-tabs > li > a:hover {
+  text-decoration: underline;
+}
+#careLogoContainer {
+  margin-top: 0.56em;
+}
+#promotions .productPreviewImage a {
+  border: medium hidden !important;
+}
+#productContainer .productPreviewImage {
+  border: medium none !important;
+}
+.signInTitle h2 {
+  font-family: "GibsonSemiBold", Arial, Helvetica, sans-serif !important;
+  font-size: 22px !important;
+  font-weight: normal !important;
+  text-align: center !important;
+  text-transform: none !important;
+}
+.signInTitle {
+  padding: 15px 25px !important;
+}
+.signInNewCustomerWrapper {
+  min-height: 302px !important;
+  background: url("//images2.drct2u.com/content/images/homepages/JDW_signInBG_66px.jpg") repeat-x scroll center bottom transparent !important;
+}
+#signInContentContainer {
+  height: 370px !important;
+}
+.signInContainer .signInLinks a:link, .signInContainer .signInLinks a:visited {
+  color: #000000 !important;
+}
+.newCustomerLink {
+  border: 10px solid #f4f4f4 !important;
+}
+.btnContinue a, btnContinue a:link, .btnContinue a:visited {
+  color: #000000 !important;
+}
+.btnContinue a:hover, .btnContinue a:visited {
+  text-decoration: none !important;
+}
+td.largetitle {
+  font-family: "GibsonRegular", Arial, Helvetica, sans-serif !important;
+  font-size: 33px !important;
+  font-weight: normal !important;
+  padding-top: 20px !important;
+  text-transform: none !important;
+  color: #000000;
+}
+td.acctssubtitle {
+  color: #000000;
+}
+td a.smalllink {
+  font-family: "FunctionProBook", Arial, Helvetica, sans-serif !important;
+  font-size: 16px !important;
+  font-weight: normal !important;
+  float: left;
+  width: 370px;
+  margin-bottom: 5px;
+  margin-left: 20px;
+  padding: 5px 5px 5px 14px;
+  text-decoration: none;
+  text-transform: none !important;
+  color: #000000;
+  background: none repeat scroll 0 0 #f4f4f4;
+}
+td a.smalllink:hover {
+  text-decoration: underline;
+  color: #d91473;
+}
+#helpPages h1, #balanceAndPayment h1 {
+  font-family: "GibsonSemiBold", Arial, Helvetica, sans-serif !important;
+  font-size: 26px !important;
+  font-weight: normal;
+  padding: 8px 0 0 5px !important;
+  text-align: center;
+  text-transform: uppercase !important;
+  color: #000000 !important;
+  background-color: #f4f4f4 !important;
+}
+.helpheading {
+  font-family: "GibsonSemiBold", Arial, Helvetica, sans-serif !important;
+  font-size: 17px !important;
+  font-weight: normal !important;
+  padding-top: 10px;
+  text-transform: none !important;
+}
+a.helpsubjectlink {
+  margin-bottom: 4px;
+  text-decoration: none !important;
+}
+a.helptopiclink {
+  text-decoration: none !important;
+  color: #d91473;
+}
+#helpcontainer .helpheading {
+  font-size: 19px !important;
+  color: #d91473;
+}
+div#helpcontainer, div#helpaltcontainer {
+  width: 500px;
+  padding-left: 50px !important;
+  border-left: 2px solid #cccccc !important;
+}
+#checkoutPageTitleBar h1 {
+  font-family: "GibsonSemiBold", Arial, Helvetica, sans-serif !important;
+  font-size: 24px !important;
+  font-weight: normal !important;
+  line-height: 100%;
+  height: auto;
+  margin: 10px 3px 3px 10px !important;
+  text-transform: none;
+  color: #54565b;
+}
+.productPriceInfotxt2 {
+  color: #000000 !important;
+}
+.totalColumnNowTxt {
+  color: #000000 !important;
+}
+.totalColumn, .incentivesTotalColumn {
+  background-color: #f4f4f4 !important;
+}
+#prodHeader h2 {
+  font-family: "GibsonRegular", Arial, Helvetica, sans-serif !important;
+  font-size: 21px !important;
+  font-weight: normal !important;
+  margin: 3px 0 0 !important;
+  text-transform: none;
+}
+#promotionInner {
+  background-color: #f4f4f4 !important;
+}
+#promotionInner h2 {
+  font-family: "GibsonSemiBold", Arial, Helvetica, sans-serif !important;
+  font-size: 20px !important;
+  font-weight: normal !important;
+  text-transform: none;
+}
+#prodHeaderTotal {
+  background-color: #f4f4f4 !important;
+}
+.commonBoxCurveContainer {
+  border: 0 none;
+}
+.sbTotalCostTintedBg {
+  background-color: #f4f4f4 !important;
+}
+#totalCostInner {
+  background-color: #f4f4f4 !important;
+}
+#viewBagFooterTitle h1 {
+  font-family: "GibsonSemiBold", Arial, Helvetica, sans-serif !important;
+  font-size: 20px !important;
+  font-weight: normal !important;
+  text-transform: none;
+  color: #54565b;
+}
+.basketEntry {
+  margin-top: 5px !important;
+  margin-bottom: 20px !important;
+}
+#eMeLandingPanel {
+  width: 840px !important;
+  height: 230px;
+}
+#eMeLandingPanel .commonBoxCurveContainer {
+  width: 850px !important;
+}
+#eMeLandingHead {
+  border: 0 none !important;
+  background: none repeat scroll 0 0 #ffffff !important;
+}
+#eMeLandingHead h2 {
+  font-family: "GibsonSemiBold", Arial, Helvetica, sans-serif !important;
+  font-size: 30px !important;
+  font-weight: normal;
+  line-height: 35px !important;
+  width: 330px;
+  padding: 12px 0 0 269px !important;
+  text-transform: none;
+  color: #000000 !important;
+}
+.commonBoxCurveContainer {
+  border: 0 none;
+  background: none repeat scroll 0 0 transparent !important;
+}
+.commonCurveLT {
+  display: none !important;
+}
+.commonCurveRT {
+  display: none !important;
+}
+.commonCurveLB {
+  display: none !important;
+}
+.commonCurveRB {
+  display: none !important;
+}
+#eMeNewCustomer {
+  left: 60px !important;
+}
+#eMeNewCustomer h2 {
+  font-family: "GibsonSemiBold", Arial, Helvetica, sans-serif !important;
+  font-size: 24px !important;
+  font-weight: normal !important;
+  width: 350px !important;
+  padding: 61px 77px 13px !important;
+  text-transform: none;
+  color: #000000 !important;
+}
+#eMeNewCustomer .commonBoxCurveContainer, #eMeExistingCustomer .commonBoxCurveContainer {
+  width: 350px !important;
+  height: 200px !important;
+  border: 1px solid #dedcdc !important;
+}
+#eMeNewCustomerBtnContainer {
+  float: left !important;
+  margin: 7px 0 0 119px !important;
+}
+#eMeExistingCustomer {
+  top: 30px !important;
+  left: 60px !important;
+  float: left !important;
+  width: 300px !important;
+  margin-left: 22px !important;
+}
+#eMeExistingCustomer p {
+  position: relative;
+  margin: 10px 38px !important;
+  padding: 18px 0 0 !important;
+  text-align: center;
+}
+#eMeExistingCustomer p span {
+  color: #d91473;
+}
+#eMeExistingCustomer p a {
+  float: left;
+  margin-left: 48px !important;
+}
+#eMeExistingCustomer p span:hover {
+  text-decoration: none !important;
+}
+#existingCustomerHead {
+  border: 0 none !important;
+  background: none repeat scroll 0 0 transparent !important;
+}
+#existingCustomerHead h2 {
+  font-family: "GibsonSemiBold", Arial, Helvetica, sans-serif !important;
+  font-size: 24px !important;
+  font-weight: normal !important;
+  width: 350px !important;
+  padding: 40px 77px 21px !important;
+  text-transform: none;
+  color: #000000 !important;
+}
+.commonBtnNoStyleTinted a:hover {
+  text-decoration: none !important;
+}
+ul#siteInfoList {
+  top: 15px !important;
+  left: 655px !important;
+}
+ul#siteInfoList li a {
+  width: 100px !important;
+  margin: 4px 6px 0 -3px;
+}
+#navCategories-8 h2, #imageListContainer h3, .heroProdContainer h3, #categoryNav h3 {
+  font-family: "GibsonRegular", Arial, Helvetica, sans-serif !important;
+  font-size: 16px !important;
+  font-weight: normal !important;
+  float: left !important;
+  width: 50% !important;
+  margin: 1px 0 1px 1px !important;
+  text-transform: uppercase !important;
+  color: #ffffff !important;
+  background-color: #000000 !important;
+  background-image: none !important;
+}
+#categoryNav h2.viewAll {
+  font-family: "GibsonLight", Arial, Helvetica, sans-serif !important;
+  font-weight: normal !important;
+  float: left !important;
+  width: 48.2% !important;
+  margin: 1px 1px 1px 0 !important;
+  text-align: right !important;
+  background: none repeat scroll 0 0 #000000 !important;
+}
+#categoryNav h2.viewAll a {
+  color: #ffffff !important;
+}
+a.chatButton {
+  font-family: Arial, Helvetica, sans-serif;
+  display: block;
+  width: 110px;
+  padding: 6px;
+  text-decoration: none;
+  color: #ffffff;
+  border-width: 1px;
+  border-color: #ee529d;
+  border-radius: 4px 4px 4px 4px;
+  background-color: #ee529d;
+}
+a.chatButton:hover {
+  color: #ffffff;
+}
+#guidedNav-8 .refinementHeader {
+  width: 93% !important;
+}
+#guidedNav-8 a.clearRefinement {
+  font-size: 12px;
+  right: -7px !important;
+  text-transform: lowercase;
+}
+.sign-in-form-wrapper .primary form, .sign-in-form-wrapper .secondary form {
+  border-top: 8px solid #ffffff !important;
+}
+.sign-in-form-wrapper .secondary form.new-customer a {
+  background-color: #ee529d !important;
+}
+.sign-in-form-wrapper .button {}
+.sign-in-form-wrapper .button span {
+  font-family: "GibsonRegular", Arial, Helvetica, sans-serif !important;
+  font-size: 16px !important;
+  font-weight: normal !important;
+}
+#signinForm h2.title, .newCustomerContainer h3.title {
+  font-family: "BodoniDisplayDemi";
+  font-size: 2.5rem;
+  font-weight: normal !important;
+  text-transform: uppercase;
+}
+.C10_cartridge .cartridgeTitle {
+  width: 102.4% !important;
+  height: 26px;
+  background-color: #54565b !important;
+}
+.C10_cartridge .cartridgeTitle h2.viewAll {
+  font-family: "BodoniDisplayDemiItalic", Times, "Times New Roman", serif !important;
+  font-size: 18px;
+  font-weight: normal !important;
+  text-transform: none;
+  border: 0 none;
+}
+.C10_cartridge .cartridgeTitle h2.viewAll a:after {
+  font-size: 20px;
+  margin: 0 0.25em 0.2em 0.2em !important;
+}
+.C10_cartridge .cartridgeTitle h2.viewAll a {
+  color: #ffffff !important;
+}
+.C10_cartridge .cartridgeTitle h2 {
+  font-family: "BodoniDisplayDemi", Times, "Times New Roman", serif !important;
+  font-size: 17px !important;
+  font-weight: normal !important;
+  margin-left: 10px !important;
+  text-transform: uppercase;
+  color: #ffffff !important;
+}
+.C10_cartridge .cartridgeTitle h2.viewAll:before {
+  content: none !important;
+}
+.C10_cartridge .cartridgeTitle h2.viewAll a {
+  margin-top: -10px !important;
+  margin-right: 10px !important;
+}
+.C10_cartridge .cartridgeTitle h2.viewAll:before {
+  content: none !important;
+}
+.C10_cartridge .cartridgeTitle h2.viewAll a {
+  margin-top: -10px !important;
+  margin-right: 10px !important;
+}
+.C6_cartridge {
+  border-bottom: 1px solid #e2e2e2;
+}
+.productContainer {
+  margin-bottom: 40px;
+}
+.outfitBuilderWrap .addedToBagBox .prodAddedTitle h2 {
+  font-family: "GibsonRegular";
+  font-size: 1.9rem;
+  color: #3b3e40;
+}
+.outfitBuilderWrap .promotedProdsWrap .promotedProdsInnerWrap .outfitBuilderTitle {
+  font-family: "GibsonRegular";
+  float: left;
+  padding-bottom: 1rem;
+  color: #7a7878;
+}
+.outfitBuilderWrap .prodAddedShopBtn {
+  font-size: 1.5rem;
+  display: inline-block;
+  width: 43%;
+  padding: 1.1rem 0.3rem;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+  border-radius: 0 0 0 0;
+  background-color: #3b3e40;
+}
+.productPrice h3 {
+  font-family: "GibsonRegular";
+  font-size: 1.5em;
+  font-weight: normal;
+  line-height: 1.2em;
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+}
+h2.productCode {
+  font-family: "GibsonRegular";
+  font-size: 1.2em;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+#accordion h2 {
+  font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+  font-size: 1.8em;
+  font-weight: normal;
+  font-style: italic;
+  margin: 10px 0 0;
+  padding: 7px 7px 7px 15px;
+  cursor: pointer;
+  letter-spacing: normal;
+  text-transform: lowercase;
+  color: #ffffff;
+  border: 1px solid #54565b;
+  background-color: #54565b;
+  background-image: url("//images2.drct2u.com/content/images/productdetails/pdpAccordionExpand.png");
+  background-repeat: no-repeat;
+  background-position: right 10px top 8px;
+}
+#accordion h2.active {
+  border: 1px solid #54565b;
+}
+#accordion h2.multiBuy {
+  color: #ffffff;
+  background-color: #c4201d;
+}
+.productInfo #productReturnsContent p {
+  font-family: "GibsonRegular";
+  font-size: 15px;
+}
+.deliveryOptions thead th {
+  font-family: "GibsonRegular";
+  letter-spacing: 0;
+  background: none repeat scroll 0 0 #f4f4f4 !important;
+}
+.deliveryOptions th, .deliveryOptions td {
+  font-family: "GibsonRegular";
+  padding: 5px;
+  text-align: left;
+  border: 1px solid #dddddd;
+}
+element.style {
+  font-family: "GIbsonRegular";
+  display: block;
+}
+.totalPriceLabel {
+  font-family: "GibsonRegular";
+  font-weight: bold;
+  display: block !important;
+  float: left;
+  padding-right: 1rem;
+}
+#sizeGuideButton a {
+  font-family: "GibsonRegular";
+  padding-bottom: 6px;
+  background: url("//images2.drct2u.com/content/images/productdetails/sizeGuideMeasureIcon.png") repeat-x scroll center bottom transparent;
+}
+#addToWishListBtn {
+  font-family: "GibsonRegular";
+  position: relative !important;
+  top: 10px !important;
+  float: left !important;
+}
+a#addToBagBtn, .pdp-continueToCheckout {
+  font-family: "GibsonRegular", sans-serif;
+}
+a.btn.primaryBtn {
+  font-family: "GibsonRegular", sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+#totalPrice {
+  font-family: "GibsonRegular";
+  font-size: 18px;
+  font-weight: bold;
+  color: #3a981e;
+}
+.pdp-affinities h3 {
+  font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+  font-size: 1.8em;
+  font-weight: normal;
+  font-style: italic;
+  padding: 15px;
+  letter-spacing: normal;
+  text-transform: lowercase;
+  color: #ffffff;
+  background-color: #54565b;
+}
+.bv-cleanslate .bv-core-container-238 .bv-content-item .bv-author-profile .bv-inline-profile .bv-content-author-name {
+  float: left !important;
+  max-width: 65% !important;
+  margin: 0 !important;
+}
+.bv-cleanslate .bv-core-container-238 .bv-author, .bv-cleanslate .bv-core-container-238 .bv-popup-profull .bv-content-item .bv-content-author-name .bv-author {
+  font-family: "GibsonSemiBold", "Arial", "Helvetica", "sans-serif" !important;
+  font-size: 16px !important;
+  font-weight: 700 !important;
+  font-style: normal !important;
+  font-variant: normal !important;
+  line-height: 18px !important;
+  text-decoration: none !important;
+  text-transform: none !important;
+  color: #54565b !important;
+}
+.bv-cleanslate .bv-core-container-238 .bv-content-data-label-container .bv-content-data-label {
+  font-size: 14px !important;
+  font-weight: normal !important;
+}
+div.top-page {
+  display: none;
+}
+.sectionPolicies h1, .sectionWarranties h1, .sectionContact h1, .sitemap h1 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 48px;
+  font-weight: normal;
+  font-style: italic;
+  margin: 0 0 30px;
+  text-align: center;
+  text-transform: lowercase;
+  color: #231f20;
+}
+.sectionPolicies h2, .sectionPolicies h3, .sectionPolicies h4, .sectionPolicies p, .sectionPolicies li, .sectionPolicies > nav a, .sectionWarranties h2, .sectionWarranties h3, .sectionWarranties h4, .sectionWarranties p, .sectionWarranties li, .sectionWarranties > nav a, .sectionContact h2, .sectionContact h3, .sectionContact h4, .sectionContact p, .sectionContact li, .sectionContact > nav a, .sitemap h2, .sitemap h3, .sitemap h4, .sitemap p, .sitemap li, .sitemap > nav a {
+  font-family: "GibsonRegular", Arial, Helvetica, sans-serif;
+  letter-spacing: normal;
+  color: #231f20;
+}
+.sectionPolicies h2, .sectionWarranties h2, .sectionContact h2 {
+  font-size: 24px;
+}
+.sitemap h2 {
+  font-size: 18px;
+}
+.sectionPolicies h3, .sectionWarranties h3, .sectionContact h3, .sitemap h3 {
+  font-size: 21px;
+}
+.sectionPolicies h4, .sectionPolicies h5, .sectionPolicies h6, .sectionWarranties h4, .sectionWarranties h5, .sectionWarranties h6, .sectionContact h4, .sectionContact h5, .sectionContact h6, .sitemap h4, .sitemap h5, .sitemap h6 {
+  font-size: 18px;
+}
+.sectionPolicies p, .sectionWarranties p, .sectionContact p, .sitemap p {
+  font-size: 16px;
+}
+.sectionPolicies > nav a, .sectionWarranties > nav a, .sectionContact > nav a, .sitemap > nav a {
+  font-size: 16px;
+}
+.sitemap a {
+  padding: 2px 0;
+}
+.sitemap a:hover {
+  text-decoration: underline;
+}
+.sitemap h2 {
+  color: #ffffff !important;
+  background: none repeat scroll 0 0 #333333;
+}
+ul#primaryNav li a {
+  text-decoration: none;
+}
+#primaryNav .lingerie .navColumn a:hover {
+  background-color: #96d9e1 !important;
+}
+#primaryNav .mens .navColumn a:hover {
+  background-color: #ffdb8a !important;
+}
+#primaryNav .homeandgarden .navColumn a:hover {
+  background-color: #96d9e1 !important;
+}
+#guidedNav-8 .availableFiltersContainer ul li a span.count {
+  display: inline !important;
+  margin-left: 10px !important;
+  color: #333 !important;
+}
+/* PRODUCT COPY FIX */
+.ProductCopy {
+  font-size: 14px;
+}
+
+/* FLEXSLIDER OVERRIDES - RICH RELEVANCE */
+.flex-direction-nav a.flex-next, .flex-direction-nav a.flex-prev {
+  -webkit-transition: none;
+  transition: none;
+  opacity: 1;
+  outline: 0;
+  text-shadow: none;
+}
+.flex-direction-nav a.flex-next {
+  right: 0;
+}
+.flex-direction-nav a.flex-prev {
+  left: 0;
+}
+.flex-direction-nav a.flex-next:before, .flex-direction-nav a.flex-prev:before {
+  font-size: 24px;
+  padding: 6px 12px;
+  color: #ffffff;
+  background: #000000;
+  text-shadow: none;
+}
+.carouselContainer .flexslider:hover .flex-direction-nav .flex-next {
+  right: 0;
+  opacity: 1;
+}
+.carouselContainer .flexslider:hover .flex-direction-nav .flex-prev {
+  left: 0;
+  opacity: 1;
+}
+/* FLEXSLIDER OVERRIDES - END */
+/* ABOUT US: /shop/aboutus/aboutUsView.action?
+   Reference: www.wpguru.co.uk/2014/03/how-to-replace-and-add-html-text-elements-with-css/ */
+#menuHolder > #aboutUs > p:nth-child(7), #menuHolder > #aboutUs > p:nth-child(10) {
+  font-size: 0;
+}
+#menuHolder > #aboutUs > p:nth-child(2):after, #menuHolder > #aboutUs > p:nth-child(7):after, #menuHolder > #aboutUs > p:nth-child(10):after {
+  font-size: 16px;
+  white-space: pre-wrap;
+  text-indent: 0;
+}
+/* Hide Jobs link */
+#menuHolder > #aboutUs > p:nth-child(5) {
+  display: none;
+}
+#menuHolder > #aboutUs > p:nth-child(7):after {
+  content: "J D Williams & Company Limited trading as Ambrose Wilson.\a Registered office: Griffin House, 40 Lever Street, Manchester, M60 6ES.";
+}
+#menuHolder > #aboutUs > p:nth-child(10):after {
+  content: "J D Williams & Company Limited trading as Ambrose Wilson is authorised and regulated by the Financial Conduct Authority. Firm Reference Number: 311618.\a\a JD Williams & Company Limited is a member of the Finance Leasing Association (FLA), membership number 28727.\a\a The FLA Lending Code can be found at www.fla.org.uk";
+}
+/*--------------------
+PRODUCT ROUNDEL STYLING
+--------------------*/
+.sale-badge, .newin-badge, div[class*="3for2"] {
+  font-family: "GibsonRegular", Arial, Helvetica, sans-serif !important;
+  font-size: 13px;
+  font-weight: normal !important;
+  display: inline-block;
+  padding: 5px 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #fff;
+}
+.sale-badge {
+  background: #ff0041;
+}
+.newin-badge {
+  background: #326cb3;
+}
+div[class*="3for2"] {
+  background-color: #65666a;
+}
+.multibuy-badge, .bogof-badge {
+  font-family: "GibsonRegular", Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  font-weight: normal !important;
+  margin-top: 10px;
+  padding: 5px 10px;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #fff;
+  background: #b99ec2;
+}
+.productImage .overRoundel, div.belowImageRoundal {
+  display: none;
+}
+
+/* CHECKOUT DELIVERY BANNER */
+.view-bag-item .product-card.special-offer .view-bag-product-img {
+  background: url(//images2.drct2u.com/content/images/FGN/220421_unlimited_delivery.png) no-repeat center / 65% #E9E2DB;
+}
+.view-bag-item .product-card.special-offer .view-bag-product-img-delivery span:before {
+  background-image: none !important;
+}
+.view-bag-item .product-card.special-offer .view-bag-product-img span b {
+  display: none;
+}
+/* FLYOUT CHECKOUT DELIVERY BANNER */
+.gui-minibag-item .view-bag-product-img {
+  background: url(//images2.drct2u.com/content/images/FGN/220421_unlimited_delivery.png) no-repeat center / 65% #E9E2DB;
+}
+.gui-minibag-item .view-bag-product-img-delivery span:before {
+  background-image: none !important;
+}
+.gui-minibag-item .view-bag-product-img span b {
+  display: none;
+}
+
+/* Underline terms link - /shop/delivery-subscription/rv139/product/details/show.action? */
+.product-actions .delivery-subscription-btn {
+  color: #000;
+  text-decoration: underline;
+}
+/* Delivery image in My Account */
+.accountDeliverySubscriptionBanner img {
+  display: none;
+}
+
+/*----------------------
+REQUEST A CATALOGUE IMAGE
+----------------------*/
+#catalogueRequestFormContainer {
+  background-image: url(//images2.drct2u.com/content/images/FGN/220726_AWL_RequestaCatalogue.jpg) !important;
+}
+#guidedNav-8 .availableFiltersContainer .checkList a.checked:after {
+  position: absolute;
+  top: 8px;
+  left: 1px;
+  width: 12px;
+  height: 12px;
+  content: "";
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+/*----------------------
+LHN colour filter
+----------------------*/
+#guidedNav-8 #Colour-multiSelectBox li a span.count {
+  display: inline !important;
+  margin-left: 0px !important;
+  color: #333 !important;
+}
+#guidedNav-8 .availableFiltersContainer .checkList a:before, #guidedNav-8 .availableFiltersContainer .checkList .disabled:before {
+  position: relative;
+  top: 3px;
+  display: inline-block;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 14px;
+  height: 14px;
+  margin-right: 6px;
+  content: "";
+  border: 1px solid #adadad;
+  border-radius: 3px;
+}
+/* Checkbox Background Colours */
+#guidedNav-8 .availableFiltersContainer .checkList a[id$="Black"]:before {
+  background: #000000;
+}
+#guidedNav-8 .availableFiltersContainer .checkList a[id$="Natural"]:before {
+  background: #ffffff;
+}
+#guidedNav-8 .availableFiltersContainer .checkList a[id$="Blue"]:before {
+  background: #2196f3;
+}
+#guidedNav-8 .availableFiltersContainer .checkList a[id$="Orange"]:before {
+  background: #ff9800;
+}
+#guidedNav-8 .availableFiltersContainer .checkList a[id$="Brown"]:before {
+  background: #795548;
+}
+#guidedNav-8 .availableFiltersContainer .checkList a[id$="Pink"]:before {
+  background: #e91e63;
+}
+#guidedNav-8 .availableFiltersContainer .checkList a[id$="Cream"]:before {
+  background: #fff7df;
+}
+#guidedNav-8 .availableFiltersContainer .checkList a[id$="Purple"]:before {
+  background: #9c27b0;
+}
+#guidedNav-8 .availableFiltersContainer .checkList a[id$="Gold"]:before {
+  background: #ffd65e;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ffd65e), to(#febf04));
+  background: linear-gradient(to bottom, #ffd65e 0%, #febf04 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffd65e', endColorstr='#febf04', GradientType=0);
+}
+#guidedNav-8 .availableFiltersContainer .checkList a[id$="Red"]:before {
+  background: #f44336;
+}
+#guidedNav-8 .availableFiltersContainer .checkList a[id$="Green"]:before {
+  background: #8bc34a;
+}
+#guidedNav-8 .availableFiltersContainer .checkList a[id$="Silver"]:before {
+  background: #ffffff;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#e5e5e5));
+  background: linear-gradient(to bottom, #ffffff 0%, #e5e5e5 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#e5e5e5', GradientType=0);
+}
+#guidedNav-8 .availableFiltersContainer .checkList a[id$="Grey"]:before {
+  background: #9e9e9e;
+}
+#guidedNav-8 .availableFiltersContainer .checkList a[id$="White"]:before {
+  background: #ffffff;
+}
+#guidedNav-8 .availableFiltersContainer .checkList a[id$="Multi"]:before {
+  background: #00d819;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(1%, #00d819), color-stop(24%, #00d819), color-stop(25%, #f2ea00), color-stop(49%, #f2ea00), color-stop(50%, #358cff), color-stop(74%, #358cff), color-stop(75%, #ff0004), color-stop(75%, #ff0004));
+  background: linear-gradient(to bottom, #00d819 1%, #00d819 24%, #f2ea00 25%, #f2ea00 49%, #358cff 50%, #358cff 74%, #ff0004 75%, #ff0004 75%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00d819', endColorstr='#ff0004', GradientType=0);
+}
+#guidedNav-8 .availableFiltersContainer .checkList a[id$="Yellow"]:before {
+  background: #ffeb3b;
+}
+/* End Checkbox Background Colours */
+/* Checkmark Standard */
+#guidedNav-8 .availableFiltersContainer .checkList a.checked:after {
+  background: url("data:image/svg+xml,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22utf-8%22%3F%3E%0D%0A%3Csvg%20version%3D%221.1%22%20id%3D%22Layer_1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20x%3D%220px%22%20y%3D%220px%22%0D%0A%09%20viewBox%3D%220%200%20400%20400%22%20style%3D%22enable-background%3Anew%200%200%20400%20400%3B%22%20xml%3Aspace%3D%22preserve%22%3E%0D%0A%3Cpath%20d%3D%22M159.9%2C228.2l-73.5-73.5c-4.4-4.4-11.6-4.4-16%2C0l-38%2C38c-4.4%2C4.4-4.4%2C11.6%2C0%2C16L151.8%2C328c2.2%2C2.2%2C5.1%2C3.3%2C8%2C3.3%0D%0A%09c2.9%2C0%2C5.8-1.1%2C8-3.3l199.8-199.8c4.4-4.4%2C4.4-11.6%2C0-16l-38-38c-4.4-4.4-11.6-4.4-16%2C0L159.9%2C228.2z%22%2F%3E%0D%0A%3C%2Fsvg%3E");
+}
+/* Checkmark Colours */
+#guidedNav-8 .availableFiltersContainer .checkList a.checked[id$="Black"]:after, #guidedNav-8 .availableFiltersContainer .checkList a.checked[id$="Blue"]:after, #guidedNav-8 .availableFiltersContainer .checkList a.checked[id$="Orange"]:after, #guidedNav-8 .availableFiltersContainer .checkList a.checked[id$="Brown"]:after, #guidedNav-8 .availableFiltersContainer .checkList a.checked[id$="Pink"]:after, #guidedNav-8 .availableFiltersContainer .checkList a.checked[id$="Purple"]:after, #guidedNav-8 .availableFiltersContainer .checkList a.checked[id$="Red"]:after, #guidedNav-8 .availableFiltersContainer .checkList a.checked[id$="Green"]:after, #guidedNav-8 .availableFiltersContainer .checkList a.checked[id$="Grey"]:after, #guidedNav-8 .availableFiltersContainer .checkList a.checked[id$="Multi"]:after {
+  /* White Checkmark */
+  background: url("data:image/svg+xml,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22utf-8%22%3F%3E%0D%0A%3Csvg%20version%3D%221.1%22%20id%3D%22Layer_1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20x%3D%220px%22%20y%3D%220px%22%0D%0A%09%20viewBox%3D%220%200%20400%20400%22%20style%3D%22enable-background%3Anew%200%200%20400%20400%3B%22%20xml%3Aspace%3D%22preserve%22%3E%0D%0A%3Cpath%20fill%3D%22%23FFFFFF%22%20d%3D%22M159.9%2C228.2l-73.5-73.5c-4.4-4.4-11.6-4.4-16%2C0l-38%2C38c-4.4%2C4.4-4.4%2C11.6%2C0%2C16L151.8%2C328c2.2%2C2.2%2C5.1%2C3.3%2C8%2C3.3%0D%0A%09c2.9%2C0%2C5.8-1.1%2C8-3.3l199.8-199.8c4.4-4.4%2C4.4-11.6%2C0-16l-38-38c-4.4-4.4-11.6-4.4-16%2C0L159.9%2C228.2z%22%2F%3E%0D%0A%3C%2Fsvg%3E");
+}
+/* END Checkmark Colours */
+/* Credit tooltip styling in basket */
+.credit-tooltip, .credit-tooltip-container:before {
+  color: black !important;
+  background: white !important;
+}
+.credit-tooltip:before {
+  display: none !important
+}
+.credit-tooltip-container {
+  position: relative
+}
+.credit-tooltip-container:before {
+  content: '';
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: -9px;
+  right: 20px;
+  border-radius: 4px;
+  transform: rotate(45deg);
+  background: var(--nav-color-salmon, #000) !important;
+}
+a#ApplyNowCreditPreview, .credit-tooltip {
+  border: 2px solid var(--nav-color-salmon, #000) !important;
+}
+a#ApplyNowCreditPreview:hover {
+  background: var(--nav-color-salmon);
+  color: white !important;
+}
+.credit-tooltip a.gui-btn.gui-btn-white {
+  color: var(--nav-color-salmon, #000) !important;
+  border-color: var(--nav-color-salmon, #000) !important;
+}
+
+
+/* Smartphone extra styles */
+body.catalogueRequest #catalogueRequestFormContainer.Smartphone {
+    padding: 16px;
+    background-image: none!important;
+}
+body.catalogueRequest h1.Smartphone {
+    padding: 16px 16px 16px!important;
+    text-align: center;
+    max-width:94vw;
+}
+#catalogueRequestFormContainer.Smartphone .catalogue-request-header {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+}
+#catalogueRequestFormContainer.Smartphone .catalogue-request-header .gui-btn {
+    margin: 12px 0 0;
+}
+#catalogueRequestFormContainer.Smartphone .existingCustomer {
+	max-width: 100%;
+}
+#catalogueRequestFormContainer.Smartphone input,
+#catalogueRequestFormContainer.Smartphone select {
+	margin: 10px 0 5px;
+}
+#catalogueRequestFormContainer.Smartphone input[data-jdw-address="catalogueRequest-lookup-postcode"] {
+	max-width: 100%;
+}
+
+#catalogueRequestFormContainer .parsley-required {
+  padding: 0 10px !important;
+}
+
+@media all and (max-width: 425px) {
+/* Catalogue Request */
+body.catalogueRequest #catalogueRequestFormContainer.Smartphone {
+  padding: 0 !important;
+}
+#catalogueRequestFormContainer .catalogue-request-form {
+  max-width: 100vw !important;
+}
+#catalogueRequestFormContainer .parsley-required {
+  padding: 0 10px !important;
+}
+
+}
