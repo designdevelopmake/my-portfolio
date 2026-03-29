@@ -1,0 +1,65 @@
+#FreeFormatPage h1,
+#FreeFormatPage h2,
+#FreeFormatPage h3{
+margin: 0;
+}
+
+
+/*------------------------------------
+HEADER SECTION1
+------------------------- -------------*/
+#FreeFormatPage header a.moreCTA {
+    border: 1px solid #FFF;
+    color: #000;
+}
+#FreeFormatPage header h1 span.Text2{
+background: url("../images/Dark_Gold_Christmas.png") no-repeat center;
+}
+/*------------------------------------
+LIFESTYLE GENERIC
+--------------------------------------*/
+.Lifestyle .TextArea{		
+								background: url("../images/Gift.png") no-repeat scroll center center;
+								left: 8%;
+}
+.Lifestyle h3 span{				background: url("../images/Red_Christmas.png") no-repeat scroll center center;}
+.Lifestyle.Two{    				background: url(../images/Section2.jpg) no-repeat center; }
+
+.Lifestyle.Three{  				background: url(../images/Section3.jpg) no-repeat center; }
+.Lifestyle.Three .TextArea{ 	background: url("../images/Gift_Home.png") no-repeat top center;}
+.Lifestyle.Three h3 span {  	background: url("../images/Gold_Christmas.png") no-repeat scroll center center; }
+
+.Lifestyle.Four{    			background: url(../images/Section4.jpg) no-repeat right; }
+.Lifestyle.Four h3 span {    	background: url("../images/Fabulous.png") no-repeat center center;}
+.Lifestyle.Four .TextArea{ 		background: url("../images/Gift_Party.png") no-repeat top center;}
+.Lifestyle.Four .TextArea p{	background: #daccad;}
+.Lifestyle.Five{  				background: #daccad; }
+.Lifestyle.Five:hover{ 			background: #d71f36;}
+.Lifestyle.Five .Box{			background: url("../images/arrow.png") no-repeat 307px center;}
+.Lifestyle.Five h3 span.Text2 { background: url("../images/Black_Christmas.png") no-repeat 30px;}
+.Lifestyle.Five .TextArea {		background: url("../images/Bow.png") no-repeat center top;}
+.Lifestyle.Five .TextArea p{	background: #daccad;}
+
+/*------------------------------------
+SECTION2
+--------------------------------------*/
+.SectionTwo .Present{  			background: url(../images/bg.jpg) no-repeat;}
+.SectionTwo .Present h3 span{ 	background: url("../images/for.png") no-repeat center top;}
+.SectionTwo a.Product1{			background: url(../images/Box1.jpg) center top;}
+.SectionTwo a.Product2{			background: url(../images/Box2.jpg) top center no-repeat;}
+.SectionTwo a.Product2 span{	background: url("../images/for.png") no-repeat center top;}
+
+/*------------------------------------
+SECTION3
+--------------------------------------*/
+.SectionThree .Present{ 	 	background: url(../images/bg.jpg) no-repeat;}
+.SectionThree .Present h3 span{ background: url("../images/lingerie.png") no-repeat center top;}
+.SectionThree a.Product1{	 	background: url(../images/Box5.jpg);}
+.SectionThree a.Product2{	 	background: url(../images/Box4.jpg) top center no-repeat;}
+.SectionThree a.Product2 span{  background: url("../images/for.png") no-repeat center top;}
+/*------------------------------------
+SECTION4
+--------------------------------------*/
+.SectionFour .Present{  		background: url(../images/bg.jpg);}
+.SectionFour .Present h3 span{ 	background: url("../images/Winter.png") no-repeat center top;}
+.SectionFour a.Product1{		background: url(../images/Box6.jpg) no-repeat;}

@@ -1,0 +1,68 @@
+#sb-title-inner,#sb-info-inner,#sb-loading-inner,div.sb-message{font-family:"HelveticaNeue-Light","Helvetica Neue",Helvetica,Arial,sans-serif;font-weight:200;color:#fff;}
+#sb-container{position:fixed;margin:0;padding:0;top:0;left:0;z-index:9999;text-align:left;visibility:hidden;display:none;}
+#sb-overlay{position:relative;height:100%;width:100%;}
+#sb-wrapper{position:absolute;visibility:hidden;width:100px;}
+#sb-wrapper-inner{position:relative;border:1px solid #303030;overflow:hidden;height:100px;}
+#sb-body{position:relative;height:100%;}
+#sb-body-inner{position:absolute;height:100%;width:100%;}
+#sb-player.html{height:100%;overflow:auto;}
+#sb-body img{border:none;}
+#sb-loading{position:relative;height:100%;}
+#sb-loading-inner{position:absolute;font-size:14px;line-height:24px;height:24px;top:50%;margin-top:-12px;width:100%;text-align:center;}
+#sb-loading-inner span{background:url(/repo/common/desktopTablet/shadowbox/03-images/loading.gif) no-repeat;padding-left:34px;display:inline-block;}
+#sb-body,#sb-loading{background-color:#060606;}
+#sb-title,#sb-info{position:relative;margin:0;padding:0;overflow:hidden;}
+#sb-title,#sb-title-inner{height:26px;line-height:26px;}
+#sb-title-inner{font-size:16px;}
+#sb-info,#sb-info-inner{height:20px;line-height:20px;}
+#sb-info-inner{font-size:12px;}
+#sb-nav{float:right;height:16px;padding:2px 0;width:45%;}
+#sb-nav a{display:block;float:right;height:16px;width:16px;margin-left:3px;cursor:pointer;background-repeat:no-repeat;}
+#sb-nav-close{background-image:url(/repo/common/desktopTablet/shadowbox/03-images/close.png);}
+#sb-nav-next{background-image:url(/repo/common/desktopTablet/shadowbox/03-images/next.png);}
+#sb-nav-previous{background-image:url(/repo/common/desktopTablet/shadowbox/03-images/previous.png);}
+#sb-nav-play{background-image:url(/repo/common/desktopTablet/shadowbox/03-images/play.png);}
+#sb-nav-pause{background-image:url(/repo/common/desktopTablet/shadowbox/03-images/pause.png);}
+#sb-counter{float:left;width:45%;}
+#sb-counter a{padding:0 4px 0 0;text-decoration:none;cursor:pointer;color:#fff;}
+#sb-counter a.sb-counter-current{text-decoration:underline;}
+div.sb-message{font-size:12px;padding:10px;text-align:center;}
+div.sb-message a:link,div.sb-message a:visited{color:#fff;text-decoration:underline;}
+/*----------------------ALTERATIONS----------------*/
+#sb-title, #sb-title-inner{height: 32px;}
+#sb-title-inner {
+text-align: right;
+font-size:17px;
+font-weight: 200;
+width: 100%;
+}
+a#sb-nav-next {
+    background: url("/repo/common/desktopTablet/shadowbox/03-images/next.png") no-repeat;
+    height: 70px !important;
+    position: fixed;
+    right: 0;
+    top: 45%;
+    width: 50px !important;
+}
+a#sb-nav-previous{ 
+	background: url("/repo/common/desktopTablet/shadowbox/03-images/previous.png") no-repeat;
+    height: 70px !important;
+    position: fixed;
+    left: 0;
+    top: 45%;
+    width: 50px !important;
+}
+a#sb-nav-close {
+    background: url("/repo/common/desktopTablet/shadowbox/03-images/close.png") no-repeat #000;
+    margin: 0 !important;
+    position: fixed;
+    right: 0;
+    top: 0;
+	border: 5px solid #000000;
+	height:23px;
+	width:23px;
+	float: right;
+	display: block;
+	cursor: pointer;
+}
+a#sb-nav-close:hover, a#sb-nav-previous:hover, a#sb-nav-next:hover { opacity:0.7;}

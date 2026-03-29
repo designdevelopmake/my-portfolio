@@ -1,0 +1,4027 @@
+/*  FSP Desktop Stylesheet
+    Clare Updated: 10:00 05/04/2022- FLYOUT CHECKOUT DELIVERY BANNER
+*/
+
+@font-face {
+    font-family: "GibsonSemiBold";
+    font-weight: normal;
+    font-style: normal;
+    src: url("//images.drct2u.com/content/stylesheets/Gibson-SemiBold-webfont.woff") format("woff");
+}
+
+@font-face {
+    font-family: "GibsonLight";
+    font-weight: normal;
+    font-style: normal;
+    src: url("//images.drct2u.com/repo/JDW/desktop/common/04-fonts/Gibson-Light-webfont.woff") format("woff");
+}
+
+@font-face {
+    font-family: "GibsonRegular";
+    font-weight: normal;
+    font-style: normal;
+    src: url("//images.drct2u.com/repo/JDW/desktop/common/04-fonts/Gibson-Regular-webfont.woff") format("woff");
+}
+
+@font-face {
+    font-family: "GalanoGrotesque-Regular";
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    src: url("//images.drct2u.com/repo/JDW/desktop/common/04-fonts/GalanoGrotesque/GalanoGrotesque-Regular-webfont.woff") format("woff");
+}
+
+@font-face {
+    font-family: "GalanoGrotesque-Medium";
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    src: url("//images.drct2u.com/repo/JDW/desktop/common/04-fonts/GalanoGrotesque/GalanoGrotesque-Medium-webfont.woff") format("woff");
+}
+
+@font-face {
+    font-family: "GalanoGrotesque-SemiBold";
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    src: url("//images.drct2u.com/repo/JDW/desktop/common/04-fonts/GalanoGrotesque/GalanoGrotesque-SemiBold-webfont.woff") format("woff");
+}
+
+@font-face {
+    font-family: "OPTIDiode";
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    src: url("//images.drct2u.com/repo/JDW/desktop/common/04-fonts/OPTIDiode/odiodep-webfont.woff") format("woff");
+}
+
+#maContentContainer {
+    clear: both;
+}
+
+body {
+    width: 100%;
+    height: auto;
+    background: none no-repeat scroll 0 0 #FFFFFF;
+}
+
+h1, h2, h3, h4, h1 span, .largetitle {
+    font-weight: normal !important;
+    color: #000000;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal !important;
+}
+h1, h2, h3, h4, h5, h6, p, a {
+    -webkit-font-smoothing: antialiased;
+}
+
+a,
+a:link,
+a:visited {
+    text-decoration: none !important;
+    color: #000000;
+}
+
+img a:link,
+img a:hover,
+img a:visited {
+    background-color: transparent;
+}
+
+.headerNav {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#primaryNav,
+#secondaryNav {
+    font-size: 0;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#primaryNav {
+    margin-bottom: 8px;
+}
+
+#primaryNav > li,
+#secondaryNav > li {
+    display: inline-block;
+    float: none;
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+}
+
+#primaryNav a {
+    text-decoration: none;
+}
+
+#primaryNav > li > a {
+    font: 12px/1 GalanoGrotesque-Medium, Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    padding: 12px 9px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+#primaryNav > li > a:hover {
+    color: #FFFFFF;
+}
+
+#primaryNav > li.newin:hover > a,
+#primaryNav > li.newin:focus > a,
+#primaryNav > li.holiday:hover > a,
+#primaryNav > li.holiday:focus > a {
+    color: white;
+    background-color: #424242;
+}
+#primaryNav > li.outlet:hover > a,
+#primaryNav > li.clearance:hover > a,
+#primaryNav > li.outlet:focus > a,
+#primaryNav > li.clearance:focus > a {
+    color: white;
+    background-color:#ed1b24;
+}
+
+
+#primaryNav > .holiday .navColumnContainer,
+#primaryNav > .outlet .navColumnContainer,
+#primaryNav > .clearance .navColumnContainer {
+    border-color: #424242;
+}
+
+#primaryNav > li.fashion:hover > a,
+#primaryNav > li.fashion:focus > a,
+#primaryNav > li.accessories:hover > a,
+#primaryNav > li.accessories:focus > a,
+#primaryNav > li.footwear:hover > a,
+#primaryNav > li.footwear:focus > a,
+#primaryNav > li.lingerie:hover > a,
+#primaryNav > li.lingerie:focus > a {
+    color: white;
+    background-color: #C25480;
+}
+
+#primaryNav > .fashion .navColumnContainer,
+#primaryNav > .accessories .navColumnContainer,
+#primaryNav > .footwear .navColumnContainer,
+#primaryNav > .lingerie .navColumnContainer {
+    border-color: #C25480;
+}
+
+#primaryNav > li.menswear:hover > a,
+#primaryNav > li.menswear:focus > a {
+    color: white;
+    background-color: #78C6BF;
+}
+
+#primaryNav > .menswear .navColumnContainer {
+    border-color: #78C6BF;
+}
+
+#primaryNav > li.kidsandtoys:hover > a,
+#primaryNav > li.kidsandtoys:focus > a {
+    color: white;
+    background-color: #FBB900;
+}
+
+#primaryNav > .kidsandtoys .navColumnContainer {
+    border-color: #FBB900;
+}
+
+#primaryNav > li.home:hover > a,
+#primaryNav > li.home:focus > a {
+    color: white;
+    background-color: #8A962B;
+}
+
+#primaryNav > .home .navColumnContainer {
+    border-color: #8A962B;
+}
+
+#primaryNav > li.electricals:hover > a,
+#primaryNav > li.electricals:focus > a {
+    color: white;
+    background-color: #744D68;
+}
+
+#primaryNav > .electricals .navColumnContainer {
+    border-color: #744D68;
+}
+
+#primaryNav > li.gifts:hover > a,
+#primaryNav > li.gifts:focus > a {
+    color: white;
+    background-color: #000000;
+}
+
+#primaryNav > .gifts .navColumnContainer {
+    border-color: #000000;
+}
+#primaryNav > li.brands:hover > a, #primaryNav > li.brands:focus > a {
+   background-color: #000; }
+
+#primaryNav > li.christmas:hover > a,
+#primaryNav > li.christmas:focus > a {
+    color: white;
+    background-color: #B89E54;
+}
+
+#primaryNav > .christmas .navColumnContainer {
+    border-color: #B89E54;
+}
+
+#secondaryNav {
+    font-size: 0;
+    margin-bottom: 0;
+}
+
+#secondaryNav > li {
+    display: inline-block;
+    width: 25%;
+    vertical-align: top;
+}
+
+#secondaryNav > li > a {
+    font: 13px/1 GalanoGrotesque-Regular, Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    display: block;
+    padding: 7px 0;
+    text-align: center;
+    text-transform: uppercase;
+    color: #433D3D;
+}
+
+#secondaryNav > li > a:after {
+    font: 12px/1 GalanoGrotesque-Regular, Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    display: block;
+    padding: 0;
+    text-transform: none;
+    color: #6E6E6E;
+}
+
+#secondaryNav li:nth-child(1)  a:after {
+    content: "For style for life";
+}
+#secondaryNav li:nth-child(2)  a:after {
+    content: "Fashion that fits and flatters";
+}
+#secondaryNav li:nth-child(3)  a:after {
+    content: "With a lifestore account";
+}
+#secondaryNav li:nth-child(4)  a:after {
+    content: "Order by 10pm";
+}
+
+#primaryNav .navColumnContainer {
+    top: 39px;
+}
+
+#primaryNav .navColumnContainer,
+#secondaryNav .navColumnContainer {
+    font-size: 0;
+    width: auto;
+    padding: 30px 0;
+    border-width: 5px medium medium;
+    border-style: solid none none;
+    border-color: black -moz-use-text-color -moz-use-text-color;
+    -o-border-image: none;
+       border-image: none;
+    -webkit-box-shadow: 0 28px 33px -8px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 28px 33px -8px rgba(0, 0, 0, 0.25);
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+}
+#LM_topNavigation #primaryNav .navColumnContainer {
+    left:50% !important;
+    width:1000px !important;
+    -webkit-transform:translateX(-50%)!important;
+            transform:translateX(-50%)!important;
+        }
+#LM_topNavigation #primaryNav .navColumn {
+    margin: 0 25px 0 0;
+}
+#primaryNav .navColumn,
+#secondaryNav .navColumn {
+    display: inline-block;
+    float: none;
+    width: 200px;
+    margin: 0 62px 0 0;
+    text-align: left;
+    vertical-align: top;
+}
+
+#primaryNav .navColumnContainer .navColumn:first-child,
+#secondaryNav .navColumnContainer .navColumn:first-child {
+    margin-left: 0;
+}
+
+#primaryNav .navColumnContainer .categoryHeading,
+#secondaryNav .navColumnContainer .categoryHeading {
+    font-family: "GalanoGrotesque-SemiBold", Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: normal;
+    padding: 3px;
+    letter-spacing: normal;
+    text-transform: uppercase;
+    color: #433D3D;
+    border-bottom: 1px solid #000000;
+}
+
+#primaryNav .navColumn li:last-child {
+    margin-bottom: 20px;
+}
+
+.mainNav .navGroup {
+    margin: 0;
+}
+
+.mainNav .navGroup li:first-child a {
+    margin-top: 5px;
+}
+
+#primaryNav .navColumn a {
+    font: 14px "GalanoGrotesque-Regular", Arial, Helvetica, sans-serif;
+    position: relative;
+    display: block;
+    padding: 2px 3px;
+    text-transform: capitalize;
+    color: #433D3D;
+}
+
+#primaryNav .navColumn .categoryHeading a,
+#primaryNav .navColumn .subCategoryHeading a {
+    font-family: "GalanoGrotesque-SemiBold", Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: normal !important;
+    line-height: normal;
+    position: relative;
+    display: block;
+    padding: 3px;
+    text-decoration: none;
+    letter-spacing: normal;
+    text-transform: uppercase;
+    color: #433D3D;
+    border-bottom: 1px solid #000000;
+}
+
+#primaryNav .navColumn4 .subCategoryHeading a {
+    margin-bottom: 20px;
+    border-bottom: 0 none;
+}
+
+#primaryNav .outlet .navColumn4 .subCategoryHeading a,
+#primaryNav .clearance .navColumn4 .subCategoryHeading a  {
+    height: auto;
+    margin-bottom: 0;
+    padding: 3px !important;
+    border-bottom: 1px solid #000000;
+}
+
+#primaryNav .navColumn a:after {
+    position: absolute;
+    right: 0.75em;
+    -webkit-transition: all 300ms ease 0s;
+    transition: all 300ms ease 0s;
+    -webkit-transform: scale(0.65, 1.3);
+            transform: scale(0.65, 1.3);
+    opacity: 0;
+}
+
+#primaryNav .fashion .navColumn a:hover {
+    color: white;
+    background-color: #C25480;
+}
+
+#primaryNav .accessories .navColumn a:hover {
+    color: white;
+    background-color: #C25480;
+}
+
+#primaryNav .footwear .navColumn a:hover {
+    color: white;
+    background-color: #C25480;
+}
+
+#primaryNav .lingerie .navColumn a:hover {
+    color: white;
+    background-color: #C25480;
+}
+
+#primaryNav .menswear .navColumn a:hover {
+    color: white;
+    background-color: #78C6BF;
+}
+
+#primaryNav .kidsandtoys .navColumn a:hover {
+    color: white;
+    background-color: #FBB900;
+}
+
+#primaryNav .home .navColumn a:hover {
+    color: white;
+    background-color: #8A962B;
+}
+
+#primaryNav .electricals .navColumn a:hover,
+#primaryNav .outlet .navColumn a:hover ,
+#primaryNav .clearance .navColumn a:hover {
+    color: white;
+    background-color: #744D68;
+}
+
+#primaryNav .gifts .navColumn a:hover {
+    color: white;
+    background-color: #000000;
+}
+
+
+#primaryNav > li.sale:hover > a,
+#primaryNav > li.sale:focus > a {
+    color: white;
+    background-color: #ed1b24;
+}
+
+#primaryNav > .sale .navColumnContainer {
+    border-color: #ed1b24;
+}
+
+#primaryNav > li.sale > a {
+    color: #ed1b24;
+    background-color: #fff;
+}
+
+#primaryNav .holiday .navColumn a:hover,
+#primaryNav .outlet .navColumn a:hover,
+#primaryNav .clearance .navColumn a:hover,
+#primaryNav .outlet .navColumn4 .subCategoryHeading a:hover,
+#primaryNav .clearance .navColumn4 .subCategoryHeading a:hover  {
+    color: white;
+    background-color: #424242;
+}
+
+#primaryNav .navColumn4 .subCategoryHeading a:hover {
+    background-color: transparent;
+}
+
+#primaryNav li .navColumnContainer .navColumn4 div a:last-child:after {
+    display: none;
+}
+
+#primaryNav li .navColumnContainer .navColumn4 div a:last-child {
+    padding: 0;
+}
+
+.mainNav .navColumnContainer {
+    -webkit-transition-delay: 0s;
+    transition-delay: 0s;
+}
+
+.page-overlay {
+    visibility: hidden;
+    -webkit-transition-delay: 0s;
+    transition-delay: 0s;
+    -webkit-transition-timing-function: ease-in-out, ease-in-out;
+    transition-timing-function: ease-in-out, ease-in-out;
+    -webkit-transition-duration: 0.2s, 0.2s;
+    transition-duration: 0.2s, 0.2s;
+    -webkit-transition-property: opacity, visibility;
+    transition-property: opacity, visibility;
+    opacity: 0;
+}
+
+.page-overlay.show-overlay {
+    visibility: visible;
+    opacity: 1;
+}
+
+#primaryNav li .navColumnContainer .navColumn4 div a {
+    display: block;
+    height: 118px;
+    text-indent: -9999px;
+    background-image: url("//images2.drct2u.com/content/images/homepages/171017-JDW-DD-sprite.jpg");
+    background-repeat: no-repeat;
+}
+
+#primaryNav .fashion_image a {
+    background-position: 0 0;
+}
+
+#primaryNav .fashion_image2 a {
+    background-position: 0 -138px;
+}
+
+#primaryNav .accessories_image a {
+    background-position: -220px 0;
+}
+
+#primaryNav .accessories_image2 a {
+    background-position: -220px -138px;
+}
+
+#primaryNav .footwear_image a {
+    background-position: -440px 0;
+}
+
+#primaryNav .footwear_image2 a {
+    background-position: -440px -138px;
+}
+
+#primaryNav .lingerie_image a {
+    background-position: -660px 0;
+}
+
+#primaryNav .lingerie_image2 a {
+    background-position: -660px -138px;
+}
+
+#primaryNav .menswear_image a {
+    background-position: -880px 0;
+}
+
+#primaryNav .menswear_image2 a {
+    background-position: -880px -138px;
+}
+
+#primaryNav .kids_image a {
+    background-position: -1100px 0;
+}
+
+#primaryNav .kids_image2 a {
+    background-position: -1100px -138px;
+}
+
+#primaryNav .home_image a {
+    background-position: -1320px 0;
+}
+
+#primaryNav .home_image2 a {
+    background-position: -1320px -138px;
+}
+
+#primaryNav .electricals_image a {
+    background-position: -1540px 0;
+}
+
+#primaryNav .electricals_image2 a {
+    background-position: -1540px -138px;
+}
+
+#primaryNav .gifts_image a {
+    background-position: -1760px 0;
+}
+
+#primaryNav .gifts_image2 a {
+    background-position: -1760px -128px;
+}
+
+#primaryNav .outlet .navColumnContainer .navColumn4 div a,
+#primaryNav .clearance .navColumnContainer .navColumn4 div a {
+    text-indent: 0;
+    background-image: none;
+}
+
+.qtip {
+    top: 83px !important;
+    margin: 0 0 0 2px;
+}
+
+.qtip .qtip-content {
+    padding: 0 !important;
+}
+
+#minibagOuter {
+    padding-top: 23px;
+}
+
+#minibagOuter > #minibagOuter {
+    padding-top: 0 !important;
+}
+
+#miniBagFooterCapTopLeft,
+#miniBagFooterCapBotLeft,
+#miniBagFooterCapBotRight {
+    display: none !important;
+}
+
+#miniBagFooterCapTopRight {
+    position: absolute;
+    top: 2px;
+    right: 135px;
+    display: block;
+    width: 26px;
+    height: 23px;
+    background-image: url("//images2.drct2u.com/content/common/images/commongui/mini-bag-arrow.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#miniBagContainer {
+    width: auto !important;
+    padding: 10px;
+}
+
+#recentlyViewed {
+    width: auto !important;
+    margin: 0;
+}
+
+#miniBag {
+    font-family: "GalanoGrotesque-Regular", Arial, Helvetica, sans-serif;
+    width: 245px;
+    margin: 0 0 0 10px;
+    border: 1px solid #666666;
+    background: none repeat scroll 0 0 transparent;
+}
+
+#miniBagContainer #recentTitle p,
+#miniBagTitle p,
+#recentlyViewed #miniBagEmptyMessage,
+#miniBagContainer .itemName p {
+    font-family: "GalanoGrotesque-Regular", Arial, Helvetica, sans-serif;
+}
+
+#miniBagContainer .itemPrice #miniBagContainer .wasPrice,
+#miniBagContainer .mbPricing {
+    font-family: "GalanoGrotesque-SemiBold", Arial, Helvetica, sans-serif;
+}
+
+#miniBag .boxCurveContainer {
+    background-color: #FFFFFF;
+}
+
+#miniBagContainer {
+    border: 2px solid #CFCFCF !important;
+    background-color: #FFFFFF !important;
+}
+
+#miniBagContainer .curveLT,
+#miniBagContainer .curveRT,
+#miniBagContainer .curveLB,
+#miniBagContainer .curveRB {
+    background: none repeat scroll 0 0 transparent !important;
+}
+
+#miniBagContainer .boxCurveContainer {
+    width: 244px;
+    border: medium none;
+}
+
+#miniBagContainer #recentTitle {
+    height: 35px;
+    background-color: #F3F3F3;
+}
+
+#miniBagContainer #miniBagTitle {
+    width: 245px;
+    height: 35px;
+    background: none repeat scroll 0 0 #424242;
+}
+
+#miniBagTitle p {
+    padding: 9px 0 0;
+    text-align: center;
+    text-transform: uppercase !important;
+    color: #FFFFFF !important;
+}
+
+#miniBagContainer #recentTitle p {
+    padding: 9px 0 0;
+    text-align: center;
+    text-transform: uppercase !important;
+    color: #424242;
+}
+
+#miniBagContainer .mbItemFragment {
+    border: medium none;
+}
+
+.commonBtnContinueTinted a,
+.commonBtnContinueTinted a:link,
+.commonBtnContinueTinted a:visited,
+.commonBtnNoStyle a,
+.commonBtnForward a,
+.commonBtnForward a:link,
+.smallBtnGeneric a,
+.smallBtnGeneric a:link,
+.smallBtnGeneric a:visited,
+.smallBtnView a,
+.smallBtnView a:link,
+.smallBtnView a:visited {
+    font-family: "GalanoGrotesque-Regular", Arial, Helvetica, sans-serif !important;
+}
+
+.qtip .smallBtnGeneric .smallBtnCapLt {
+    display: none;
+}
+
+.qtip .smallBtnGeneric .smallBtnCapRt {
+    display: none;
+}
+
+.qtip .smallBtnGeneric a,
+.smallBtnGeneric a:link,
+.qtip .smallBtnGeneric a:visited {
+    font-size: 10px !important;
+    padding: 0 7px !important;
+    text-decoration: none;
+    text-transform: uppercase !important;
+    border-right: 1px solid #3A981E;
+    border-left: 1px solid #3A981E;
+    background-image: url("/repo/CGN/desktop/header/02-images/CGN_btnSmallBg_green.gif");
+}
+
+.qtip .commonBtnContinueTinted a,
+.qtip .commonBtnContinueTinted a:link,
+.qtip .commonBtnContinueTinted a:visited {
+    line-height: 28px !important;
+    width: 210px !important;
+    padding: 0 !important;
+}
+
+.qtip .remove a {
+    border-right: 1px solid #FF232D !important;
+    border-left: 1px solid #FF232D !important;
+    background-image: url("//images2.drct2u.com/content/images/FGN/JDW_btnSmallBg_red.gif") !important;
+}
+
+.qtip .remove a:hover {
+    color: #000000 !important;
+}
+
+#LPT3_breadcrumbTop1 {
+    display: block !important;
+}
+
+#breadcrumbNav {
+    margin: 0;
+}
+
+#breadcrumbNav li,
+#breadcrumbNav div.breadcrumbDiv {
+    padding-right: 13px;
+    background-image: url("//images2.drct2u.com/content/common/images/commongui/breadcrumbDoubleForwardSlash_relaunch_AW17.png");
+    background-repeat: no-repeat;
+    background-position: right -129px;
+}
+
+#breadcrumbNav a {
+    font-family: "GalanoGrotesque-Regular", Arial, Helvetica, sans-serif;
+    font-size: 11px !important;
+    font-weight: normal !important;
+    text-decoration: none;
+    color: #000000;
+}
+
+#breadcrumbNav h1,
+#breadcrumbNav span {
+    font-family: "GalanoGrotesque-Regular", Arial, Helvetica, sans-serif;
+    font-size: 11px !important;
+    font-weight: normal !important;
+    color: #000000;
+}
+
+#LPT3_breadcrumbTop1 {
+    display: none;
+}
+
+.mainsitecolour {
+    background: none repeat scroll 0 0 #185B86;
+}
+
+.sidebartext {
+    color: #FFFFFF;
+}
+
+.acctssubtitle {
+    color: #185B86;
+}
+
+.qofheadingnumber {
+    color: #FFFFFF;
+}
+
+.qofheadingtitle {
+    color: #FFFFFF;
+}
+
+.productArea a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #B96511;
+}
+
+.productArea a:hover {
+    text-decoration: underline;
+    color: #E3BD83;
+}
+
+.productArea {
+    background-color: #FFEDDE;
+    background-image: url("//images2.drct2u.com/content/images/freeformat/SEO-Product-footerswirls.gif");
+    background-repeat: no-repeat;
+    background-position: 50% bottom;
+}
+
+.shopWindow a:hover {
+    background-color: transparent;
+}
+
+h1.LifestyleDefault {
+    font-size: 1.56em;
+    color: #FFFFFF;
+    background-color: #1E1E1E;
+    background-image: url("//images2.drct2u.com/content/images/freeformat/SEO-Product-header.gif");
+    background-repeat: no-repeat;
+    background-position: right 50%;
+}
+
+.category {
+    font-size: 0.88em;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.shopwindowfolder {
+    border: 1px solid #B96511;
+    background-color: #FFFFFF;
+}
+
+h2.LifestyleDefault {
+    font-size: 0.75em;
+    color: #FFFFFF;
+    background-color: #1E1E1E;
+}
+
+.marqueBox {
+    background-color: #E3BD83;
+}
+
+.marqueBox h2 {
+    color: #FFFFFF;
+}
+
+.pwHeader h2 {
+    font-size: 0.69em;
+    color: #FFFFFF;
+    background-color: #E3BD83;
+}
+
+h1.NoLifestyleDefault {
+    font-size: 1.56em;
+    color: #FFFFFF;
+    background-color: #1E1E1E;
+    background-image: url("//images2.drct2u.com/content/images/freeformat/SEO-Product-header.gif");
+    background-repeat: no-repeat;
+    background-position: right 50%;
+}
+
+.shopwindowfolder2 {
+    border: 1px solid #B96511;
+    background-color: #FFFFFF;
+}
+
+h2.NoLifestyleDefault {
+    font-size: 0.88em;
+    color: #FFFFFF;
+}
+
+h1.Catwalk {
+    font-size: 1.56em;
+    font-weight: normal;
+    color: #FFFFFF;
+    background-color: #1E1E1E;
+    background-image: url("//images2.drct2u.com/content/images/freeformat/SEO-Product-header.gif");
+    background-repeat: no-repeat;
+    background-position: right 50%;
+}
+
+h2.Catwalk {
+    font-size: 0.75em;
+    color: #FFFFFF;
+    background-color: #1E1E1E;
+}
+
+#guidedNav-8 {
+    font-family: "GalanoGrotesque-Regular";
+    line-height: 1.4em;
+    width: 190px !important;
+    margin: 0 0 5px !important;
+    padding: 0 !important;
+    border: 0 solid transparent !important;
+}
+
+#guidedNav-8 li,
+#guidedNav-8 li a,
+#guidedNav-8 li label {
+    font-size: 14px;
+}
+
+#guidedNav-8 a,
+#guidedNav-8 a:link,
+#guidedNav-8 a:visited {
+    font-weight: normal;
+}
+
+#guidedNav-8 a:hover {
+    color: #433D3D;
+}
+
+#guidedNav-8 p.narrowByTitle > span {
+    display: none;
+}
+
+#guidedNav-8 #selectedFilters p {
+    margin-bottom: 0;
+    padding: 7px 0;
+}
+
+#guidedNav-8 #currentSelection li {
+    font-family: "GalanoGrotesque-Regular", Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 1;
+    padding: 4px 0;
+    color: #433D3D;
+}
+
+#guidedNav-8 p.narrowByTitle a.clearRefinement,
+#guidedNav-8 #currentSelection li span a,
+#guidedNav-8 #availableFiltersWrapper p.refinementHeader a.clearRefinement {
+    font-family: "GalanoGrotesque-SemiBold", Arial, Helvetica, sans-serif !important;
+    font-size: 9px;
+    text-transform: uppercase;
+}
+
+#guidedNav-8 p.narrowByTitle a.clearRefinement,
+#guidedNav-8 #availableFiltersWrapper p.refinementHeader a.clearRefinement {
+    top: 2px;
+}
+
+#guidedNav-8 #availableFiltersWrapper p.refinementHeader a.clearRefinement {
+    right: 8px;
+    bottom: 9px;
+}
+
+#guidedNav-8 #availableFiltersWrapper .refinementHeader span {
+    padding: 0 5px 0 37px;
+    background-image: url("//images2.drct2u.com/content/images/FGN/170808-JDW-PLP-arrow-sprite.png");
+    background-position: 4px -48px;
+}
+
+#guidedNav-8 #availableFiltersWrapper .refinementHeader span.active {
+    background-position: 3px -89px;
+}
+
+#guidedNav-8 #selectedFilters #selectedFiltersHeader {
+    font-family: "GalanoGrotesque-SemiBold", Arial, Helvetica, sans-serif;
+    font-size: 13px !important;
+    font-weight: normal !important;
+    margin-bottom: 2px;
+    padding: 0;
+    text-transform: uppercase;
+    border-bottom: 2px solid #000000;
+}
+
+#guidedNav-8 #selectedFiltersHeader {
+    border-bottom: 2px solid #000000;
+}
+
+#guidedNav-8 .refinementHeader {
+    font-size: 14px !important;
+    font-weight: normal !important;
+    line-height: 1.4;
+    width: auto !important;
+    margin: 0;
+    padding: 10px 0 9px;
+    text-transform: capitalize;
+    border: 1px solid #DEDDDB !important;
+    border-radius: 3px 3px 3px 3px;
+    background-color: #FFFFFF !important;
+    -webkit-box-shadow: 1px 2px 1px #DEDDDB;
+    box-shadow: 1px 2px 1px #DEDDDB;
+}
+
+#guidedNav-8 .refinementHeader span {
+    font-family: "GalanoGrotesque-SemiBold", Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    text-transform: uppercase;
+    color: #433D3D;
+}
+
+#guidedNav-8 #availableFiltersWrapper .availableFiltersContainer {
+    margin-bottom: 8px;
+    padding: 7px 0;
+}
+
+#guidedNav-8 .availableFiltersContainer ul {
+    margin: 0;
+    padding: 0;
+}
+
+#guidedNav-8 .availableFiltersContainer ul li {
+    min-height: 1.8em;
+}
+
+#guidedNav-8 .availableFiltersContainer ul li,
+#guidedNav-8 .availableFiltersContainer ul li a,
+#guidedNav-8 .availableFiltersContainer ul li span {
+    font-family: "GalanoGrotesque-Medium", Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+#guidedNav-8 .availableFiltersContainer .checkList a.checked {
+    font-family: "GalanoGrotesque-SemiBold", Arial, Helvetica, sans-serif;
+}
+
+#guidedNav-8 .availableFiltersContainer .checkList a,
+#guidedNav-8 .availableFiltersContainer .checkList .disabled {
+    font-family: "GalanoGrotesque-Medium", Arial, Helvetica, sans-serif;
+    padding: 0.25em 0 0.25em 21px;
+    background-image: url("//images2.drct2u.com/content/common/images/commongui/checkListCheckBoxStates_relaunch_AW17-v2.png");
+    background-position: 0 8px;
+}
+
+#guidedNav-8 .availableFiltersContainer .checkList a:hover,
+#guidedNav-8 .availableFiltersContainer .checkList a:focus {
+    background-position: -200px 8px;
+}
+
+#guidedNav-8 .availableFiltersContainer .checkList a.checked.checked-new-in,
+#guidedNav-8 .availableFiltersContainer .checkList a.checked.checked-new-in:hover,
+#guidedNav-8 .availableFiltersContainer .checkList a.checked.checked-new-in:focus,
+#guidedNav-8 .availableFiltersContainer .checkList a.checked.checked-fashion,
+#guidedNav-8 .availableFiltersContainer .checkList a.checked.checked-fashion:hover,
+#guidedNav-8 .availableFiltersContainer .checkList a.checked.checked-fashion:focus,
+#guidedNav-8 .availableFiltersContainer .checkList a.checked.checked-accessories,
+#guidedNav-8 .availableFiltersContainer .checkList a.checked.checked-accessories:hover,
+#guidedNav-8 .availableFiltersContainer .checkList a.checked.checked-accessories:focus,
+#guidedNav-8 .availableFiltersContainer .checkList a.checked.checked-footwear,
+#guidedNav-8 .availableFiltersContainer .checkList a.checked.checked-footwear:hover,
+#guidedNav-8 .availableFiltersContainer .checkList a.checked.checked-footwear:focus,
+#guidedNav-8 .availableFiltersContainer .checkList a.checked.checked-lingerie,
+#guidedNav-8 .availableFiltersContainer .checkList a.checked.checked-lingerie:hover,
+#guidedNav-8 .availableFiltersContainer .checkList a.checked.checked-lingerie:focus {
+    color: #C25480;
+    background-position: -800px 8px;
+}
+
+#guidedNav-8 .availableFiltersContainer .checkList a.checked.checked-mens,
+#guidedNav-8 .availableFiltersContainer .checkList a.checked.checked-mens:hover,
+#guidedNav-8 .availableFiltersContainer .checkList a.checked.checked-mens:focus {
+    color: #78C6BF;
+    background-position: -600px 8px;
+}
+
+#guidedNav-8 .availableFiltersContainer .checkList a.checked.checked-kids-toys,
+#guidedNav-8 .availableFiltersContainer .checkList a.checked.checked-kids-toys:hover,
+#guidedNav-8 .availableFiltersContainer .checkList a.checked.checked-kids-toys:focus {
+    color: #FBB900;
+    background-position: -400px 8px;
+}
+
+#guidedNav-8 .availableFiltersContainer .checkList a.checked.checked-home-garden,
+#guidedNav-8 .availableFiltersContainer .checkList a.checked.checked-home-garden:hover,
+#guidedNav-8 .availableFiltersContainer .checkList a.checked.checked-home-garden:focus {
+    color: #8A962B;
+    background-position: -1000px 8px;
+}
+
+#guidedNav-8 .availableFiltersContainer .checkList a.checked.checked-electricals,
+#guidedNav-8 .availableFiltersContainer .checkList a.checked.checked-electricals:hover,
+#guidedNav-8 .availableFiltersContainer .checkList a.checked.checked-electricals:focus {
+    color: #744D68;
+    background-position: -1200px 8px;
+}
+
+#guidedNav-8 .availableFiltersContainer .checkList a.checked.checked-gifts,
+#guidedNav-8 .availableFiltersContainer .checkList a.checked.checked-gifts:hover,
+#guidedNav-8 .availableFiltersContainer .checkList a.checked.checked-gifts:focus {
+    color: black;
+    background-position: -1400px 8px;
+}
+
+/*#guidedNav-8 .availableFiltersContainer ul li span.count {display:none; }*/
+#guidedNav-8 .availableFiltersContainer ul li span.count {
+    font-size: 11px;
+    color: #999999
+}
+
+
+#guidedNav-8 #currentSelection li span,
+#guidedNav-8 #currentSelection li span a {
+    line-height: 1;
+    display: block;
+    padding-top: 2px;
+}
+
+#guidedNav-8 #Brand-multiSelectBoxWrapper .ln-letters a:hover {
+    color: #000000;
+    background: none repeat scroll 0 0 #E6F0F4;
+}
+
+#guidedNav-8 #Brand-multiSelectBoxWrapper .ln-letters a.ln-selected {
+    color: #000000;
+    background: none repeat scroll 0 0 #A3C9D9;
+}
+
+#guidedNav-8 #Brand-multiSelectBoxWrapper .ln-letters a {
+    border-radius: 0 0 0 0;
+}
+
+#guidedNav-8 #Brand-multiSelectBoxWrapper .listNav a {
+    padding: 1px 7px;
+}
+
+.hoverStyle {
+    border: 1px solid black;
+    background-color: white;
+}
+
+#searchResultsHeader {
+    width: 90%;
+    margin: 0 !important;
+    padding: 10px 5%;
+}
+
+#searchResultsHeader h2,
+#searchResultsHeader p {
+    text-align: center;
+    color: #000000;
+}
+
+#searchResultsHeader h2 {
+    font-family: "GalanoGrotesque-Regular", Arial, Helvetica, sans-serif, Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 0.9;
+    margin: 0 0 5px;
+    letter-spacing: normal;
+    text-transform: uppercase;
+}
+
+#searchResultsHeader #strapline {
+    font-family: "GalanoGrotesque-Regular", Arial, Helvetica, sans-serif, Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 18px;
+    position: relative;
+    left: -7px;
+    text-transform: none;
+}
+
+#searchResultsHeader p {
+    font-family: "GalanoGrotesque-Regular", Arial, Helvetica, sans-serif, Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 13px;
+    line-height: 1.5;
+    margin: 0;
+    letter-spacing: normal;
+}
+
+.resultsPages {
+    margin-top: 0 !important;
+    padding: 0;
+    background: none repeat scroll 0 0 #FFFFFF;
+}
+
+.resultsPages .productPages {
+    padding: 0;
+}
+
+.productSort {
+    width: 99%;
+    height: auto;
+    margin-top: 0 !important;
+    margin-bottom: 10px !important;
+    padding-top: 8px !important;
+    border: medium none;
+    background-color: #FFFFFF;
+}
+
+#sortByOptions {
+    position: relative;
+    height: auto;
+    margin-right: 160px;
+    margin-left: 65px;
+    padding: 0;
+    border: 1px solid #DEDDDB;
+    border-radius: 3px 3px 3px 3px;
+    -webkit-box-shadow: 1px 2px 1px #DEDDDB;
+    box-shadow: 1px 2px 1px #DEDDDB;
+}
+    #sortByOptions select {
+    font-family: "GalanoGrotesque-SemiBold";
+    font-size: 14px;
+    width: auto;
+    margin: 0;
+    padding: 11px 40px 11px 10px;
+    color: #433D3D;
+    border: 0 none;
+    background-color: transparent;
+    background-image: url("//images2.drct2u.com/content/images/FGN/170808-JDW-PLP-arrow-sprite.png");
+    background-repeat: no-repeat;
+    background-position: right -79px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+#sortByOptions select option {
+    font-family: "GalanoGrotesque-Regular";
+}
+#sortByOptions p {
+    font-family: "GalanoGrotesque-Regular", Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 12px;
+    right: 100%;
+    width: 60px;
+    text-transform: uppercase;
+}
+
+.recordsPerPage {
+    position: relative;
+    width: auto;
+    height: auto;
+    margin-right: 60px;
+    padding: 0;
+    border: 1px solid #DEDDDB;
+    border-radius: 3px 3px 3px 3px;
+    -webkit-box-shadow: 1px 2px 1px #DEDDDB;
+    box-shadow: 1px 2px 1px #DEDDDB;
+}
+.recordsPerPage select {
+    font-family: "GalanoGrotesque-SemiBold";
+    font-size: 14px;
+    margin: 0;
+    padding: 11px 40px 11px 10px;
+    color: #433d3d;
+    border: 0;
+    background-color: transparent;
+    background-image: url(//images2.drct2u.com/content/images/FGN/170808-JDW-PLP-arrow-sprite.png);
+    background-repeat: no-repeat;
+    background-position: right -79px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+.recordsPerPage select option {
+    font-family: "GalanoGrotesque-Regular";
+}
+.recordsPerPage p {
+    font-family: "GalanoGrotesque-Regular", Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 12px;
+    right: 100%;
+    width: 140px;
+    text-transform: uppercase;
+}
+.grid-switch-plp-layout-grids {
+    padding: 0.3em;
+    border: 1px solid #DEDDDB;
+    border-radius: 3px 3px 3px 3px;
+    -webkit-box-shadow: 1px 2px 1px #DEDDDB;
+    box-shadow: 1px 2px 1px #DEDDDB;
+}
+
+.grid-switch-plp-layout-grids select {
+    margin: 0;
+    padding: 0.4em 0;
+    border: 0 none;
+}
+
+.grid-switch-plp-layout-grids {
+    padding: 7.5px 15px;
+}
+
+.grid-switch-plp-layout-grids p {
+    font-family: "GalanoGrotesque-Regular", Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 12px;
+    right: 100%;
+    width: 40px;
+    text-transform: uppercase;
+}
+
+.grid-switch-plp-layout-grids {
+    position: relative;
+    height: auto;
+}
+
+.grid-switch-plp-layout-grid {
+    margin: 0 2px;
+}
+
+.productPagesTxt {
+    display: none !important;
+}
+
+.productPages span,
+.productPages .link,
+.productPages .previous,
+.productPages .current,
+.productPages .first,
+.productPages .last,
+.productPages .spacer {
+    font-family: GalanoGrotesque-Regular;
+    font-size: 0;
+    font-weight: normal;
+    position: relative;
+    display: inline-block !important;
+    width: 26px;
+    height: 38px !important;
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    color: #433D3D;
+    border: medium none;
+
+    background: none repeat scroll 0 0 transparent;
+}
+
+.productPagesTxt {
+    display: none;
+}
+
+.productPages .current {
+    padding: 0;
+    color: #433D3D;
+    background-color: transparent;
+}
+
+.productPages .current strong {
+    font: 14px GalanoGrotesque-SemiBold;
+    text-decoration: underline;
+    color: #433D3D;
+}
+
+.productPages .spacer {
+    font-size: 14px;
+    top: 11px;
+}
+
+.resultsPages .productPages span a,
+.productPages .current strong {
+    font-size: 14px;
+    line-height: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    float: none;
+    height: auto;
+    padding: 0;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+}
+
+.productPages .previous,
+.productPages .next {
+    width: 38px;
+    height: 38px !important;
+    padding: 0;
+    text-indent: -9999px;
+    border: 1px solid #DEDDDB;
+    border-radius: 3px 3px 3px 3px;
+    background-color: transparent;
+    background-image: url("//images2.drct2u.com/content/images/FGN/170808-JDW-PLP-arrow-sprite.png");
+    background-repeat: no-repeat;
+    background-position: center -122px;
+    -webkit-box-shadow: 1px 2px 1px #DEDDDB;
+    box-shadow: 1px 2px 1px #DEDDDB;
+}
+
+.productPages .next {
+    background-image: url("//images2.drct2u.com/content/images/FGN/170808-JDW-PLP-arrow-sprite.png");
+    background-position: center -38px;
+}
+
+.productPages .next a,
+.productPages .next a:link,
+.productPages .next a:visited {
+    font-family: "GalanoGrotesque-SemiBold", Arial, Helvetica, sans-serif;
+    font-size: 0;
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    background: none repeat scroll 0 0 transparent !important;
+}
+
+.productPages .next a:hover {
+    text-decoration: underline;
+    background: none repeat scroll 0 0 transparent !important;
+}
+
+.productPages .previous a,
+.productPages .previous a:link,
+.productPages .previous a:visited {
+    font-family: "GalanoGrotesque-SemiBold", Arial, Helvetica, sans-serif;
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    text-decoration: none;
+    background: none repeat scroll 0 0 transparent !important;
+}
+
+.productPages .previous a:hover {
+    text-decoration: underline;
+    color: #433D3D;
+    background: none repeat scroll 0 0 transparent;
+}
+
+.productPages a:hover {
+    text-decoration: underline;
+    color: #433D3D;
+    background: none repeat scroll 0 0 transparent;
+}
+
+#numItemsContainer {
+    margin-bottom: 10px;
+}
+
+#numItemsContainer p {
+    font-family: GalanoGrotesque-Regular;
+    font-size: 14px;
+    padding: 0;
+    color: #433D3D;
+}
+
+#numItemsContainer p b,
+#numItemsContainer p #numItems {
+    font-family: GalanoGrotesque-SemiBold;
+    font-weight: normal;
+}
+
+.productPreviewImage {
+    margin-bottom: 7px;
+}
+
+p.productTitle {
+    font-weight: normal;
+    margin-bottom: 2px;
+    padding: 0;
+}
+
+p.productTitle a {
+    font-family: "GalanoGrotesque-Regular";
+    font-size: 14px;
+}
+
+p.productTitle a:hover {
+    text-decoration: underline;
+}
+
+.priceInfo p.salePrice,
+.priceInfo p.wasPriceFormat,
+p.moreColours,
+span.reviews {
+    font-family: "GalanoGrotesque-Regular";
+    font-size: 14px;
+    font-weight: normal !important;
+    float: left;
+    padding: 0;
+    letter-spacing: normal;
+}
+
+.priceInfo {
+    position: relative;
+    padding-top: 20px;
+}
+
+.priceInfo p.salePrice {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #FF0000;
+}
+
+.priceInfo p.wasPriceFormat {
+    position: absolute;
+    top: 0;
+}
+
+.priceInfo p.productPrice {
+    font-family: "GalanoGrotesque-SemiBold";
+    font-size: 16px;
+    line-height: 1;
+}
+
+p.moreColours {
+    font-family: "GalanoGrotesque-Regular";
+    font-size: 12px;
+    float: none;
+    margin-bottom: 3px;
+}
+
+.productPreview .rating .reviews {
+    color: #000000;
+}
+
+.productPreview .rating {
+    margin-bottom: 5px;
+}
+/*
+
+.rating .score.five {
+    background-position: 0 -33px;
+}
+
+.rating .score.fourAndHalf {
+    background-position: -100px -33px;
+}
+
+.rating .score.four {
+    background-position: -200px -33px;
+}
+
+.rating .score.threeAndHalf {
+    background-position: -300px -33px;
+}
+
+.rating .score.three {
+    background-position: -400px -33px;
+}
+
+.rating .score.twoAndHalf {
+    background-position: -500px -33px;
+}
+
+.rating .score.two {
+    background-position: -600px -33px;
+}
+
+.rating .score.oneAndHalf {
+    background-position: -700px -33px;
+}
+
+.rating .score.one {
+    background-position: -800px -33px;
+} */
+
+.rating .score.zero {
+    background-position: -1000px -33px;
+}
+
+.C10_cartridge {
+    background: none repeat scroll 0 0 #FFFFFF;
+}
+
+.C10_cartridge .cartridgeHeader {
+    position: relative;
+    height: auto;
+    margin: 0;
+}
+
+.C10_cartridge .cartridgeTitle {
+    font-size: 15px;
+    font-weight: normal;
+    width: 100% !important;
+    height: 26px;
+    margin: 0 0 20px;
+    padding: 8px 0 4px;
+    text-transform: capitalize;
+    border: medium none;
+    background-color: #000000 !important;
+}
+
+.C10_cartridge .cartridgeTitle h2 {
+    font: 1.5em/1em "GalanoGrotesque-Regular", Arial, Helvetica, sans-serif !important;
+    margin: 0 0 0 10px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.C10_cartridge .productPreview {
+    margin: 0 0 0.3em 8px;
+}
+
+.C10_cartridge p,
+.C10_cartridge p.productTitle a {
+    font-size: 14px;
+    text-transform: lowercase;
+    color: #000000;
+}
+
+.C10_cartridge .cartridgeTitle h2.viewAll {
+    font-family: "GalanoGrotesque-Regular", Arial, Helvetica, sans-serif !important;
+    font-size: 18px;
+    font-weight: normal;
+    text-transform: none;
+    border: 0 none;
+}
+
+.C10_cartridge .cartridgeTitle h2.viewAll a:after {
+    font-size: 20px;
+    margin: 0 0.25em 0.2em 0.2em;
+}
+
+.C10_cartridge .cartridgeTitle h2.viewAll a {
+    color: #FFFFFF;
+}
+
+.C10_cartridge .cartridgeTitle h2.viewAll:before {
+    content: none;
+}
+
+.C10_cartridge .cartridgeTitle h2.viewAll a {
+    margin-top: -10px;
+    margin-right: 10px;
+}
+
+.C10_cartridge .cartridgeTitle h2.viewAll:before {
+    content: none;
+}
+
+.C10_cartridge .cartridgeTitle h2.viewAll a {
+    margin-top: -10px;
+    margin-right: 10px;
+}
+
+#LPTemplate3 .overImg {
+    bottom: 5px;
+    left: 5px;
+    width: 60px;
+
+}
+
+#productWindowContent .priceInfo p.videoAvailable {
+    background-position: left 50%;
+}
+
+.nowPriceFormat {
+    padding-top: 3px;
+    color: black;
+}
+
+#productWindowContent .overImg {
+    width: auto !important;
+    height: auto !important;
+}
+
+#productWindowContent p.productIncentiveSpecialOffer {
+    padding: 4px 0 !important;
+}
+
+.fantasticOffers {
+    float: left;
+    width: 645px;
+    height: 39px;
+    margin: -10px -13px;
+    border-radius: 0.5em 0 0 0;
+    background-image: url("/content/common/images/orderBuilding/jdw-ob-fantastic-deals-header.png") !important;
+}
+
+#jdwModalBorder {
+    border-radius: 0 0 0 0 !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+.fantasticOffers {
+    float: left;
+    width: 645px;
+    height: 39px;
+    margin: -10px -13px;
+    border-radius: 0.5em 0 0 0;
+    background-image: url("//images2.drct2u.com/content/images/homepages/1604ss_DAL_Popup_FantasticDealsHeader.png") !important;
+}
+
+.orderContainer .sHeader1,
+.orderContainer .sHeader2,
+.orderContainer .sHeader3 {
+    width: 250px;
+    height: 32px;
+    border: 1px solid #000000;
+}
+
+.orderContainer .sHeader1 {
+    background: url("//images2.drct2u.com/content/common/images/orderBuilding/1703_jdw-ob-banner-sprite-n.png") no-repeat scroll 0 0 transparent !important;
+}
+
+.orderContainer .sHeader2 {
+    background: url("//images2.drct2u.com/content/common/images/orderBuilding/1703_jdw-ob-banner-sprite-n.png") no-repeat scroll 0 -33px transparent !important;
+}
+
+.orderContainer .sHeader3 {
+    background: url("//images2.drct2u.com/content/common/images/orderBuilding/1703_jdw-ob-banner-sprite-n.png") no-repeat scroll 0 -66px transparent !important;
+}
+
+.orderContainer .viewOffer .buttonCapLt,
+.orderContainer .viewOffer .buttonCapRt {
+    background-image: none !important;
+}
+
+.orderContainer .viewOffer a:visited,
+.orderContainer .viewOffer a {
+    font-family: "GalanoGrotesque-Regular", Arial, Helvetica, sans-serif !important;
+    height: 22px !important;
+    padding: 8px 10px 0 !important;
+    text-decoration: none !important;
+    letter-spacing: 1px;
+    text-transform: uppercase !important;
+    color: #FFFFFF !important;
+    background: none repeat scroll 0 0 #000000 !important;
+}
+
+.orderContainer .viewOffer a:hover {
+    text-decoration: underline !important;
+}
+
+.modalButtonBack.backToOffers > a,
+.modalButtonForward.checkoutNow > a {
+    font-family: 'GalanoGrotesque-Regular', Arial, Helvetica, sans-serif !important;
+    height: 23px;
+    padding-top: 9px;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    color: #FFFFFF !important;
+    background: none repeat scroll 0 0 #3A981E;
+}
+
+.modalButtonForward.checkoutNow > a:hover {
+    text-decoration: underline !important;
+}
+
+.modalButtonBack.backToOffers .buttonCapLt,
+.modalButtonBack.backToOffers .buttonCapRt,
+.modalButtonForward .buttonCapLt,
+.modalButtonForward .buttonCapRt {
+    width: 16px;
+    height: 32px;
+    background: none repeat scroll 0 0 #3A981E;
+}
+
+.orderContainer .section .sSellingPoints li {
+    padding: 0 0 0 13px !important;
+    background: url("//images2.drct2u.com/content/images/homepages/1604ss_DAL_Popup_FantasticDeals_BulletPoint.png") no-repeat scroll 0 5px transparent !important;
+}
+
+.orderContainer .section .sTitle {
+    font: 14px/16px "GalanoGrotesque-SemiBold", Arial, Helvetica, sans-serif !important;
+    text-align: center !important;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+.orderContainer .section .sSellingPoints {
+    font-size: 12px !important;
+    line-height: 1.8em !important;
+    min-height: 60px !important;
+}
+
+.orderContainer .section .sActions {
+    margin: 0 !important;
+}
+
+.orderContainer .section .sSellingPoints {
+    font-family: "GalanoGrotesque-Regular", Arial, Helvetica, sans-serif;
+}
+
+a#fantasticDealsContinue {
+    background-image: none !important;
+}
+
+a#fantasticDealsContinue:hover {}
+
+.modalButtonForward .buttonCapRt {
+    background-image: none !important;
+}
+
+.nowPriceFormat {
+    font-size: 20px !important;
+    color: black;
+}
+
+#LPtemplate1,
+#LPtemplate3 {
+    width: 1000px !important;
+}
+
+#LPT3_slot3,
+#LPT3_slot4,
+#LPT3_slot5,
+#LPT3_slot6,
+#LPT3_slot7,
+#LPT3_slot8,
+#LPT3_slot9,
+#LPT3_slot10,
+#LPT3_slot11,
+#LPT3_slot12,
+#LPT3_main1,
+#LPT3_main2,
+#LPT3_main3,
+#LPT3_main4,
+#LPT3_main5,
+#LPT3_main6,
+#LPT3_main7,
+#LPT3_main8,
+#LPT3_main9 {
+    margin-right: 0 !important;
+}
+
+.ui-autocomplete {
+    position: absolute;
+    z-index: 999;
+    top: -1165px;
+    left: 760px;
+    display: block;
+    width: 228px !important;
+    padding: 5px;
+    list-style-type: none;
+    border: 1px solid #CCCCCC;
+    background-color: white;
+}
+
+.ui-autocomplete a {
+    font-style: italic;
+    cursor: pointer;
+    text-decoration: none;
+    color: #999999;
+}
+
+.ui-autocomplete a:hover {
+    text-decoration: underline;
+}
+
+.pdp #breadCrumbs {
+    max-width: none;
+}
+
+#breadCrumbs li {
+    margin: 12px 5px 0;
+}
+
+#breadCrumbs li a.backLink {
+    font-family: "GalanoGrotesque-SemiBold", Arial, Helvetica, sans-serif !important;
+    padding: 2px 0 2px 18px;
+    text-transform: uppercase;
+    color: #191919;
+    background: url("//images2.drct2u.com/content/images/FGN/170808-JDW-PLP-arrow-sprite.png") no-repeat scroll -11px -131px transparent;
+}
+
+#productDescription .ProductCopy {
+    margin: 0 auto 10px;
+}
+
+#productDescription .ProductCopy ul li {
+    margin-bottom: 10px;
+}
+#productDescription > p {
+    font-size: 1em;
+    padding: 0 0 0.31em;
+}
+
+#productDescription .ProductCopy ul li:last-child {
+    margin-bottom: 0;
+}
+
+#chatBtnContainer {
+    padding: 0;
+}
+
+a.chatButton {
+    width: 120px;
+    margin: 4px 0 5px;
+    padding: 4px 6px;
+    border-radius: 0 0 0 0;
+    background: url("//images2.drct2u.com/content/common/images/commongui/chat_chatBubbles.png") no-repeat scroll 0 -3px #C05A85;
+}
+
+a.chatButton span {
+    font-family: "GalanoGrotesque-Regular", Arial, Helvetica, sans-serif !important;
+    font-size: 14px !important;
+    color: #FFFFFF !important;
+}
+
+.pdp .productContainer {
+    padding-top: 0;
+}
+
+#productHeading {
+    width: 100%;
+}
+#productHeading h1 {
+    font-family: "GalanoGrotesque-Medium",Arial,Helvetica,sans-serif;
+    font-size: 24px;
+    font-weight: normal;
+    line-height: normal;
+    width: 73%;
+    margin: 8px 0 10px 0px;
+    padding: 0;
+    letter-spacing: normal;
+    color: #191919;
+}
+
+#brandLogoContainer {
+    margin: 10px 0 0 0;
+}
+
+.sliderZoomVideoControl {
+    margin: 0 0 24px;
+    padding: 0 0 3.4rem;
+}
+
+.rollOverZoom {
+    font-family: "GalanoGrotesque-Regular", Arial, Helvetica, sans-serif;
+    font-size: 0.75em;
+    margin: 12px 0 0 2rem;
+}
+
+.rsDefault .rsThumb {
+    border: 1px solid #E4E4E4;
+}
+
+.productImage #prodImagePanelBottom {
+    margin-bottom: 17px;
+}
+
+.productDetails .bv-stars-container {
+    margin-right: 0;
+}
+
+#addToBagContainer {
+    padding-top: 20px;
+}
+
+.productPrice h3 {
+    font-family: "GalanoGrotesque-SemiBold", Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    line-height: normal;
+    letter-spacing: normal;
+}
+
+h3.productWasPrice {
+    font-family: "GalanoGrotesque-Regular", Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    line-height: normal;
+    display: block;
+    letter-spacing: normal;
+    color: #AFACAD;
+}
+
+h3.productWasPrice em {
+    font-style: normal !important;
+}
+
+h3.productSavePrice {
+    font-family: "GalanoGrotesque-Regular", Arial, Helvetica, sans-serif !important;
+    font-size: 18px;
+    line-height: normal;
+    letter-spacing: normal;
+}
+
+h3.productWasPrice em.productWasPrice {
+    font-size: inherit !important;
+}
+
+h2.productCode {
+    font-family: "GalanoGrotesque-Medium", Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    letter-spacing: normal;
+    color: #8A8989;
+}
+
+#BVRRSummaryContainer {
+    top: 22px;
+    right: 15px !important;
+    width: auto;
+}
+
+.mainContent .bv-cv2-cleanslate .bv-core-container-304 .bv-summary-bar-minimalist-horizontal .bv-stars-container {
+    margin-right: 0 !important;
+}
+
+.mainContent .bv-cv2-cleanslate .bv-core-container-304 .bv-primarySummary-rating-container .bv-rating-stars-on {
+    color: #000000 !important;
+}
+
+.mainContent .bv-cv2-cleanslate .bv-core-container-304 .bv-summary-bar-minimalist-horizontal .bv-stars-container {
+    display: block !important;
+}
+
+#BVRRSummaryContainer > div > div > div > div > div > div {
+    text-align: right !important;
+}
+
+#BVRRSummaryContainer > div > div > div > div > div > div > div > button {
+    font-size: 12px !important;
+    margin-right: 0 !important;
+}
+
+.mainContent .bv-cv2-cleanslate .bv-core-container-304 .bv-summary-bar-minimalist .bv-write-container .bv-submission-button,
+.mainContent .bv-cv2-cleanslate .bv-core-container-304 .bv-summary-bar-minimalist .bv-read-container .bv-submission-button,
+.mainContent .bv-cv2-cleanslate .bv-core-container-304 .bv-summary-bar-minimalist .bv-write-container .bv-read-reviews-button,
+.mainContent .bv-cv2-cleanslate .bv-core-container-304 .bv-summary-bar-minimalist .bv-read-container .bv-read-reviews-button {
+    font-family: "GalanoGrotesque-Regular", "Arial", "Helvetica", "sans-serif" !important;
+    font-size: 12px !important;
+}
+
+.mainContent .bv-cv2-cleanslate .bv-core-container-304 .bv-summary-bar-minimalist .bv-write-container .bv-submission-button:hover,
+.mainContent .bv-cv2-cleanslate .bv-core-container-304 .bv-summary-bar-minimalist .bv-read-container .bv-submission-button:hover,
+.mainContent .bv-cv2-cleanslate .bv-core-container-304 .bv-summary-bar-minimalist .bv-write-container .bv-read-reviews-button:hover,
+.mainContent .bv-cv2-cleanslate .bv-core-container-304 .bv-summary-bar-minimalist .bv-read-container .bv-read-reviews-button:hover {
+    font-family: "GalanoGrotesque-Regular", "Arial", "Helvetica", "sans-serif" !important;
+    font-size: 12px !important;
+    text-decoration: none !important;
+}
+
+.mainContent .bv-cv2-cleanslate .bv-core-container-304 .bv-summary-bar .bv-rating.bv-text-link,
+.mainContent .bv-cv2-cleanslate .bv-core-container-304 .bv-summary-bar .bv-rating.bv-text-link:hover,
+.mainContent .bv-cv2-cleanslate .bv-core-container-304 .bv-primarySummary-rating-container .bv-percent-recommend-container,
+.mainContent .bv-cv2-cleanslate .bv-core-container-304 .bv-primarySummary-rating-container .bv-stats-container,
+.mainContent .bv-cv2-cleanslate .bv-core-container-304 .bv-primarySummary-rating-container .bv-rating-ratio-count {
+    font-family: "GalanoGrotesque-Regular", "Arial", "Helvetica", "sans-serif" !important;
+    font-size: 12px !important;
+    padding-right: 0 !important;
+    text-decoration: none !important;
+}
+
+.mainContent .bv-cv2-cleanslate .bv-core-container-304 button.bv-write-review,
+.mainContent .bv-cv2-cleanslate .bv-core-container-304 button.bv-read-review,
+.mainContent .bv-cv2-cleanslate .bv-core-container-304 button.bv-ask-question,
+.mainContent .bv-cv2-cleanslate .bv-core-container-304 .bv-button {
+    padding-top: 0 !important;
+}
+
+.pdp-controls .mainFirstValue {
+    font-family: "GalanoGrotesque-Regular", Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding: 5px 10px;
+    letter-spacing: normal;
+}
+
+.dropOptions {
+    font-family: "GalanoGrotesque-Regular", Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    letter-spacing: normal;
+}
+
+.mainOtherValues.hoverOutMainOtherValues {
+    padding: 5px 10px;
+}
+
+.sizeWishLinkWrap {
+    position: relative;
+    float: right;
+}
+
+#sizeGuideButton,
+#wishListBtn {
+    /* float: none; */
+    /* width: 70px; */
+    /* margin: 0; */
+    /* padding: 0; */
+    /* text-align: center; */
+}
+
+#sizeGuideButton a {
+    font-family: "GalanoGrotesque-Medium", Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    padding-top: 20px;
+    letter-spacing: normal;
+    background: url("//images2.drct2u.com/content/common/images/commongui/PDP-sprite.png") no-repeat scroll center 1px transparent;
+}
+
+.pdp-wishList {
+    margin: 0;
+}
+
+#addToWishListBtn {
+    font-family: "GalanoGrotesque-Medium", Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    position: relative !important;
+    top: 10px !important;
+    display: block;
+    margin: 0;
+    padding-top: 20px;
+    text-align: center;
+    letter-spacing: normal;
+    background: url("//images2.drct2u.com/content/common/images/commongui/PDP-sprite.png") no-repeat scroll center -53px transparent;
+}
+
+.fadeMsgBox {
+    font-family: "GalanoGrotesque-Medium", Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin-bottom: 5px !important;
+    letter-spacing: normal;
+    text-transform: uppercase;
+}
+
+.rsOverflow .totalPrice {
+    margin-bottom: 10px;
+}
+
+.totalPriceLabel {
+    font-family: "GalanoGrotesque-Medium", Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    letter-spacing: normal;
+    text-transform: uppercase;
+}
+
+#totalPrice {
+    font-family: "GalanoGrotesque-SemiBold", Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    margin-bottom: 0;
+    letter-spacing: normal;
+}
+
+.pdp-totalpriceMsg {
+    margin-top: 2px;
+    margin-bottom: 10px;
+}
+
+.addBagButtonWrap {
+    float: none;
+}
+
+.addBagButtonWrap #checkoutButtons a#addToBagBtn,
+.addBagButtonWrap #checkoutButtons .pdp-continueToCheckout a.primaryBtn {
+    font-family: "GalanoGrotesque-Medium", Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    float: none;
+    width: 330px !important;
+    letter-spacing: normal;
+    color: #FFFFFF;
+    background-color: #3A981E;
+}
+
+#accordion h2 {
+    font-family: "GalanoGrotesque-Medium", Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    margin: 30px 0 0;
+    padding: 10px 7px 6px 15px;
+    letter-spacing: normal;
+    text-transform: capitalize;
+    border-color: #F3F3F3 !important;
+    background-color: #F3F3F3;
+    background-position: right 10px top 7px !important;
+}
+
+#accordion h2.multiBuy {
+    color: #FFFFFF;
+    background-color: #C4201D;
+}
+
+#productDescription ul {
+    margin: 0 0 0 15px !important;
+
+    padding: 0 !important;
+}
+
+#productDescription ul li,
+#productDescription ul span {
+    font-family: "GalanoGrotesque-Regular", Arial, Helvetica, sans-serif;
+    font-size: 13px !important;
+    line-height: 1.5em !important;
+    padding: 5px 0 !important;
+    list-style: disc outside none;
+    letter-spacing: normal;
+}
+
+#copyWasPriceContainer {
+    border: medium none !important;
+}
+
+#copyWasPriceContainer ul {
+    float: left !important;
+    width: 393px !important;
+    margin: 0 0 10px;
+    padding: 0;
+    color: #999999 !important;
+}
+
+#copyWasPriceContainer span {
+    font-size: 12px !important;
+    text-transform: uppercase;
+}
+
+#copyWasPriceContainer li {
+    float: left !important;
+    margin: 0;
+    padding: 0;
+}
+
+em.wasPriceStyle {
+    font-size: 0.9em !important;
+    font-style: normal;
+    display: block !important;
+    text-decoration: line-through;
+    color: #D91473 !important;
+}
+
+#moreInfoLinkContainer {
+    font-family: "GalanoGrotesque-SemiBold", Arial, Helvetica, sans-serif;
+    font-size: 12px !important;
+    letter-spacing: normal;
+    text-transform: uppercase;
+}
+
+.productInfo #productReturnsContent p {
+    font-family: "GalanoGrotesque-Regular", Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    letter-spacing: normal;
+}
+
+.productInfo #productReturnsContent p strong {
+    text-transform: uppercase;
+}
+
+.deliveryOptions {
+    font-family: "GalanoGrotesque-Regular", Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.deliveryOptions thead th {
+    font-family: "GalanoGrotesque-Regular", Arial, Helvetica, sans-serif;
+    background: none repeat scroll 0 0 #F4F4F4 !important;
+}
+
+.deliveryOptions th,
+.deliveryOptions td {
+    font-family: "GalanoGrotesque-Regular", Arial, Helvetica, sans-serif;
+}
+
+div#returns-info {
+    font-family: "GalanoGrotesque-Regular", Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.pdp-affinities h3 {
+    font-family: "GalanoGrotesque-Medium", Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    font-weight: normal;
+    padding: 22px 20px 8px;
+    letter-spacing: normal;
+    border-width: 1px 1px medium;
+    border-style: solid solid none;
+    background-color: #FFFFFF;
+}
+
+.pdp-affinities h2 {
+    font-family: "GalanoGrotesque-Regular", Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #000000;
+}
+
+.jdw-rr-border {
+    margin-top: 0;
+    margin-bottom:25px;
+    border-width: medium 1px 1px;
+    border-style: none solid solid;
+    border-color: #191919;
+}
+
+.jdw-rr-priceInfo {
+    margin: 0 0 10px;
+}
+
+.jdw-rr-priceInfo p {
+    font-family: "GalanoGrotesque-Regular", Arial, Helvetica, sans-serif;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+.outerPageContainer p.wasPriceFormat,
+.outerPageContainer p.salePrice {
+    font-family: "GalanoGrotesque-Regular", Arial, Helvetica, sans-serif !important;
+    font-size: 14px;
+    padding: 0;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+.outerPageContainer p.salePrice {
+    color: #FF0000;
+}
+
+p.productPrice {
+    font-family: "GalanoGrotesque-SemiBold", Arial, Helvetica, sans-serif !important;
+    font-size: 16px;
+    font-weight: normal !important;
+    clear: both;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+.jdw-rr-button,
+.outfitBuilderWrap .promotedProdsWrap .outfitBuilderThumbs .outfitBuilderButton,
+.outfitBuilderWrap .promotedProdsWrap .outfitBuilderThumbs .outfitBuilderButton:hover {
+    font-family: "GalanoGrotesque-Medium", Arial, Helvetica, sans-serif !important;
+    font-size: 14px;
+    display: inline-block;
+    overflow: hidden;
+    padding: 10px 20px;
+    -webkit-transition: all 200ms ease 0s;
+    transition: all 200ms ease 0s;
+    text-decoration: none;
+    color: #000000;
+    border: medium none;
+    background-color: #E3F9E3;
+}
+
+#atbInner {
+    border: 1px solid #DDDDDD !important;
+    background-color: #FFFFFF !important;
+}
+
+.rsOverflow .productHeading h1 {
+    font-family: "GalanoGrotesque-Medium", Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: normal;
+    line-height: normal;
+    padding: 0;
+    letter-spacing: normal;
+    color: #191919;
+}
+
+.rsOverflow .productHeading h2 {
+    font-family: "GalanoGrotesque-Medium", Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    letter-spacing: normal;
+    color: #8A8989;
+}
+
+.rsOverflow h3,
+.outfitBuilderWrap h3,
+.priceRange,
+.rsOverflow .savePriceRange,
+.rsOverflow .productWasPrice {
+    font-family: "GalanoGrotesque-SemiBold", Arial, Helvetica, sans-serif !important;
+    font-size: 24px !important;
+    font-weight: normal;
+    font-style: normal;
+    line-height: normal;
+    text-decoration: none;
+    letter-spacing: normal;
+    text-transform: capitalize;
+    color: #191919;
+}
+
+.rsOverflow .savePrice,
+.rsOverflow .productWasPrice {
+    font-family: "GalanoGrotesque-Regular", Arial, Helvetica, sans-serif !important;
+}
+
+.rsOverflow .productWasPrice {
+    margin-right: 10px;
+}
+
+.rsOverflow .savePrice {
+    margin-left: 10px;
+    color: #FF0000;
+}
+
+.rsOverflow .mainFirstValue {
+    font-family: "GalanoGrotesque-Regular", Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding: 5px 10px;
+    letter-spacing: normal;
+}
+
+.btn-list li {
+    vertical-align: top;
+}
+
+a.btn.tertiaryBtn,
+a.btn.tertiaryBtn:link,
+a.btn.tertiaryBtn:visited,
+a.btn.tertiaryBtn:active {
+    font-family: "GalanoGrotesque-Medium", Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    overflow: hidden;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+#applyPromo {
+    padding-top: 7px;
+}
+
+.carouselContainer .carouselHeader {
+    font-family: "GalanoGrotesque-SemiBold", Arial, Helvetica, sans-serif !important;
+    font-size: 18px !important;
+    font-weight: normal !important;
+    padding: 5px 0 5px 5px !important;
+    text-align: left;
+    color: #000000 !important;
+    border-bottom: 1px solid #DDDDDD !important;
+    background: none repeat scroll 0 0 transparent !important;
+}
+
+.carouselHeader {
+    background: none repeat scroll 0 0 transparent;
+}
+
+.mainFirstValue getFittingValue {
+    margin: 5px 0 !important;
+}
+
+#affinityWrapper {
+    min-height: 16em !important;
+}
+
+#characteristics {
+    margin-top: 10px !important;
+}
+
+#characteristics li {
+    position: relative;
+    top: 0;
+    color: #000000 !important;
+}
+
+#careLogoContainer {
+    position: relative;
+    top: 0;
+}
+
+#productHeading h2 {
+    margin: 3px 0 6px;
+    color: #423A3C;
+}
+
+#totalPriceValue {
+    color: #000000 !important;
+}
+
+h2#affinityHeader {
+    font-family: "GalanoGrotesque-Regular", Arial, Helvetica, sans-serif !important;
+    font-size: 1.4em;
+    font-weight: normal !important;
+    padding: 4px 10px !important;
+    text-transform: none !important;
+}
+
+.priceRange {
+    font-family: "GalanoGrotesque-Regular", Arial, Helvetica, sans-serif !important;
+    font-size: 1.7em;
+    font-weight: normal !important;
+    text-transform: none !important;
+    color: #000000 !important;
+}
+
+.nav-tabs > li#promotionsTab a,
+.nav-tabs > li#promotionsTab a:hover,
+.nav-tabs > li#promotionsTab.active > a,
+.nav-tabs > li#promotionsTab.active > a:hover {
+    text-decoration: none !important;
+    color: #D91473 !important;
+}
+
+.nav-tabs > li#promotionsTab.active > a:hover,
+.nav-tabs > li#promotionsTab a:hover {
+    text-decoration: underline !important;
+}
+
+.nav-tabs > li > a {
+    text-decoration: none;
+}
+
+.nav-tabs > li > a:hover {
+    text-decoration: underline;
+}
+
+#careLogoContainer {
+    margin-top: 0.56em;
+}
+
+#promotions .productPreviewImage a {
+    border: medium hidden !important;
+}
+
+#productContainer .productPreviewImage {
+    border: medium none !important;
+}
+
+.signInTitle h2 {
+    font-family: "GalanoGrotesque-SemiBold", Arial, Helvetica, sans-serif !important;
+    font-size: 22px !important;
+    font-weight: normal !important;
+    text-align: center !important;
+    text-transform: none !important;
+}
+
+.signInTitle {
+    padding: 15px 25px !important;
+}
+
+.signInNewCustomerWrapper {
+    min-height: 302px !important;
+    background: url("//images2.drct2u.com/content/images/homepages/JDW_signInBG_66px.jpg") repeat-x scroll center bottom transparent !important;
+}
+
+#signInContentContainer {
+    height: 370px !important;
+}
+
+.signInContainer .signInLinks a:link,
+.signInContainer .signInLinks a:visited {
+    color: #000000 !important;
+}
+
+.newCustomerLink {
+    border: 10px solid #F4F4F4 !important;
+}
+
+.btnContinue a,
+btnContinue a:link,
+.btnContinue a:visited {
+    color: #000000 !important;
+}
+
+.btnContinue a:hover,
+.btnContinue a:visited {
+    text-decoration: none !important;
+}
+
+td.largetitle {
+    font-family: "GalanoGrotesque-Regular", Arial, Helvetica, sans-serif !important;
+    font-size: 33px !important;
+    font-weight: normal !important;
+    padding-top: 20px !important;
+    text-transform: none !important;
+    color: #000000;
+}
+
+td.acctssubtitle {
+    color: #000000;
+}
+
+td a.smalllink {
+    font-family: "FunctionProBook", Arial, Helvetica, sans-serif !important;
+    font-size: 16px !important;
+    font-weight: normal !important;
+
+    float: left;
+    width: 370px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+    padding: 5px 5px 5px 14px;
+    text-decoration: none;
+    text-transform: none !important;
+    color: #000000;
+    background: none repeat scroll 0 0 #F4F4F4;
+}
+
+td a.smalllink:hover {
+    text-decoration: underline;
+    color: #D91473;
+}
+
+#helpPages h1,
+#balanceAndPayment h1 {
+    font-family: "GalanoGrotesque-SemiBold", Arial, Helvetica, sans-serif !important;
+    font-size: 26px !important;
+    font-weight: normal;
+    padding: 8px 0 0 5px !important;
+    text-align: center;
+    text-transform: uppercase !important;
+    color: #000000 !important;
+    background-color: #F4F4F4 !important;
+}
+
+.helpheading {
+    font-family: "GalanoGrotesque-SemiBold", Arial, Helvetica, sans-serif !important;
+    font-size: 17px !important;
+    font-weight: normal !important;
+    padding-top: 10px;
+    text-transform: none !important;
+}
+
+a.helpsubjectlink {
+    margin-bottom: 4px;
+    text-decoration: none !important;
+}
+
+a.helptopiclink {
+    text-decoration: none !important;
+    color: #D91473;
+}
+
+#helpcontainer .helpheading {
+    font-size: 19px !important;
+    color: #D91473;
+}
+
+div#helpcontainer,
+div#helpaltcontainer {
+    width: 500px;
+    padding-left: 50px !important;
+    border-left: 2px solid #CCCCCC !important;
+}
+
+#checkoutPageTitleBar h1,
+#viewBagContainer,
+#viewBagFooterTitle h1,
+#viewBagFooterTitle .help,
+.carouselContainer .carouselHeader,
+.sbTotalCostBg p {
+    font-family: "GalanoGrotesque-Regular", Arial, Helvetica, sans-serif !important;
+    font-weight: normal !important;
+}
+
+#checkoutPageTitleBar h1 {
+    font-size: 26px !important;
+    margin: 0 0 0 10px;
+    text-transform: uppercase;
+}
+
+#totalCost .commonBtnContinueTinted a,
+#totalCost .commonBtnContinueTinted a:link,
+#totalCost .commonBtnContinueTinted a:visited,
+#totalCost .commonBtnForward a,
+#totalCost .commonBtnForward a:link {
+    font-size: 14px;
+    padding-top: 6px;
+}
+
+#promotionInner h2,
+.infoCurveBox p {
+    font-weight: normal !important;
+}
+
+#prodHeader h2,
+#prodHeader h3,
+#prodHeaderTotal h3,
+#incentiveTotal h3,
+.sbProductCode,
+.productPriceInfotxt2,
+.totalColumn p,
+.incentivesTotalColumn p {
+    font-family: "GalanoGrotesque-Regular", Arial, Helvetica, sans-serif !important;
+    font-weight: normal !important;
+}
+
+#totalCost p {
+    font-family: "GalanoGrotesque-SemiBold", Arial, Helvetica, sans-serif !important;
+}
+
+#prodHeader h2 {
+    font-size: 19px !important;
+    margin: 3px 0 0 !important;
+}
+
+.totalColumnWasPriceTxt {
+    font-weight: normal !important;
+}
+
+.totalColumn p.totalColumnNowTxt {
+    font-family: "GalanoGrotesque-SemiBold", Arial, Helvetica, sans-serif !important;
+    font-size: 16px !important;
+    font-weight: normal !important;
+    color: #000000;
+}
+
+#shopProdInfoHolder #productBasicInfo {
+    min-height: 70px !important;
+}
+
+#shopProdInfoHolder .dispatchHolder {
+    height: 24px;
+}
+
+.sbTotalCostBg p {
+    font-size: 11px !important;
+}
+
+.sbTotalFooter p {
+    font-size: 16px !important;
+}
+
+.StrongTxt p {
+    font-family: "GalanoGrotesque-SemiBold", Arial, Helvetica, sans-serif !important;
+    font-weight: normal !important;
+}
+
+.commonBtnBack .commonBtnCapLt {
+    background-image: url("//images2.drct2u.com/content/images/FGN/CGN_btnBackCapLt.png");
+}
+
+.commonBtnForward .commonBtnCapLt,
+.commonBtnNoStyle .commonBtnCapLt {
+    background-image: url("//images2.drct2u.com/content/images/FGN/JDW_btnCommonCapRt_blk.gif");
+}
+
+.commonBtnClose a,
+.commonBtnClose a:link,
+.commonBtnClose a:visited,
+.commonBtnBack a,
+.commonBtnBack a:link,
+.commonBtnBack a:visited,
+.commonBtnForward a,
+.commonBtnForward a:link,
+.commonBtnForward a:visited,
+.commonBtnNoStyle a,
+.commonBtnNoStyle a:link,
+.commonBtnNoStyle a:visited,
+.commonBtnAdd a,
+.commonBtnAdd a:link,
+.commonBtnAdd a:visited {
+    background-image: url("//images2.drct2u.com/content/images/FGN/CGN_btnCommonBg_blk.gif");
+}
+
+.commonBtnAdd .commonBtnCapRt,
+.commonBtnBack .commonBtnCapRt,
+.commonBtnClose .commonBtnCapRt,
+.commonBtnNoStyle .commonBtnCapRt {
+    background-image: url("//images2.drct2u.com/content/images/FGN/CGN_btnCommonCapRt_blk.gif");
+}
+
+.addressSelection .commonBtnContinueTinted a,
+.addressSelection .commonBtnContinueTinted a:link,
+.addressSelection .commonBtnContinueTinted a:visited {
+    width: 95px !important;
+}
+
+.cardSelectionTableFull .commonBtnContinueTinted a,
+.cardSelectionTableFull .commonBtnContinueTinted a:link,
+.cardSelectionTableFull .commonBtnContinueTinted a:visited {
+    width: 190px !important;
+}
+
+.commonBtnContinueTinted a,
+.commonBtnContinueTinted a:link,
+.commonBtnContinueTinted a:visited {
+    padding-top: 6px;
+}
+
+.backtotop {
+    margin-top: 20px;
+}
+
+.backtotop a {
+    font-family: "GalanoGrotesque-Regular", Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    padding: 5px 0;
+}
+
+.smallBtnGeneric .smallBtnCapLt {
+    background-image: url("//images2.drct2u.com/content/images/FGN/JDW_btnViewSmallCapLt_green.gif");
+}
+
+.smallBtnView .smallBtnCapLt {
+    width: 10px;
+    background-image: url("//images2.drct2u.com/content/images/FGN/CGN_btnViewSmallCapLt_green.gif");
+}
+
+.smallBtnGeneric a,
+.smallBtnGeneric a:link,
+.smallBtnGeneric a:visited,
+.smallBtnPromo a,
+.smallBtnPromo a:link,
+.smallBtnPromo a:visited,
+.smallBtnView a,
+.smallBtnView a:link,
+.smallBtnView a:visited {
+    background-image: url("//images2.drct2u.com/content/images/FGN/CGN_btnViewSmallCap_green.gif");
+}
+
+.smallBtnGeneric .smallBtnCapRt,
+.smallBtnPromo .smallBtnCapRt,
+.smallBtnView .smallBtnCapRt {
+    width: 10px;
+    background-image: url("//images2.drct2u.com/content/images/FGN/CGN_btnViewSmallCapRt_green.gif");
+}
+
+.smallBtnEdit .smallBtnCapLt {
+    width: 10px;
+    background-image: url("//images2.drct2u.com/content/images/FGN/CGN_btnViewSmallCapLt_blk.gif");
+}
+
+.smallBtnEdit a,
+.smallBtnEdit a:link,
+.smallBtnEdit a:visited {
+    background-image: url("//images2.drct2u.com/content/images/FGN/CGN_btnViewSmallCap_blk.gif");
+}
+
+.smallBtnEdit .smallBtnCapRt {
+    width: 10px;
+    background-image: url("//images2.drct2u.com/content/images/FGN/CGN_btnViewSmallCapRt_blk.gif");
+}
+
+.smallBtnClose .smallBtnCapLt {
+    width: 10px;
+    background-image: url("//images2.drct2u.com/content/images/FGN/CGN_btnViewSmallCapLt_red.gif");
+}
+
+.smallBtnClose a,
+.smallBtnClose a:link,
+.smallBtnClose a:visited {
+    text-decoration: none;
+    text-transform: uppercase;
+    background-image: url("//images2.drct2u.com/content/images/FGN/CGN_btnViewSmallCap_red.gif");
+}
+
+.smallBtnClose .smallBtnCapRt {
+    width: 10px;
+    background-image: url("//images2.drct2u.com/content/images/FGN/CGN_btnViewSmallCapRt_red.gif");
+}
+
+.commonBtnContinueTinted .commonBtnCapLt {
+    display: none;
+}
+
+.commonBtnContinueTinted a,
+.commonBtnContinueTinted a:link,
+.commonBtnContinueTinted a:visited,
+.commonBtnForward a,
+.commonBtnForward a:link {
+    font-size: 14px;
+    width: 270px;
+    text-align: center;
+    color: #FFFFFF !important;
+    background-image: url("//images2.drct2u.com/content/images/FGN/CGN_btnTintedBg.gif");
+}
+
+.commonBtnContinueTinted .commonBtnCapRt,
+.commonBtnForward .commonBtnCapRt {
+    width: 10px;
+    background-image: url("//images2.drct2u.com/content/images/FGN/CGN_btnTintedBg.gif");
+}
+
+.mbCheckoutButtonContainer {
+    width: 232px;
+}
+
+#viewBagCheckoutBtn2 {
+    width: 300px !important;
+    margin-top: 5px;
+}
+
+.commonBtnContinueTinted a,
+.commonBtnContinueTinted a:link,
+.commonBtnContinueTinted a:visited,
+.commonBtnNoStyle a,
+.commonBtnForward a,
+.commonBtnForward a:link,
+.smallBtnGeneric a,
+.smallBtnGeneric a:link,
+.smallBtnGeneric a:visited,
+.smallBtnView a,
+.smallBtnView a:link,
+.smallBtnView a:visited {
+    font-family: "GalanoGrotesque-Regular", Arial, Helvetica, sans-serif !important;
+
+    font-weight: normal !important;
+    text-decoration: none !important;
+    text-transform: uppercase;
+}
+
+.smallBtnEdit a,
+.smallBtnEdit a:link,
+.smallBtnEdit a:visited,
+.smallBtnPromo a,
+.smallBtnPromo a:link,
+.smallBtnPromo a:visited,
+.smallBtnView a,
+.smallBtnView a:link,
+.smallBtnView a:visited {
+    font-family: "GalanoGrotesque-Regular", Arial, Helvetica, sans-serif !important;
+    font-weight: normal !important;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#eMeLandingPanel {
+    width: 840px !important;
+    height: 230px;
+}
+
+#eMeLandingPanel .commonBoxCurveContainer {
+    width: 850px !important;
+}
+
+#eMeLandingHead {
+    border: 0 none !important;
+    background: none repeat scroll 0 0 #FFFFFF !important;
+}
+
+#eMeLandingHead h2 {
+    font-family: "GalanoGrotesque-SemiBold", Arial, Helvetica, sans-serif !important;
+    font-size: 30px !important;
+    font-weight: normal;
+    line-height: 35px !important;
+    width: 330px;
+    padding: 12px 0 0 269px !important;
+    text-transform: none;
+    color: #000000 !important;
+}
+
+.commonBoxCurveContainer {
+    border: 0 none;
+    background: none repeat scroll 0 0 transparent !important;
+}
+
+.commonCurveLT {
+    display: none !important;
+}
+
+.commonCurveRT {
+    display: none !important;
+}
+
+.commonCurveLB {
+    display: none !important;
+}
+
+.commonCurveRB {
+    display: none !important;
+}
+
+#eMeNewCustomer {
+    left: 60px !important;
+}
+
+#eMeNewCustomer h2 {
+    font-family: "GalanoGrotesque-SemiBold", Arial, Helvetica, sans-serif !important;
+    font-size: 24px !important;
+    font-weight: normal !important;
+    width: 350px !important;
+    padding: 61px 77px 13px !important;
+    text-transform: none;
+    color: #000000 !important;
+}
+
+#eMeNewCustomer .commonBoxCurveContainer,
+#eMeExistingCustomer .commonBoxCurveContainer {
+    width: 350px !important;
+    height: 200px !important;
+    border: 1px solid #DEDCDC !important;
+}
+
+#eMeNewCustomerBtnContainer {
+    float: left !important;
+    margin: 7px 0 0 119px !important;
+}
+
+#eMeExistingCustomer {
+    top: 30px !important;
+    left: 60px !important;
+    float: left !important;
+    width: 300px !important;
+    margin-left: 22px !important;
+}
+
+#eMeExistingCustomer p {
+    position: relative;
+    margin: 10px 38px !important;
+    padding: 18px 0 0 !important;
+    text-align: center;
+}
+
+#eMeExistingCustomer p span {
+    color: #D91473;
+}
+
+#eMeExistingCustomer p a {
+    float: left;
+    margin-left: 48px !important;
+}
+
+#eMeExistingCustomer p span:hover {
+    text-decoration: none !important;
+}
+
+#existingCustomerHead {
+    border: 0 none !important;
+    background: none repeat scroll 0 0 transparent !important;
+}
+
+#existingCustomerHead h2 {
+    font-family: "GalanoGrotesque-SemiBold", Arial, Helvetica, sans-serif !important;
+    font-size: 24px !important;
+    font-weight: normal !important;
+    width: 350px !important;
+    padding: 40px 77px 21px !important;
+    text-transform: none;
+    color: #000000 !important;
+}
+
+.commonBtnNoStyleTinted a:hover {
+    text-decoration: none !important;
+}
+
+ul#siteInfoList {
+    top: 15px !important;
+    left: 655px !important;
+}
+
+ul#siteInfoList li a {
+    width: 100px !important;
+    margin: 4px 6px 0 -3px;
+}
+
+#navCategories-8 h2,
+#imageListContainer h3,
+.heroProdContainer h3,
+#categoryNav h3 {
+    font-family: "GalanoGrotesque-Regular", Arial, Helvetica, sans-serif !important;
+    font-size: 16px !important;
+    font-weight: normal !important;
+    float: left !important;
+    width: 50% !important;
+    margin: 1px 0 1px 1px !important;
+    text-transform: uppercase !important;
+    color: #FFFFFF !important;
+    background-color: #000000 !important;
+    background-image: none !important;
+}
+
+#categoryNav h2.viewAll {
+    font-family: "GibsonLight", Arial, Helvetica, sans-serif !important;
+    font-weight: normal !important;
+    float: left !important;
+    width: 48.2% !important;
+    margin: 1px 1px 1px 0 !important;
+    text-align: right !important;
+    background: none repeat scroll 0 0 #000000 !important;
+}
+
+#categoryNav h2.viewAll a {
+    color: #FFFFFF !important;
+}
+
+.sign-in-form-wrapper .primary form,
+.sign-in-form-wrapper .secondary form {
+    border-top: 8px solid #FFFFFF !important;
+}
+
+.sign-in-form-wrapper .secondary form.new-customer a {
+    background-color: #EE529D !important;
+}
+
+.sign-in-form-wrapper .button {}
+
+.sign-in-form-wrapper .button span {
+    font-family: "GalanoGrotesque-Regular", Arial, Helvetica, sans-serif !important;
+    font-size: 16px !important;
+    font-weight: normal !important;
+}
+
+#signinForm h2.title,
+.newCustomerContainer h3.title {
+    font-family: "GalanoGrotesque-Regular", Arial, Helvetica, sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal !important;
+    text-transform: uppercase;
+}
+
+.C6_cartridge {
+    border-bottom: 1px solid #E2E2E2;
+}
+
+.productContainer {
+    margin-bottom: 40px;
+}
+
+.outfitBuilderWrap .addedToBagBox .prodAddedTitle h2 {
+    font-family: "GalanoGrotesque-Regular", Arial, Helvetica, sans-serif;
+    font-size: 1.9rem;
+    color: #3B3E40;
+}
+
+.outfitBuilderWrap .addedToBagBox p {
+    font-family: "GalanoGrotesque-Regular", Arial, Helvetica, sans-serif;
+}
+
+.outfitBuilderWrap .promotedProdsWrap .promotedProdsInnerWrap .outfitBuilderTitle {
+    font-family: "GalanoGrotesque-Regular", Arial, Helvetica, sans-serif;
+    float: left;
+    padding-bottom: 1rem;
+    color: #7A7878;
+}
+
+.outfitBuilderWrap .prodAddedShopBtn {
+    font-family: "GalanoGrotesque-Regular", Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    display: inline-block;
+    width: 43%;
+    padding: 1.1rem 0.3rem;
+    cursor: pointer;
+    text-align: center;
+
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border-radius: 0 0 0 0;
+    background-color: #3B3E40;
+}
+
+a.btn.primaryBtn {
+    font-family: "GalanoGrotesque-Medium", Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+.bv-cleanslate .bv-core-container-238 .bv-content-item .bv-author-profile .bv-inline-profile .bv-content-author-name {
+    float: left !important;
+    max-width: 65% !important;
+    margin: 0 !important;
+}
+
+.bv-cleanslate .bv-core-container-238 .bv-author,
+.bv-cleanslate .bv-core-container-238 .bv-popup-profull .bv-content-item .bv-content-author-name .bv-author {
+    font-family: "GalanoGrotesque-SemiBold", Arial, Helvetica, sans-serif, "Arial", "Helvetica", "sans-serif" !important;
+    font-size: 16px !important;
+    font-weight: 700 !important;
+    font-style: normal !important;
+    font-variant: normal !important;
+    line-height: 18px !important;
+    text-decoration: none !important;
+    text-transform: none !important;
+    color: #54565B !important;
+}
+
+.bv-cleanslate .bv-core-container-238 .bv-content-data-label-container .bv-content-data-label {
+    font-size: 14px !important;
+    font-weight: normal !important;
+}
+
+div.top-page {
+    display: none;
+}
+
+.sectionPolicies h1,
+.sectionWarranties h1,
+.sectionContact h1,
+.sitemap h1 {
+    font-family: "GalanoGrotesque-Medium", Arial, Helvetica, sans-serif, "Arial", "Helvetica", "sans-serif";
+    font-size: 42px;
+    font-weight: normal;
+    font-style: normal;
+    margin: 0 0 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #231F20;
+}
+
+main dt {
+    font-family: "GalanoGrotesque-SemiBold", Arial, sans-serif;
+}
+
+.sectionPolicies h2,
+.sectionPolicies h3,
+.sectionPolicies h4,
+.sectionPolicies p,
+.sectionPolicies li,
+.sectionPolicies > nav a,
+.sectionWarranties h2,
+.sectionWarranties h3,
+.sectionWarranties h4,
+.sectionWarranties p,
+.sectionWarranties li,
+.sectionWarranties > nav a,
+.sectionContact h2,
+.sectionContact h3,
+.sectionContact h4,
+.sectionContact p,
+.sectionContact li,
+.sectionContact > nav a,
+.sitemap h2,
+.sitemap h3,
+.sitemap h4,
+.sitemap p,
+.sitemap li,
+.sitemap > nav a {
+    font-family: "GalanoGrotesque-Regular", Arial, Helvetica, sans-serif;
+    letter-spacing: normal;
+    color: #231F20;
+}
+
+.sectionPolicies h2,
+.sectionWarranties h2,
+.sectionContact h2 {
+    font-size: 24px;
+}
+
+.sectionPolicies h3,
+.sectionWarranties h3,
+.sectionContact h3,
+.sitemap h3 {
+    font-size: 21px;
+}
+
+.sitemap h2,
+.sectionPolicies h4,
+.sectionPolicies h5,
+.sectionPolicies h6,
+.sectionWarranties h4,
+.sectionWarranties h5,
+.sectionWarranties h6,
+.sectionContact h4,
+.sectionContact h5,
+.sectionContact h6,
+.sitemap h4,
+.sitemap h5,
+.sitemap h6 {
+    font-size: 18px;
+}
+
+.sectionPolicies p,
+.sectionWarranties p,
+.sectionContact p,
+.sitemap p.sectionPolicies > nav a,
+.sectionWarranties > nav a,
+.sectionContact > nav a,
+.sitemap > nav a {
+    font-size: 16px;
+}
+
+.sitemap a {
+    padding: 2px 0;
+}
+
+.sitemap a:hover {
+    text-decoration: underline;
+}
+
+.sitemap h2 {
+    color: #FFFFFF !important;
+    background: none repeat scroll 0 0 #333333;
+}
+
+.other.g12.omega > h2,
+.catalogue.g12 > h2 {
+    font-family: "GalanoGrotesque-SemiBold", Arial, sans-serif;
+    padding-left: 5px;
+}
+
+#innerPageContainer > main > ol,
+#innerPageContainer > main > h5 {
+    font-family: "GalanoGrotesque-SemiBold", Arial, sans-serif;
+}
+
+#innerPageContainer > div.qofEntry.qoForm > h1,
+#qofInstructions .title {
+    font-family: "GalanoGrotesque-SemiBold", Arial, sans-serif;
+    text-transform: uppercase;
+}
+
+#innerPageContainer > div.qofEntry.qoForm > div.qof-infoMessage,
+#qofInstructions p.instruction {
+    font-family: "GalanoGrotesque-Regular", Arial, sans-serif;
+}
+
+.PandP h1 {
+    font: 1.5em/1.5em "GalanoGrotesque-Regular", Arial, Helvetica, sans-serif !important;
+    width: 100% !important;
+}
+
+.PandP #displayPandp p {
+    font: 1em/1.5em "GalanoGrotesque-Regular", Arial, Helvetica, sans-serif !important;
+    padding: 0 !important;
+}
+
+.PandP #pandpAddToBagBtn {
+    cursor: pointer;
+}
+
+.PandP .pp-tcs.active {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    margin-top: 0;
+    padding: 5% 1% 1%;
+    text-align: left;
+    background: none repeat scroll 0 0 #FFFFFF;
+}
+
+.PandP .pp-tcs.active h3 {
+    display: none;
+}
+
+.PandP .pp-tcs.active p {
+    font-size: 11px;
+    display: inline-block;
+    float: left;
+}
+
+.PandP .pp-tcs.active br {
+    display: none;
+}
+
+.PandP .pp-tcs.active .close-tcs {
+    font-size: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: none repeat scroll 0 0 transparent;
+}
+
+iframe[name="google_conversion_frame"] {
+    position: fixed !important;
+}
+
+#modalClose > a {
+    padding-top: 8px;
+}
+
+#modal_outer .commonBtnClose a,
+#modal_outer .commonBtnClose a:link,
+#modal_outer .commonBtnClose a:visited {
+    font: 18px/1 "GalanoGrotesque-Regular", Arial, sans-serif;
+    text-decoration: none !important;
+    letter-spacing: 1px;
+    text-transform: uppercase !important;
+    color: #FFFFFF !important;
+    background-image: url("//images2.drct2u.com/content/images/FGN/CGN_btnTintedBgblack.gif") !important;
+}
+
+#modal_outer .commonBtnClose .commonBtnCapLt {
+    width: 9px !important;
+    background-image: url("//images2.drct2u.com/content/images/FGN/CGN_btnTintedBgblack.gif") !important;
+}
+
+#modal_outer .commonBtnClose .commonBtnCapRt {
+    position: relative !important;
+    left: 0 !important;
+    width: 10px !important;
+    background-image: url("//images2.drct2u.com/content/images/FGN/CGN_btnTintedBgblack.gif") !important;
+    background-repeat: repeat-x !important;
+}
+
+.commonBtnAdd .commonBtnCapLt {
+    width: 9px !important;
+    background-image: url("//images2.drct2u.com/content/images/FGN/CGN_btnTintedBg.gif") !important;
+}
+
+.commonBtnAdd .commonBtnCapRt {
+    width: 10px !important;
+    background-image: url("//images2.drct2u.com/content/images/FGN/160520_GUI_btnCommonCapRt.gif") !important;
+    background-repeat: no-repeat !important;
+}
+
+.commonBtnClose a,
+.commonBtnAdd a:link,
+.commonBtnAdd a:visited #apply {
+    font-family: "GalanoGrotesque-Regular", Arial, sans-serif;
+    font-size: 13px !important;
+    font-weight: normal;
+    font-style: normal;
+    font-variant: normal;
+    font-size-adjust: none;
+    font-stretch: normal;
+    line-height: 1;
+    text-decoration: none !important;
+    letter-spacing: 1px;
+    text-transform: uppercase !important;
+    color: #FFFFFF !important;
+    background-image: url("//images2.drct2u.com/content/images/FGN/CGN_btnTintedBg.gif") !important;
+    -moz-font-feature-settings: normal;
+    -moz-font-language-override: normal;
+}
+
+#Apply {
+    padding-top: 8px;
+}
+
+#promoMainTxt p {
+    font-family: "GalanoGrotesque-Regular", Arial, sans-serif;
+    font-size: 18px !important;
+    padding: 8px 0;
+    text-align: left;
+    color: #54565B !important;
+}
+
+#modal_container p,
+#modal_container ul,
+#modal_container li {
+    font-family: "GalanoGrotesque-Regular", Arial, sans-serif !important;
+    font-size: 15px !important;
+    font-weight: normal !important;
+}
+
+.placementBox h1 {
+    font-family: "GalanoGrotesque-SemiBold", Arial, sans-serif !important;
+    font-size: 16px !important;
+    letter-spacing: 0.5px !important;
+    text-transform: uppercase !important;
+    color: #54565B !important;
+}
+
+#promoInfoContainer label,
+#claim_code_entry_incentives_form label {
+    font-family: "GalanoGrotesque-Regular", Arial, sans-serif !important;
+    font-size: 14px !important;
+}
+
+.icon-creditupsell {
+    padding: 8.5% !important;
+    border-width: medium !important;
+    border-style: none !important;
+    border-color: -moz-use-text-color !important;
+    background-color: #FFFFFF !important;
+    background-image: url("//images2.drct2u.com/content/images/homepages/090718-FSP-Credit-Apr-banner.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center !important;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-size: contain;
+}
+
+h2.creditUpsellTitle {
+    display: none !important;
+}
+
+p.creditUpsellMessage,
+p.creditUpsellMessage a {
+    display: none !important;
+}
+
+#maContentContainer {
+    font-family: "GalanoGrotesque-Regular", Arial, sans-serif;
+}
+
+#maSideNavContainer h2,
+#maSideNavContainer h3,
+#maSideNavContainer h4,
+#maSideNavContainer h5,
+#maSideNavContainer h6 {
+    letter-spacing: normal !important;
+}
+
+
+
+/* Remove images being used as checkboxes */
+#guidedNav-8 .availableFiltersContainer .checkList a,
+#guidedNav-8 .availableFiltersContainer .checkList .disabled,
+#guidedNav-8 .checkList a,
+#guidedNav-8 .checkList .disabled {
+    padding: 0.25em 0;
+    background-image: none;
+}
+
+/* Add checkbox before 'a' tag in filter navigation */
+#guidedNav-8 .availableFiltersContainer .checkList a:before,
+#guidedNav-8 .availableFiltersContainer .checkList .disabled:before {
+    position: relative;
+    top: 3px; /* To align checkbox vertically with text - could be done using flex */
+    display: inline-block;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 14px; /* Change this for the checkbox width */
+    height: 14px; /* Change this for the checkbox height */
+    margin-right: 6px;  /* Change this for the margin between the checkbox and text */
+    content: '';
+    border: 1px solid #adadad;
+    border-radius: 3px; /* Change this to alter the border radius of the checkbox */
+}
+
+/* Add relative positioning so 'after' can be used to position check mark correctly */
+#guidedNav-8 .availableFiltersContainer .checkList a.checked.checked,
+#guidedNav-8 .availableFiltersContainer .checkList a.checked.checked:hover,
+#guidedNav-8 .availableFiltersContainer .checkList a.checked.checked:focus,
+#guidedNav-8 .checkList a,
+#guidedNav-8 .checkList a:hover,
+#guidedNav-8 .checkList a:focus {
+    position: relative;
+}
+
+/* Override JDW setting colour of text in filter nav - this can be changed per brand */
+#guidedNav-8 .availableFiltersContainer .checkList a.checked.checked,
+#guidedNav-8 .availableFiltersContainer .checkList a.checked.checked:hover,
+#guidedNav-8 .availableFiltersContainer .checkList a.checked.checked:focus {
+    color: initial;
+}
+
+/* The border thickness of a selected checkbox */
+#guidedNav-8 .availableFiltersContainer .checkList a.checked.checked:before {
+    /* border: 2px solid #000000; */
+}
+
+#guidedNav-8 .availableFiltersContainer .checkList a.checked.checked.checked.checked:after {
+    position: absolute;
+    top: 9px;
+    left: 1px;
+    width: 12px;
+    height: 12px;
+    content: '';
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+/* Checkbox Background Colours */
+#guidedNav-8 .availableFiltersContainer .checkList a[id$="Black"]:before {
+    background: #000000;
+}
+
+#guidedNav-8 .availableFiltersContainer .checkList a[id$="Natural"]:before {
+    background: #ffffff;
+}
+
+#guidedNav-8 .availableFiltersContainer .checkList a[id$="Blue"]:before {
+    background: #2196F3;
+}
+
+#guidedNav-8 .availableFiltersContainer .checkList a[id$="Orange"]:before {
+    background: #FF9800;
+}
+
+#guidedNav-8 .availableFiltersContainer .checkList a[id$="Brown"]:before {
+    background: #795548;
+}
+
+#guidedNav-8 .availableFiltersContainer .checkList a[id$="Pink"]:before {
+    background: #E91E63;
+}
+
+#guidedNav-8 .availableFiltersContainer .checkList a[id$="Cream"]:before {
+    background: #fff7df;
+}
+
+#guidedNav-8 .availableFiltersContainer .checkList a[id$="Purple"]:before {
+    background: #9C27B0;
+}
+
+#guidedNav-8 .availableFiltersContainer .checkList a[id$="Gold"]:before {
+    background: #ffd65e;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ffd65e),to(#febf04));
+    background: linear-gradient(to bottom, #ffd65e 0%,#febf04 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffd65e', endColorstr='#febf04',GradientType=0 );
+}
+
+#guidedNav-8 .availableFiltersContainer .checkList a[id$="Red"]:before {
+    background: #F44336;
+}
+
+#guidedNav-8 .availableFiltersContainer .checkList a[id$="Green"]:before {
+    background: #8BC34A;
+}
+
+#guidedNav-8 .availableFiltersContainer .checkList a[id$="Silver"]:before {
+    background: #ffffff;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ffffff),to(#e5e5e5));
+    background: linear-gradient(to bottom, #ffffff 0%,#e5e5e5 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=0 );
+}
+
+#guidedNav-8 .availableFiltersContainer .checkList a[id$="Grey"]:before {
+    background: #9E9E9E;
+}
+
+#guidedNav-8 .availableFiltersContainer .checkList a[id$="White"]:before {
+    background: #ffffff;
+}
+
+#guidedNav-8 .availableFiltersContainer .checkList a[id$="Multi"]:before {
+    background: #00d819;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(1%, #00d819),color-stop(24%, #00d819),color-stop(25%, #f2ea00),color-stop(49%, #f2ea00),color-stop(50%, #358cff),color-stop(74%, #358cff),color-stop(75%, #ff0004),color-stop(75%, #ff0004));
+    background: linear-gradient(to bottom, #00d819 1%,#00d819 24%,#f2ea00 25%,#f2ea00 49%,#358cff 50%,#358cff 74%,#ff0004 75%,#ff0004 75%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00d819', endColorstr='#ff0004',GradientType=0 );
+}
+
+#guidedNav-8 .availableFiltersContainer .checkList a[id$="Yellow"]:before {
+    background: #FFEB3B;
+}
+/* End Checkbox Background Colours */
+
+/* Checkmark Standard */
+#guidedNav-8 .availableFiltersContainer .checkList a.checked.checked:after {
+  background: url('data:image/svg+xml,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22utf-8%22%3F%3E%0D%0A%3Csvg%20version%3D%221.1%22%20id%3D%22Layer_1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20x%3D%220px%22%20y%3D%220px%22%0D%0A%09%20viewBox%3D%220%200%20400%20400%22%20style%3D%22enable-background%3Anew%200%200%20400%20400%3B%22%20xml%3Aspace%3D%22preserve%22%3E%0D%0A%3Cpath%20d%3D%22M159.9%2C228.2l-73.5-73.5c-4.4-4.4-11.6-4.4-16%2C0l-38%2C38c-4.4%2C4.4-4.4%2C11.6%2C0%2C16L151.8%2C328c2.2%2C2.2%2C5.1%2C3.3%2C8%2C3.3%0D%0A%09c2.9%2C0%2C5.8-1.1%2C8-3.3l199.8-199.8c4.4-4.4%2C4.4-11.6%2C0-16l-38-38c-4.4-4.4-11.6-4.4-16%2C0L159.9%2C228.2z%22%2F%3E%0D%0A%3C%2Fsvg%3E');
+}
+
+/* Checkmark Colours */
+#guidedNav-8 .availableFiltersContainer .checkList a.checked.checked[id$="Black"]:after {
+  /* White Checkmark */
+  background: url('data:image/svg+xml,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22utf-8%22%3F%3E%0D%0A%3Csvg%20version%3D%221.1%22%20id%3D%22Layer_1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20x%3D%220px%22%20y%3D%220px%22%0D%0A%09%20viewBox%3D%220%200%20400%20400%22%20style%3D%22enable-background%3Anew%200%200%20400%20400%3B%22%20xml%3Aspace%3D%22preserve%22%3E%0D%0A%3Cpath%20fill%3D%22%23FFFFFF%22%20d%3D%22M159.9%2C228.2l-73.5-73.5c-4.4-4.4-11.6-4.4-16%2C0l-38%2C38c-4.4%2C4.4-4.4%2C11.6%2C0%2C16L151.8%2C328c2.2%2C2.2%2C5.1%2C3.3%2C8%2C3.3%0D%0A%09c2.9%2C0%2C5.8-1.1%2C8-3.3l199.8-199.8c4.4-4.4%2C4.4-11.6%2C0-16l-38-38c-4.4-4.4-11.6-4.4-16%2C0L159.9%2C228.2z%22%2F%3E%0D%0A%3C%2Fsvg%3E');
+}
+
+#guidedNav-8 .availableFiltersContainer .checkList a.checked.checked[id$="Natural"]:after {
+  /* Black Checkmark */
+  background: url('data:image/svg+xml,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22utf-8%22%3F%3E%0D%0A%3Csvg%20version%3D%221.1%22%20id%3D%22Layer_1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20x%3D%220px%22%20y%3D%220px%22%0D%0A%09%20viewBox%3D%220%200%20400%20400%22%20style%3D%22enable-background%3Anew%200%200%20400%20400%3B%22%20xml%3Aspace%3D%22preserve%22%3E%0D%0A%3Cpath%20d%3D%22M159.9%2C228.2l-73.5-73.5c-4.4-4.4-11.6-4.4-16%2C0l-38%2C38c-4.4%2C4.4-4.4%2C11.6%2C0%2C16L151.8%2C328c2.2%2C2.2%2C5.1%2C3.3%2C8%2C3.3%0D%0A%09c2.9%2C0%2C5.8-1.1%2C8-3.3l199.8-199.8c4.4-4.4%2C4.4-11.6%2C0-16l-38-38c-4.4-4.4-11.6-4.4-16%2C0L159.9%2C228.2z%22%2F%3E%0D%0A%3C%2Fsvg%3E');
+}
+
+#guidedNav-8 .availableFiltersContainer .checkList a.checked.checked[id$="Blue"]:after {
+  /* White Checkmark */
+  background: url('data:image/svg+xml,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22utf-8%22%3F%3E%0D%0A%3Csvg%20version%3D%221.1%22%20id%3D%22Layer_1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20x%3D%220px%22%20y%3D%220px%22%0D%0A%09%20viewBox%3D%220%200%20400%20400%22%20style%3D%22enable-background%3Anew%200%200%20400%20400%3B%22%20xml%3Aspace%3D%22preserve%22%3E%0D%0A%3Cpath%20fill%3D%22%23FFFFFF%22%20d%3D%22M159.9%2C228.2l-73.5-73.5c-4.4-4.4-11.6-4.4-16%2C0l-38%2C38c-4.4%2C4.4-4.4%2C11.6%2C0%2C16L151.8%2C328c2.2%2C2.2%2C5.1%2C3.3%2C8%2C3.3%0D%0A%09c2.9%2C0%2C5.8-1.1%2C8-3.3l199.8-199.8c4.4-4.4%2C4.4-11.6%2C0-16l-38-38c-4.4-4.4-11.6-4.4-16%2C0L159.9%2C228.2z%22%2F%3E%0D%0A%3C%2Fsvg%3E');
+}
+
+#guidedNav-8 .availableFiltersContainer .checkList a.checked.checked[id$="Orange"]:after {
+  /* White Checkmark */
+  background: url('data:image/svg+xml,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22utf-8%22%3F%3E%0D%0A%3Csvg%20version%3D%221.1%22%20id%3D%22Layer_1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20x%3D%220px%22%20y%3D%220px%22%0D%0A%09%20viewBox%3D%220%200%20400%20400%22%20style%3D%22enable-background%3Anew%200%200%20400%20400%3B%22%20xml%3Aspace%3D%22preserve%22%3E%0D%0A%3Cpath%20fill%3D%22%23FFFFFF%22%20d%3D%22M159.9%2C228.2l-73.5-73.5c-4.4-4.4-11.6-4.4-16%2C0l-38%2C38c-4.4%2C4.4-4.4%2C11.6%2C0%2C16L151.8%2C328c2.2%2C2.2%2C5.1%2C3.3%2C8%2C3.3%0D%0A%09c2.9%2C0%2C5.8-1.1%2C8-3.3l199.8-199.8c4.4-4.4%2C4.4-11.6%2C0-16l-38-38c-4.4-4.4-11.6-4.4-16%2C0L159.9%2C228.2z%22%2F%3E%0D%0A%3C%2Fsvg%3E');
+}
+
+#guidedNav-8 .availableFiltersContainer .checkList a.checked.checked[id$="Brown"]:after {
+  /* White Checkmark */
+  background: url('data:image/svg+xml,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22utf-8%22%3F%3E%0D%0A%3Csvg%20version%3D%221.1%22%20id%3D%22Layer_1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20x%3D%220px%22%20y%3D%220px%22%0D%0A%09%20viewBox%3D%220%200%20400%20400%22%20style%3D%22enable-background%3Anew%200%200%20400%20400%3B%22%20xml%3Aspace%3D%22preserve%22%3E%0D%0A%3Cpath%20fill%3D%22%23FFFFFF%22%20d%3D%22M159.9%2C228.2l-73.5-73.5c-4.4-4.4-11.6-4.4-16%2C0l-38%2C38c-4.4%2C4.4-4.4%2C11.6%2C0%2C16L151.8%2C328c2.2%2C2.2%2C5.1%2C3.3%2C8%2C3.3%0D%0A%09c2.9%2C0%2C5.8-1.1%2C8-3.3l199.8-199.8c4.4-4.4%2C4.4-11.6%2C0-16l-38-38c-4.4-4.4-11.6-4.4-16%2C0L159.9%2C228.2z%22%2F%3E%0D%0A%3C%2Fsvg%3E');
+}
+
+#guidedNav-8 .availableFiltersContainer .checkList a.checked.checked[id$="Pink"]:after {
+  /* White Checkmark */
+  background: url('data:image/svg+xml,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22utf-8%22%3F%3E%0D%0A%3Csvg%20version%3D%221.1%22%20id%3D%22Layer_1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20x%3D%220px%22%20y%3D%220px%22%0D%0A%09%20viewBox%3D%220%200%20400%20400%22%20style%3D%22enable-background%3Anew%200%200%20400%20400%3B%22%20xml%3Aspace%3D%22preserve%22%3E%0D%0A%3Cpath%20fill%3D%22%23FFFFFF%22%20d%3D%22M159.9%2C228.2l-73.5-73.5c-4.4-4.4-11.6-4.4-16%2C0l-38%2C38c-4.4%2C4.4-4.4%2C11.6%2C0%2C16L151.8%2C328c2.2%2C2.2%2C5.1%2C3.3%2C8%2C3.3%0D%0A%09c2.9%2C0%2C5.8-1.1%2C8-3.3l199.8-199.8c4.4-4.4%2C4.4-11.6%2C0-16l-38-38c-4.4-4.4-11.6-4.4-16%2C0L159.9%2C228.2z%22%2F%3E%0D%0A%3C%2Fsvg%3E');
+}
+
+#guidedNav-8 .availableFiltersContainer .checkList a.checked.checked[id$="Cream"]:after {
+  /* Black Checkmark */
+  background: url('data:image/svg+xml,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22utf-8%22%3F%3E%0D%0A%3Csvg%20version%3D%221.1%22%20id%3D%22Layer_1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20x%3D%220px%22%20y%3D%220px%22%0D%0A%09%20viewBox%3D%220%200%20400%20400%22%20style%3D%22enable-background%3Anew%200%200%20400%20400%3B%22%20xml%3Aspace%3D%22preserve%22%3E%0D%0A%3Cpath%20d%3D%22M159.9%2C228.2l-73.5-73.5c-4.4-4.4-11.6-4.4-16%2C0l-38%2C38c-4.4%2C4.4-4.4%2C11.6%2C0%2C16L151.8%2C328c2.2%2C2.2%2C5.1%2C3.3%2C8%2C3.3%0D%0A%09c2.9%2C0%2C5.8-1.1%2C8-3.3l199.8-199.8c4.4-4.4%2C4.4-11.6%2C0-16l-38-38c-4.4-4.4-11.6-4.4-16%2C0L159.9%2C228.2z%22%2F%3E%0D%0A%3C%2Fsvg%3E');
+}
+
+#guidedNav-8 .availableFiltersContainer .checkList a.checked.checked[id$="Purple"]:after {
+  /* White Checkmark */
+  background: url('data:image/svg+xml,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22utf-8%22%3F%3E%0D%0A%3Csvg%20version%3D%221.1%22%20id%3D%22Layer_1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20x%3D%220px%22%20y%3D%220px%22%0D%0A%09%20viewBox%3D%220%200%20400%20400%22%20style%3D%22enable-background%3Anew%200%200%20400%20400%3B%22%20xml%3Aspace%3D%22preserve%22%3E%0D%0A%3Cpath%20fill%3D%22%23FFFFFF%22%20d%3D%22M159.9%2C228.2l-73.5-73.5c-4.4-4.4-11.6-4.4-16%2C0l-38%2C38c-4.4%2C4.4-4.4%2C11.6%2C0%2C16L151.8%2C328c2.2%2C2.2%2C5.1%2C3.3%2C8%2C3.3%0D%0A%09c2.9%2C0%2C5.8-1.1%2C8-3.3l199.8-199.8c4.4-4.4%2C4.4-11.6%2C0-16l-38-38c-4.4-4.4-11.6-4.4-16%2C0L159.9%2C228.2z%22%2F%3E%0D%0A%3C%2Fsvg%3E');
+}
+
+#guidedNav-8 .availableFiltersContainer .checkList a.checked.checked[id$="Gold"]:after {
+  /* Black Checkmark */
+  background: url('data:image/svg+xml,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22utf-8%22%3F%3E%0D%0A%3Csvg%20version%3D%221.1%22%20id%3D%22Layer_1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20x%3D%220px%22%20y%3D%220px%22%0D%0A%09%20viewBox%3D%220%200%20400%20400%22%20style%3D%22enable-background%3Anew%200%200%20400%20400%3B%22%20xml%3Aspace%3D%22preserve%22%3E%0D%0A%3Cpath%20d%3D%22M159.9%2C228.2l-73.5-73.5c-4.4-4.4-11.6-4.4-16%2C0l-38%2C38c-4.4%2C4.4-4.4%2C11.6%2C0%2C16L151.8%2C328c2.2%2C2.2%2C5.1%2C3.3%2C8%2C3.3%0D%0A%09c2.9%2C0%2C5.8-1.1%2C8-3.3l199.8-199.8c4.4-4.4%2C4.4-11.6%2C0-16l-38-38c-4.4-4.4-11.6-4.4-16%2C0L159.9%2C228.2z%22%2F%3E%0D%0A%3C%2Fsvg%3E');
+}
+
+#guidedNav-8 .availableFiltersContainer .checkList a.checked.checked[id$="Red"]:after {
+  /* White Checkmark */
+  background: url('data:image/svg+xml,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22utf-8%22%3F%3E%0D%0A%3Csvg%20version%3D%221.1%22%20id%3D%22Layer_1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20x%3D%220px%22%20y%3D%220px%22%0D%0A%09%20viewBox%3D%220%200%20400%20400%22%20style%3D%22enable-background%3Anew%200%200%20400%20400%3B%22%20xml%3Aspace%3D%22preserve%22%3E%0D%0A%3Cpath%20fill%3D%22%23FFFFFF%22%20d%3D%22M159.9%2C228.2l-73.5-73.5c-4.4-4.4-11.6-4.4-16%2C0l-38%2C38c-4.4%2C4.4-4.4%2C11.6%2C0%2C16L151.8%2C328c2.2%2C2.2%2C5.1%2C3.3%2C8%2C3.3%0D%0A%09c2.9%2C0%2C5.8-1.1%2C8-3.3l199.8-199.8c4.4-4.4%2C4.4-11.6%2C0-16l-38-38c-4.4-4.4-11.6-4.4-16%2C0L159.9%2C228.2z%22%2F%3E%0D%0A%3C%2Fsvg%3E');
+}
+
+#guidedNav-8 .availableFiltersContainer .checkList a.checked.checked[id$="Green"]:after {
+  /* White Checkmark */
+  background: url('data:image/svg+xml,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22utf-8%22%3F%3E%0D%0A%3Csvg%20version%3D%221.1%22%20id%3D%22Layer_1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20x%3D%220px%22%20y%3D%220px%22%0D%0A%09%20viewBox%3D%220%200%20400%20400%22%20style%3D%22enable-background%3Anew%200%200%20400%20400%3B%22%20xml%3Aspace%3D%22preserve%22%3E%0D%0A%3Cpath%20fill%3D%22%23FFFFFF%22%20d%3D%22M159.9%2C228.2l-73.5-73.5c-4.4-4.4-11.6-4.4-16%2C0l-38%2C38c-4.4%2C4.4-4.4%2C11.6%2C0%2C16L151.8%2C328c2.2%2C2.2%2C5.1%2C3.3%2C8%2C3.3%0D%0A%09c2.9%2C0%2C5.8-1.1%2C8-3.3l199.8-199.8c4.4-4.4%2C4.4-11.6%2C0-16l-38-38c-4.4-4.4-11.6-4.4-16%2C0L159.9%2C228.2z%22%2F%3E%0D%0A%3C%2Fsvg%3E');
+}
+
+#guidedNav-8 .availableFiltersContainer .checkList a.checked.checked[id$="Silver"]:after {
+  /* Black Checkmark */
+  background: url('data:image/svg+xml,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22utf-8%22%3F%3E%0D%0A%3Csvg%20version%3D%221.1%22%20id%3D%22Layer_1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20x%3D%220px%22%20y%3D%220px%22%0D%0A%09%20viewBox%3D%220%200%20400%20400%22%20style%3D%22enable-background%3Anew%200%200%20400%20400%3B%22%20xml%3Aspace%3D%22preserve%22%3E%0D%0A%3Cpath%20d%3D%22M159.9%2C228.2l-73.5-73.5c-4.4-4.4-11.6-4.4-16%2C0l-38%2C38c-4.4%2C4.4-4.4%2C11.6%2C0%2C16L151.8%2C328c2.2%2C2.2%2C5.1%2C3.3%2C8%2C3.3%0D%0A%09c2.9%2C0%2C5.8-1.1%2C8-3.3l199.8-199.8c4.4-4.4%2C4.4-11.6%2C0-16l-38-38c-4.4-4.4-11.6-4.4-16%2C0L159.9%2C228.2z%22%2F%3E%0D%0A%3C%2Fsvg%3E');
+}
+
+#guidedNav-8 .availableFiltersContainer .checkList a.checked.checked[id$="Grey"]:after {
+  /* White Checkmark */
+  background: url('data:image/svg+xml,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22utf-8%22%3F%3E%0D%0A%3Csvg%20version%3D%221.1%22%20id%3D%22Layer_1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20x%3D%220px%22%20y%3D%220px%22%0D%0A%09%20viewBox%3D%220%200%20400%20400%22%20style%3D%22enable-background%3Anew%200%200%20400%20400%3B%22%20xml%3Aspace%3D%22preserve%22%3E%0D%0A%3Cpath%20fill%3D%22%23FFFFFF%22%20d%3D%22M159.9%2C228.2l-73.5-73.5c-4.4-4.4-11.6-4.4-16%2C0l-38%2C38c-4.4%2C4.4-4.4%2C11.6%2C0%2C16L151.8%2C328c2.2%2C2.2%2C5.1%2C3.3%2C8%2C3.3%0D%0A%09c2.9%2C0%2C5.8-1.1%2C8-3.3l199.8-199.8c4.4-4.4%2C4.4-11.6%2C0-16l-38-38c-4.4-4.4-11.6-4.4-16%2C0L159.9%2C228.2z%22%2F%3E%0D%0A%3C%2Fsvg%3E');
+}
+
+#guidedNav-8 .availableFiltersContainer .checkList a.checked.checked[id$="White"]:after {
+  /* Black Checkmark */
+  background: url('data:image/svg+xml,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22utf-8%22%3F%3E%0D%0A%3Csvg%20version%3D%221.1%22%20id%3D%22Layer_1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20x%3D%220px%22%20y%3D%220px%22%0D%0A%09%20viewBox%3D%220%200%20400%20400%22%20style%3D%22enable-background%3Anew%200%200%20400%20400%3B%22%20xml%3Aspace%3D%22preserve%22%3E%0D%0A%3Cpath%20d%3D%22M159.9%2C228.2l-73.5-73.5c-4.4-4.4-11.6-4.4-16%2C0l-38%2C38c-4.4%2C4.4-4.4%2C11.6%2C0%2C16L151.8%2C328c2.2%2C2.2%2C5.1%2C3.3%2C8%2C3.3%0D%0A%09c2.9%2C0%2C5.8-1.1%2C8-3.3l199.8-199.8c4.4-4.4%2C4.4-11.6%2C0-16l-38-38c-4.4-4.4-11.6-4.4-16%2C0L159.9%2C228.2z%22%2F%3E%0D%0A%3C%2Fsvg%3E');
+}
+
+#guidedNav-8 .availableFiltersContainer .checkList a.checked.checked[id$="Multi"]:after {
+  /* White Checkmark */
+  background: url('data:image/svg+xml,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22utf-8%22%3F%3E%0D%0A%3Csvg%20version%3D%221.1%22%20id%3D%22Layer_1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20x%3D%220px%22%20y%3D%220px%22%0D%0A%09%20viewBox%3D%220%200%20400%20400%22%20style%3D%22enable-background%3Anew%200%200%20400%20400%3B%22%20xml%3Aspace%3D%22preserve%22%3E%0D%0A%3Cpath%20fill%3D%22%23FFFFFF%22%20d%3D%22M159.9%2C228.2l-73.5-73.5c-4.4-4.4-11.6-4.4-16%2C0l-38%2C38c-4.4%2C4.4-4.4%2C11.6%2C0%2C16L151.8%2C328c2.2%2C2.2%2C5.1%2C3.3%2C8%2C3.3%0D%0A%09c2.9%2C0%2C5.8-1.1%2C8-3.3l199.8-199.8c4.4-4.4%2C4.4-11.6%2C0-16l-38-38c-4.4-4.4-11.6-4.4-16%2C0L159.9%2C228.2z%22%2F%3E%0D%0A%3C%2Fsvg%3E');
+}
+
+#guidedNav-8 .availableFiltersContainer .checkList a.checked.checked[id$="Yellow"]:after {
+  /* Black Checkmark */
+  background: url('data:image/svg+xml,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22utf-8%22%3F%3E%0D%0A%3Csvg%20version%3D%221.1%22%20id%3D%22Layer_1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20x%3D%220px%22%20y%3D%220px%22%0D%0A%09%20viewBox%3D%220%200%20400%20400%22%20style%3D%22enable-background%3Anew%200%200%20400%20400%3B%22%20xml%3Aspace%3D%22preserve%22%3E%0D%0A%3Cpath%20d%3D%22M159.9%2C228.2l-73.5-73.5c-4.4-4.4-11.6-4.4-16%2C0l-38%2C38c-4.4%2C4.4-4.4%2C11.6%2C0%2C16L151.8%2C328c2.2%2C2.2%2C5.1%2C3.3%2C8%2C3.3%0D%0A%09c2.9%2C0%2C5.8-1.1%2C8-3.3l199.8-199.8c4.4-4.4%2C4.4-11.6%2C0-16l-38-38c-4.4-4.4-11.6-4.4-16%2C0L159.9%2C228.2z%22%2F%3E%0D%0A%3C%2Fsvg%3E');
+}
+
+
+/* Slight style change to the personalisation modal */
+
+#jdwModalHeader{height:45px; }
+a.prev.btn.tertiaryBtn.icon-leftarrow.enter-personalisation-btn {text-transform:none;}
+#smallModalContent p#personalisationContent{ margin-top:5px; }
+
+/* PDP PLP logos */
+/* Back In Stock */
+.BackInStock_Logo {
+    position: absolute;
+    bottom: 12px;
+    left: 10px;
+    display: block;
+    height: 30px;
+    color: transparent;
+    background: url(//images.drct2u.com/content/images/promotionalLogos/JDW_1806_Back_in_stock.png);
+    background-repeat: no-repeat;
+    background-size: 61px;
+}
+/* Installation */
+.Installation_Logo {
+    position: absolute;
+    bottom: 12px;
+    left: 10px;
+    display: block;
+    width: 100px;
+    height: 30px;
+    color: transparent;
+    background: url(//images.drct2u.com/content/images/promotionalLogos/180724_JDW_installation_inc.png);
+    background-repeat: no-repeat;
+    background-size: 91px;
+}
+
+/* Free Gift - Ariel */
+.Free_Gift {
+    position: static;
+    display: block;
+    width: 100%;
+    height: 30px;
+    margin: 5px 0;
+    color: transparent;
+    background: url(//images.drct2u.com/content/images/promotionalLogos/180807_JDW_badge_ariel.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.pdp .Free_Gift {
+    position: absolute;
+    bottom: 0;
+}
+
+/* Free Gift - Fairy */
+.Free_Gift2 {
+    position: static;
+    display: block;
+    width: 100%;
+    height: 30px;
+    margin: 5px 0;
+    color: transparent;
+    background: url(//images.drct2u.com/content/images/promotionalLogos/180823_JDW_fairy.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.pdp .Free_Gift, .pdp .Free_Gift2 {
+    position: relative;
+    top: -40px;
+    background-position: center;
+}
+
+
+/* PLP GREY RICH RELEVANCE CARTRIDGE */
+
+.affinityWrapper.gui-panel-bordered,
+.pdp-affinities {
+  border: 2px solid #424242;
+}
+
+.productContainer .pdp-affinities h3,
+.pdp-affinities .jdw-rr-border,
+#landingPageContent .automatedAffinities .carouselContainer {
+  margin-top: 0;
+  border: 0;
+}
+
+.affinityWrapper .carouselContainer .carouselHeader,
+.pdp-affinities h3 {
+  padding: 12px 10px;
+  text-transform: uppercase;
+  color: #fff;
+  border: 0;
+  background: #424242;
+}
+
+.affinityWrapper .flex-direction-nav a {
+  height: 80px;
+  margin-top: -40px;
+}
+
+.affinityWrapper .carouselContainer .flex-direction-nav a {
+  width: 40px;
+}
+
+.affinityWrapper .flex-direction-nav a.flex-prev:before,
+.affinityWrapper .flex-direction-nav a.flex-next:before {
+  width: 40px;
+  height: 80px;
+  content: '';
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.affinityWrapper .flex-direction-nav a.flex-prev:before,
+.pdp-affinities .jdw-rr-arrow-left {
+  background-image: url(//sb.monetate.net/img/1/526/1641268.png);
+}
+
+.affinityWrapper .flex-direction-nav a.flex-next:before,
+.pdp-affinities .jdw-rr-arrow-right {
+  background-image: url(//sb.monetate.net/img/1/526/1641269.png);
+}
+
+.carouselContainer .flexslider {
+  border: 0;
+}
+/* PRODUCT ACTIONS BAR COLOUR */
+
+#browseContent-7 .productSort {
+  padding: 10px 15px;
+}
+
+.plp .productSort,
+#browseContent-7 .productSort {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: #dbdbd9;
+}
+
+.productSort .recordsPerPage {
+  top: 0;
+  right: 0;
+}
+
+.productSort #sortByOptions select,
+.productSort .recordsPerPage select,
+.productSort .grid-switch-plp-layout-grids {
+  background-color: #fff;
+}
+
+.productSort .grid-switch-plp-layout-grids {
+  padding: 7.5px 8px;
+}
+
+.productSort .resultsPages {
+  background-color: transparent;
+}
+
+.productSort .productPages .previous,
+.productSort .productPages .next {
+  background-color: #fff;
+}
+
+/* PLP View and pagination fix */
+@media (max-width: 1270px) {
+    .productSort p {
+        font-size:0.6em;
+    }
+    .resultsPages .productPages span a, .productPages .current strong,
+    .recordsPerPage select,
+    #sortByOptions select {
+        font-size: 12px;
+    }
+    #browseContent-7 .productSort {
+        padding: 5px 8px !important;
+    }
+    #sortByOptions p {
+        width: 45px;
+    }
+    .recordsPerPage p {
+        top: 8px;
+        width: 58px;
+    }
+    #sortByOptions {
+		margin-right: 67px;
+		margin-left: 48px;
+	}
+	.productSort .recordsPerPage {
+		margin-right: 36px;
+	}
+	.grid-switch-plp-layout-grids p {
+		width: 30px;
+    }
+    .productPages span.productPagesTxt {
+        display: none !important;
+    }
+}
+@media (max-width: 1003px) {
+    body.plp {
+        overflow-x: visible;
+    }
+}
+
+/*--------------------
+PRODUCT ROUNDEL STYLING
+--------------------*/
+
+
+.productImage .overRoundel {
+    display: none;
+}
+
+.sale-badge, .LooksForLess_Logo, .LivingForLess_Logo, .ShapeAndFit_Logo, .ExclusiveToUs_Logo, .JDWAd_Logo {
+    font-family: "GalanoGrotesque-Regular", sans-serif !important;
+    font-size: 11px;
+    font-weight: normal !important;
+    line-height: 1;
+    bottom: 0;
+    box-sizing: border-box;
+    width: 75px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000;
+}
+.sale-badge {
+    padding: 5px 15px;
+    color: #fff;
+	background: #ff0026;
+}
+.LooksForLess_Logo, .LivingForLess_Logo {
+    padding: 8px 10px 5px;
+	background: #edd73e;
+
+}
+
+.ShapeAndFit_Logo {
+    padding: 8px 15px 5px;
+    color: #fff;
+    background: #9cd6d0;
+}
+
+.ExclusiveToUs_Logo {
+    padding: 8px 0px 5px;
+    background: #eeeeee;
+}
+
+.JDWAd_Logo {
+    padding: 8px 10px 5px;
+    color:#fff;
+    background: #A2AB59;
+}
+.multibuy-badge, .bogof-badge, .threefortwo-badge{
+    font-family: "GalanoGrotesque-SemiBold", sans-serif !important;
+    font-size: 14px;
+    margin-top :10px;
+    padding: 8px 0px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ED1B24;
+    background: #f3f3f3;
+}
+
+/*--------------------
+SIGNIN PAGE STYLING
+--------------------*/
+
+#signedInShoppingBag {
+	margin-left: 10px;
+    padding: 15px 15px 10px 31px;
+}
+
+#signedInHolder #signedInBox h2 {
+    padding: 15px 15px 13px 40px;
+}
+/*-----------------------
+SIGNIN PAGE STYLING ENDS
+------------------------*/
+
+.fadeMsgBox a {
+    text-decoration: underline !important;
+}
+
+/*-----------------------
+SEE MORE TICK BOX FIX
+------------------------*/
+
+#guidedNav-8 .checkList .moreLink a:hover,#guidedNav-8 .checkList .moreLink a:visited, #guidedNav-8 .checkList .moreLink a:focus, #guidedNav-8 .checkList .moreLink a:checked { background-repeat:no-repeat;background-position:-1892px 0.5em; }
+
+
+/*----------------------
+CHECKOUT DELIVERY BANNER
+----------------------*/
+
+.view-bag-item .product-card.special-offer .view-bag-product-img.view-bag-product-img-delivery {
+text-indent: -9999px !important;
+background: #000 !important;
+border: none !important;
+}
+
+.view-bag-item .product-card.special-offer .view-bag-product-img-delivery span:before {
+background-image: url(//images2.drct2u.com/content/images/FGN/210618_JDW_checkout_delivery.png) !important;
+background-size: contain;
+}
+
+.view-bag-item .product-card.special-offer .view-bag-product-img span b:before {
+    /* content: "" !important; */
+}
+.view-bag-item .product-card.special-offer .view-bag-product-img span b:after {
+    /* content: "" !important; */
+}
+.view-bag-item .product-card.special-offer .view-bag-product-img-delivery span:before{
+    width: 90%;
+}
+@media screen and (min-width: 768px){
+.view-bag-item .product-card.special-offer .view-bag-product-img-delivery span:before {
+    width: 90%;
+    height: 80%;
+    margin-top: 5%;
+}
+}
+@media screen and (min-width: 1025px){
+.view-bag-item .product-card.special-offer .view-bag-product-img-delivery span:before {
+    width: 100%;
+}
+}
+/*----------------------
+FLYOUT CHECKOUT DELIVERY BANNER
+----------------------*/
+
+.gui-minibag-item .view-bag-product-img {
+ background-color: #000;
+ padding: 0;
+}
+.gui-minibag-item .view-bag-product-img-delivery span:before{
+ background-color: #000;
+ background-image: url(//images2.drct2u.com/content/images/FGN/210618_JDW_checkout_delivery.png) !important;
+ height: 100%;
+}
+
+.gui-minibag-item .view-bag-product-img-delivery span b:before {
+    content: "" !important;
+    }
+
+.gui-minibag-item .view-bag-product-img-delivery span b:after{
+    content: "" !important;
+}
+
+/* * Change PDP Wishlist text */
+.pdp-attributes .product-options .checkout-buttons a.btn-save-for-later {
+    font-size: 0;
+}
+.pdp-attributes .product-options .checkout-buttons a.btn-save-for-later:after {
+    font-size: 16px;
+    content: "Add to Saved Items";
+}
