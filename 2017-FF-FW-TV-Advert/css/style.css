@@ -1,0 +1,434 @@
+#FFContainer{
+  overflow: hidden;
+  max-width: 1400px;
+  background:#FFF;
+  width: 100%;
+  color: #666;
+}
+lm{
+  cursor: pointer;
+}
+
+/*-----------------------------
+VIDEO
+------------------------------*/
+
+#FFContainer .Video {
+  max-width: 950px;
+  margin:0 auto;
+}
+#FFContainer .Video h2{
+  text-align: center; 
+  font:2.5em/0.8em 'FuturaPTWebBook', Verdana, Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  margin-top: 0.5em;
+  color: #000;
+}
+#vidwrap { 
+  max-width: 950px; 
+  border:1px solid #fff;
+  cursor: pointer;
+  overflow:hidden;
+  display:block;
+  margin: 0 auto; 
+  position: relative;
+  padding-bottom: 53.5%; /* 16:9 */
+  padding-top: 25px;
+  height: 0;
+  background-size: contain;
+}
+
+#vidwrap iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+/*-----------------
+GRID
+------------------*/
+
+#FFContainer section.grid{
+  display: block;
+  width: 100%;
+  background: #fbf4f8;
+  text-align: center;
+}
+
+#FFContainer section.grid .box .Image{
+  position:relative;
+}
+
+
+
+@media only screen and (max-width: 769px) {/*Anything Below 769px*/
+#FFContainer img{ display: block; margin: 0 auto;}
+#FFContainer section.credit img{ width:auto;margin: 0 auto;position: relative; }
+}
+@media only screen and (max-width: 769px) and (min-width: 737px)  {/*Anything Below 737px*/
+#FFContainer header .Image{height: 20em !important;}
+
+}
+@media only screen and (max-width: 668px) {/*Anything Below 668px*/
+#FFContainer img{ width: 95%; margin: 0 2.5%;}
+}
+#FFContainer p{letter-spacing: 0.05em;}
+#FFContainer .Button{ 
+  font: 1.2em/1em 'FuturaPTWebBook', Verdana, Arial, Helvetica, sans-serif;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding: 20px 0;
+    color: #FFF;
+    text-align: center; 
+  background: #e19dc6;
+    margin: 20px auto;
+    width: 100%;
+    float: none;
+    text-decoration: none; 
+  position: relative; 
+  display: block;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#FFContainer .Center{
+  position: absolute;
+  top:50%;
+  -webkit-transform:translateY(-50%);
+  -ms-transform:translateY(-50%);
+  transform:translateY(-50%);
+  width: 100%;
+}
+#FFContainer .Center.Two{ 
+    position: initial;
+    bottom: 0;
+    display: block;
+    transform: initial;
+    }
+#FFContainer .Center .Roundal{
+  background: #ca016d;
+  border-radius: 100%;
+  width: 200px;
+  margin: 0 auto;
+  position: relative;
+  height: 200px;
+  color:#FFF;
+}
+#FFContainer .Center .Roundal h2{
+   font: 2.5em/0.9em 'FuturaPTWebBook', Verdana, Arial, Helvetica, sans-serif;
+   text-transform:uppercase;
+   letter-spacing: 0.1em;
+   height: auto;
+   margin: 0;
+   color: #FFF;
+}
+#FFContainer header{
+  display: block;
+  text-align:center;
+  font:1em/1em 'GibsonLight', Verdana, Arial, Helvetica, sans-serif;
+  color: #000;
+  margin: 0 auto;
+  max-width: 1400px;
+  position: relative;
+}
+#FFContainer header .Image{
+  background:url(../TV_AD-assets/wish-list-mob.jpg) 80% top no-repeat;
+  height: 16em;
+    background-size: cover;
+  position: relative;
+}
+#FFContainer h1{
+    font: 4.5em/1.5em 'FuturaPTWebBook', Verdana, Arial, Helvetica, sans-serif;
+    margin-top: 1em;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000;
+    letter-spacing: 0.05em;;
+}
+#FFContainer h1 small{
+  font: 0.4em/1em 'FuturaPTWebBook', Verdana, Arial, Helvetica, sans-serif;
+  display: block;
+  color: #222;
+  letter-spacing: 0.2em;;
+}
+#FFContainer h1 strong{
+  font:1em/1em 'GeometricHeavy', Verdana, Arial, Helvetica, sans-serif;
+  color: #222;
+}
+#FFContainer h1 span{
+  font: 1.3em/1em 'Bromello';
+  text-transform: none;
+  color: #ca016d;
+}
+#FFContainer h1 hr{
+float: none;
+background: #ca016d;
+width: 60px;
+margin:0.2em auto 0.6em auto;
+}
+#FFContainer header h2{
+  height: 70px;
+}
+#FFContainer header p{
+  margin: 20px 5%;
+}
+#FFContainer header .Button{
+background:#FFF;
+border:4px solid #dfba28;
+color:#000; 
+margin:0;
+}
+#FFContainer header .Button.Black{
+background:#000; 
+border:4px solid #000;
+margin:0;
+color:#FFF;
+}
+
+
+#FFContainer section{
+  float: left;
+  display: block;
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  position: relative;
+}
+#FFContainer hr{ 
+  background: #825271; 
+  border: 0px solid #FFF; 
+  color: #FFF; 
+  display: block; 
+  width: 100%; 
+  margin: 60px auto; 
+  height: 5px; 
+  float: left; 
+  max-width: 866px; 
+}
+/*-----------------------
+TITLES
+-----------------------*/
+#FFContainer h3{
+    font: 3em/1.5em 'FuturaPTWebBook', Verdana, Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    text-align: center;
+    color: #000;
+    padding: 20px 0;
+    width: 100%;
+    display: block;
+}
+#FFContainer h3 small{
+  font: 0.5em/1em 'FuturaPTWebBook', Verdana, Arial, Helvetica, sans-serif;
+  display:block;
+}
+#FFContainer h3 hr{
+background: #ca016d;
+    display: block;
+    width: 60px;
+    margin: 0.3em auto 0 auto;
+    clear: both;
+    float: none;
+}
+#FFContainer h3 strong{
+   font: 1em/1em 'GeometricHeavy', Verdana, Arial, Helvetica, sans-serif;
+   
+}
+#FFContainer h3 span{
+  font:1.3em/1em 'Bromello';
+  text-transform:none;
+  color:#ca016d;
+}
+
+#FFContainer h3 span sup{
+  font: 0.5em/1em 'Bromello';
+    vertical-align: middle;
+    width: 0.7em;
+    display: inline-block;
+}
+
+#FFContainer p{
+  font: 1.4em/1.5em 'FuturaPTWebBook', Verdana, Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin: 0 5% 20px 5%;
+  float: left;
+  width: 90%;
+  color:#ca016d;
+
+}
+/*-----------------------------
+CREDIT BANNERS
+-------------------------------*/
+#FFContainer section.grid.credit{ 
+  background:#FFF; 
+}
+#FFContainer section.grid.credit h3{ padding: 20px 0 34px 0;}
+#FFContainer section.grid.credit .box{
+  height:300px;
+  position: relative;
+  width:100%;
+}
+#FFContainer section.grid.credit .box.one,
+#FFContainer section.grid.credit .box.three{
+  background:url(../TV_AD-assets/pattern-left.png) no-repeat center left,
+         url(../TV_AD-assets/pattern-right.png) no-repeat center right,
+         #f7e0eb;
+}
+#FFContainer section.grid.credit .box.two{
+  background:url(../TV_AD-assets/pattern-left.png) no-repeat center left,
+         url(../TV_AD-assets/pattern-right.png) no-repeat center right,
+         #f4d3e3;
+}
+
+#FFContainer section.grid.credit .box .delivery,
+#FFContainer section.grid.credit .box .credit,
+#FFContainer section.grid.credit .box .nextday{
+  display: block;
+  height: 100%;
+  width: 100%;
+
+}
+#FFContainer section.grid.credit .box.one .delivery{
+  background:url(../TV_AD-assets/free-delivery.png) no-repeat center center;
+}
+#FFContainer section.grid.credit .box.two .credit{
+  background:url(../TV_AD-assets/credit-available.png) no-repeat center center;
+}
+#FFContainer section.grid.credit .box.three .nextday{
+  background:url(../TV_AD-assets/order-up-to-10pm.png) no-repeat center center;
+}
+/*-----------------------------
+Tablet Landscape STYLES
+-------------------------------*/
+@media only screen and (min-width: 768px) {/*Anything Above 737px*/
+#FFContainer h3 {font: 4em/1.5em 'FuturaPTWebBook', Verdana, Arial, Helvetica, sans-serif;  }
+#FFContainer h3 small { font: 0.4em/1em 'FuturaPTWebBook', Verdana, Arial, Helvetica, sans-serif;}
+  
+  /*---------GRID---------*/
+#FFContainer section.grid .box{  width: 32%; display: inline-block;}
+#FFContainer section.grid .box img{ width: 100%; }
+#FFContainer section.grid.credit .box img{ width:auto;  }
+#FFContainer section.grid.credit .box{width: 32%;}
+  
+  
+}
+
+/*-----------------------------
+DESKTOP STYLES
+-------------------------------*/
+@media only screen and (min-width: 1000px) {/*Anything Above 1000px*/
+
+#FFContainer .Center .Roundal{
+  width:334px;
+  height:334px;
+} 
+#FFContainer .Center.Two {
+  position: absolute;
+  top: 56%;
+  width: initial;
+  margin: 0;
+  left: 13.5%;
+  padding: 0;
+}
+#FFContainer .Center .Roundal h2{
+    position: absolute;
+    top: 33%;
+    width: 100%;
+    font: 3em/0.9em 'FuturaPTWebBook', Verdana, Arial, Helvetica, sans-serif;
+    left: 0;
+    padding: 0;
+}
+#FFContainer header .Button{ padding:10px; }
+#FFContainer header .Button.White{
+  margin-top:2px;
+  color:#FFF;
+  border:1px solid #000;
+  background:none;
+}
+
+#FFContainer .VideoWrapper{ 
+  background:url(../TV_AD-assets/video-pattern-left.jpg) center left,
+         url(../TV_AD-assets/video-pattern-right.jpg) center right; 
+         width:100%;
+         background-repeat:no-repeat;
+         padding: 86px 0;
+}
+
+#FFContainer section.grid{padding: 100px 0;}
+#FFContainer section.grid.credit{padding:0; margin:100px 0}
+#FFContainer section.grid .Button{margin: 0}
+#FFContainer section.grid .box .Button{ color:#000; background:none; border:1px solid #000; width: 70%; margin: 10% auto}
+#FFContainer section.grid .box img{ width: auto; }
+
+#FFContainer p{ font-size: 1.2em }
+#FFContainer h4{font: 2.5em/1em 'FuturaPTWebBook', Verdana, Arial, Helvetica, sans-serif; }
+#FFContainer header{height:483px}
+#FFContainer header .Center{width:400px;padding: 0 2%;}
+#FFContainer header h1{ margin-top: 0; }
+
+#FFContainer .Button{padding:10px 0;width:100%;font-size:1em}
+#FFContainer header p{width:80%;margin:0 auto 5%;display:block;font-size:1em;text-align:center;float:none}
+#FFContainer header,#FFContainer article,#FFContainer section,#FFContainer hr{float:none;overflow:hidden}
+#FFContainer .Box{width:45%;display:inline-block}
+
+#FFContainer header .Image{
+  position:absolute;
+  top:0;
+  height:483px;
+  width:100%;
+  background: url(../TV_AD-assets/wish-list.jpg) 80% top no-repeat;
+  background-position: 50%;
+}
+}
+@media only screen and (min-width: 1025px) {/*Anything Above 1025px*/
+  #FFContainer{  margin: 0 auto}
+  #FFContainer section.grid{ width:90%; padding:100px 5%; }
+  #FFContainer section.grid.credit{ width:100%; padding: 0;}
+  #FFContainer .Center.Two{left: 9.5%;}
+}
+
+/* Radial Out */
+.hvr-radial-out {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  position: relative;
+  overflow: hidden;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+.hvr-radial-out:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #ca016d;
+  color:#FFF !important;
+  border-radius: 100%;
+  -webkit-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-radial-out:hover, .hvr-radial-out:focus, .hvr-radial-out:active {
+  color: white !important;
+}
+.hvr-radial-out:hover:before, .hvr-radial-out:focus:before, .hvr-radial-out:active:before {
+  -webkit-transform: scale(2);
+  transform: scale(2);
+}
+.hvr-radial-out.pale:before {
+  background: #efc2d8;
+}

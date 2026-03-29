@@ -1,0 +1,26 @@
+/*-----------------------------
+MOBILE FONT SIZE TRICK
+-------------------------------*/
+#FFContainer {font-size: 100% !important;}
+
+@media only screen and (max-width: 768px) {/*iPad Portait*/
+#FFContainer {font-size: 130% !important;}
+}
+@media only screen and (max-width: 736px) {/*iPhone 6 Plus Landscape*/
+#FFContainer {font-size: 130% !important;}
+}
+@media only screen and (max-width: 667px) {/*iPhone 6 Landscape*/
+#FFContainer {font-size: 100% !important;}
+}
+@media only screen and (max-width: 568px) {/*iPhone 5 Plus Landscape*/
+#FFContainer {font-size: 100% !important;}
+}
+@media only screen and (max-width: 414px) {/*iPhone 6 Plus Portrait*/
+#FFContainer {font-size: 90% !important;}
+}
+@media only screen and (max-width: 375px) {/*iPhone 6 Portrait*/
+#FFContainer {font-size: 80% !important;}
+}
+@media only screen and (max-width: 320px) {/*iPhone 5 Portrait*/
+#FFContainer {font-size: 60% !important;}
+}
