@@ -1,0 +1,431 @@
+/* Owl Carousel.... */
+
+.owl-carousel .owl-item img {
+  margin-bottom: 0;
+}
+
+/* Structure */
+
+#outerPageContainer {
+  width: auto;
+}
+.DesktopOnly{
+    display: none;
+}
+.ff {
+    font-size: 62.5%;
+  margin: 0 auto;
+  max-width: 1200px;
+  text-align: center;
+}
+
+/* Intro */
+
+.ff-intro {
+    position: relative;
+}
+.ff-introimg{
+    width: 100%;
+}
+.ff-introtextarea{
+  padding: 5vw;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  left: 50%;
+  margin: 0 auto;
+  max-width: 600px;
+  background: rgba(255,255,255, 0.9);
+}
+
+.ff-intro__title{
+  font:10vw/1 "GalanoGrotesque-Regular", Arial, Helvetica, sans-serif;
+  margin: 0;
+  text-transform: uppercase;
+}
+.ff-intro__title--bold{
+  font: 10vw/1 "GalanoGrotesque-SemiBold", Arial, Helvetica, sans-serif;
+}
+.ff-intro__copy {
+  color: #000;
+  font: 1.5vw/1.4 "GalanoGrotesque-Regular", Arial, Helvetica, sans-serif;
+}
+@media all and (min-width: 768px) {
+.ff-introtextarea{padding: 4em;}
+    
+    
+.ff-intro__title{font-size:5vw; margin-bottom: 0.3em;}
+.ff-intro__title--bold{font-size:5vw;}
+}
+@media all and (min-width: 1025px) {
+.ff-intro__copy {
+  font: 1.5em/1.4 "GalanoGrotesque-Regular", Arial, Helvetica, sans-serif;
+}   
+.ff-intro__title{font-size:5em; margin-bottom: 0.3em;}
+.ff-intro__title--bold{font-size:1em;}
+}
+/*---------------------------
+Shop by Colour
+-----------------------------*/
+
+.ff-colours {
+  padding: 10px 0 80px;
+}
+.ff-colours__titleabove{
+	border-top: 1px solid #000;
+	width: 100%;
+	display: block;
+	padding: 1em 0;
+  font: 10vw/1 "GalanoGrotesque-Regular", Arial, Helvetica, sans-serif;
+	
+}
+.ff-colours__title {
+  font: 18px/18px "GalanoGrotesque-Regular", Arial, Helvetica, sans-serif;
+  margin-bottom: 18px;
+  padding-bottom: 0;
+  text-transform: uppercase;
+}
+
+.owl-carousel.ff-colours__carousel {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0 70px;
+}
+
+.owl-carousel.ff-colours__carousel .owl-nav .owl-next,
+.owl-carousel.ff-colours__carousel .owl-nav .owl-prev {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 28px;
+  height: calc(100% - 38px);
+  outline: none;
+  position: absolute;
+  top: 0;
+  width: 70px;
+}
+
+.owl-carousel.ff-colours__carousel .owl-nav .owl-prev {
+  background: url("/images/arrow-left-black-v1.png") transparent no-repeat center;
+  left: 0;
+}
+
+.owl-carousel.ff-colours__carousel .owl-nav .owl-next {
+  background: url("/images/arrow-right-black-v1.png") transparent no-repeat center;
+  right: 0;
+}
+
+.ff-colour__link {
+  color: #000;
+  text-decoration: none;
+}
+
+.ff-colour__copy {
+  font: 13px/16px "GalanoGrotesque-Regular", Arial, Helvetica, sans-serif;
+}
+
+.ff-colour__name {
+  display: block;
+  text-transform: uppercase;
+}
+
+.ff-colour__cta {
+  text-transform: capitalize;
+}
+
+.ff-colour__pallette {
+  height: 0;
+  margin-bottom: 6px;
+  padding-bottom: 100%;
+}
+
+.ff-colour__pallette--white {  background-color: #f9f7f7;}
+.ff-colour__pallette--cream {  background-color: #f8f7e0;}
+.ff-colour__pallette--natural{ background-color: #e1dbd6;}
+.ff-colour__pallette--pink {   background-color: #f7798b;}
+.ff-colour__pallette--yellow { background-color: #ffe850;}
+.ff-colour__pallette--orange { background-color: #f0745f;}
+.ff-colour__pallette--blue {   background-color: #315d84;}
+.ff-colour__pallette--red {    background-color: #d3162f;}
+.ff-colour__pallette--green {  background-color: #6ba688;}
+.ff-colour__pallette--purple { background-color: #91488f;}
+.ff-colour__pallette--grey {   background-color: #cecccc;}
+.ff-colour__pallette--silver { background-color: #b9b6b6;}
+.ff-colour__pallette--gold {   background-color: #d4af37;}
+.ff-colour__pallette--brown {  background-color: #985531;}
+.ff-colour__pallette--black {  background-color: #000;}
+
+@media all and (min-width: 768px) {
+	
+	.ff-colours__titleabove{ font-size: 4em}
+}
+/*------------------------
+NAV
+-------------------------*/
+.ff-nav{display: none}
+
+@media all and (min-width: 768px) {
+.ff-nav{
+    display: block;
+    border-bottom: 1px solid #000;
+    border-top: 1px solid #000;
+    margin: 3.5em 0 0 0;
+    padding: 1em 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+.ff-button{
+    display: inline-block;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 1.2em 0;
+    background: #ccc;
+    width: 25%;
+    margin: 0 0.5%;
+    font: 1.6vw/1 "GalanoGrotesque-Regular", Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    
+}
+.ff-button--palace{     background: #f9edec;}
+.ff-button--altificial{ background: #f0e5e6;}
+.ff-button--dreamzone{  background: #f3f0f2;}
+.ff-button--med{        background: #ecedef;}
+}
+
+@media all and (min-width: 1000px) {
+    .ff-button{
+        font: 1.6em/1 "GalanoGrotesque-Regular", Arial, Helvetica, sans-serif;}
+}
+@media all and (min-width: 1200px) {
+    .ff-button{
+        font: 1.8em/1 "GalanoGrotesque-Regular", Arial, Helvetica, sans-serif;}
+}
+/*-----------------------
+Features
+-------------------------*/
+
+.ff-feature {
+  padding-bottom: 12vw;
+}
+
+.ff-feature__title {
+  font: 7vw/1 "GalanoGrotesque-Regular", Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+    position: relative;
+}
+.ff-feature__titletext{
+    width: 100%;
+    position: absolute;
+    top: 40%;
+    font-size: 1em;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    margin: 0;
+    font-weight: normal;
+}
+.ff-feature__titletext--bold{
+  font-family: "GalanoGrotesque-SemiBold", Arial, Helvetica, sans-serif;
+    
+}
+.ff-feature__copy {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font: 14px/18px "GalanoGrotesque-Regular", Arial, Helvetica, sans-serif;
+  margin: 0 auto;
+  padding: 35px 20px;
+  max-width: 1000px;
+}
+#faraway .ff-feature__copy{ max-width: 800px;}
+
+.ff-feature__title--palace-design {  color: #FFF; }
+.ff-feature__title--ArtificalParadise{ color: #FFF;}
+.ff-feature__title--DreamZone { color: #8a6984;}
+.ff-feature__title--mediterranean {  color: #FFF;}
+
+.owl-carousel.ff-feature__carousel {
+  margin-bottom: 33px;
+}
+
+.owl-carousel.ff-feature__carousel .owl-nav .owl-next,
+.owl-carousel.ff-feature__carousel .owl-nav .owl-prev {
+  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 28px;
+  height: 150px;
+  outline: none;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+  width: 50px;
+}
+
+.owl-carousel.ff-feature__carousel .owl-nav .owl-prev {
+  background: url("/images/arrow-left-white-v1.png") transparent no-repeat center;
+    
+  left: 0;
+}
+
+.owl-carousel.ff-feature__carousel .owl-nav .owl-next {
+  background: url("/images/arrow-right-white-v1.png") transparent no-repeat center;
+  right: 0;
+}
+
+.ff-feature__cta {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-style: solid;
+  border-width: 1px;
+  color: #fff !important;
+  display: block;
+  font: 18px/18px "GalanoGrotesque-SemiBold", Arial, Helvetica, sans-serif;
+  margin: 0 auto 33px;
+  padding: 13px 0;
+  text-transform: uppercase;
+  -webkit-transition: background-color 300ms ease-in-out,  color 300ms ease-in-out;
+  -o-transition: background-color 300ms ease-in-out,  color 300ms ease-in-out;
+  transition: background-color 300ms ease-in-out,  color 300ms ease-in-out;
+  width: 338px;
+    text-decoration: none;
+}
+
+.ff-feature__cta:hover {
+  background-color: #fff;
+}
+
+.ff-feature__cta--palace-design {
+  background-color: #dfa3a2;
+  border-color: #dfa3a2;
+}
+
+.ff-feature__cta--palace-design:hover {
+  color: #dfa3a2 !important;
+}
+
+.ff-feature__cta--ArtificalParadise {
+  background-color: #6d0008;
+  border-color: #6d0008;
+}
+
+.ff-feature__cta--ArtificalParadise:hover {
+  color: #6d0008 !important;
+}
+.ff-feature__cta--DreamZone {
+  background-color: #85a2bb;
+  border-color: #85a2bb;
+}
+
+.ff-feature__cta--DreamZone:hover {
+  color: #85a2bb !important;
+}
+
+.ff-feature__cta--mediterranean {
+  background-color: #424b62;
+  border-color: #424b62;
+}
+
+.ff-feature__cta--mediterranean:hover {
+  color: #424b62 !important;
+}
+
+.ff-feature__cta--all{
+    background-color: #000;
+    width: auto;
+    min-width: 200px;
+    display: inline-block;
+}
+.ff-feature__cta--all:hover {
+  color: #424b62 !important;
+}
+#start{
+      margin-top: 3.5em;
+    width: 100%;
+    display: block;
+}
+@media all and (min-width: 768px) {
+.ff-feature {
+  padding-bottom: 120px;
+}
+.ff-feature__title {font-size: 5.5em;}
+
+}
+
+
+/*------------------------
+GENERAL QUERIES
+-------------------------*/
+@media all and (min-width: 768px) {
+.DesktopOnly{display: inline;}   
+}
+/*------------------------
+dropdown FUNCTION
+-------------------------*/
+
+.dropDown { 
+      display: block;
+      background: #eee;
+      padding: 1em;
+      text-transform: uppercase;
+      font: 4vw/1 "GalanoGrotesque-Regular", Arial, Helvetica, sans-serif;
+    margin: 1em 0;
+}
+.hiddenContent {
+    display: none;
+}
+
+.chevron {
+    display: inline-block;
+    font: 5vw/1  GalanoGrotesque-Regular,Arial,'Helvetica Neue',Helvetica,sans-serif;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    width: 10vw;
+}
+
+.chevron::before {
+    content: "\f078";
+    font: 5vw/1  GalanoGrotesque-Regular,Arial,'Helvetica Neue',Helvetica,sans-serif;
+	border-style: solid;
+	border-width: 0.1em 0.1em 0 0;
+	content: '';
+	display: inline-block;
+	height: 0.45em;
+	right: 0;
+	position: relative;
+	top: 0;
+	-webkit-transform: rotate(135deg);
+	    -ms-transform: rotate(135deg);
+	        transform: rotate(135deg);
+	vertical-align: top;
+	width: 0.45em;
+}
+
+.dropDown .chevron-down,.dropDown .chevron-down2,
+.dropDown .chevron-down3,.dropDown .chevron-down4{
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.rtoate180--1,.rtoate180--2,
+.rtoate180--3,.rtoate180--4{
+    -webkit-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+            transform: rotate(180deg);
+}
+
+@media all and (min-width: 768px) {
+.dropDown { display: none;}
+.hiddenContent {
+    display: inline;
+}
+}
