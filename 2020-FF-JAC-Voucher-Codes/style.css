@@ -1,0 +1,256 @@
+/* * DO NOT EDIT */
+
+
+#VCO,
+#VCO * {
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+
+#VCO a,
+#VCO p {
+	text-decoration: none;
+	color: currentColor;
+    font-size: inherit;
+}
+
+/* * DO NOT EDIT */
+
+#VCO{
+    position: relative;
+    max-width:1300px;
+    background: #FFF;
+    margin: 0 auto;
+}
+#VCO a:visited,
+#VCO a:link,
+#VCO a:focus,
+#VCO a:active{
+    color: #000;
+}
+.desktoponly{ display: none}
+
+@media only screen and (min-width: 768px) {
+.desktoponly{ display: inline-block}
+}
+
+/*-----------------------------
+1 COL SECTION
+----------------------------*/
+#VCO .one__col{
+    width: auto;
+    text-align: center;
+    margin: 3em 1em;
+    }
+#VCO .one__box{
+    background: #eee;
+    
+}
+#VCO .one__box--inner{
+    background: #FFF;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 5em 0;
+    text-align: center;
+    margin: 1em 0;    
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+#VCO .one__title{
+    text-transform: uppercase;
+    margin:0 0 0.5em 0;    
+    font:8vw/1 'GalanoGrotesque-Regular', Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+#VCO .one__para{ 
+    font:3.5vw/1.5 'GalanoGrotesque-Regular', Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+@media only screen and (min-width: 768px) {
+   
+    #VCO .one__box--inner{ 
+        display:-webkit-inline-box; 
+        display:-ms-inline-flexbox; 
+        display:inline-flex; 
+        -webkit-box-pack: center; 
+        -ms-flex-pack: center; 
+        justify-content: center;
+        width: auto; 
+        -webkit-box-sizing: border-box; 
+        box-sizing: border-box;
+        padding: 3em;
+    }
+    #VCO .one__cta{-ms-flex-item-align: center;align-self: center}
+    
+    
+    
+    #VCO .one__title{ font-size: 3vw; }
+    #VCO .one__para{font-size: 1.6vw;}
+}
+@media only screen and (min-width: 1268px) {
+    
+    #VCO .one__title{ font-size: 3em}
+    #VCO .one__para{font-size: 1.6em;}
+}
+
+
+
+
+#VCO .one__col.one__col--black{
+    background: #000;
+    color: #FFF;
+    margin: 0;
+    padding: 4em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-height: 80vw;
+}
+
+@media only screen and (min-width: 768px) {
+    #VCO .one__col.one__col--black{min-height: 38vw}
+}
+@media only screen and (min-width: 1268px) {
+    #VCO .one__col.one__col--black{min-height: 38em}
+}
+/*-----------------------------
+2 COL SECTION
+----------------------------*/
+#VCO .two__col{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+#VCO .two__box{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+#VCO .two__box--inner{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background: #e9e3e2;
+    padding: 0;
+    text-align: center;
+    margin: 1em 2em;  
+    padding: 2em;
+}
+#VCO .two__box--inner:hover{
+    opacity: 0.8;
+}
+#VCO .two__box--innerRED{
+    background: #e03849;
+}
+#VCO .two__box--innerBLUE{
+    background: #3587cf;
+}
+#VCO .two__pretitle{
+    font:6.5vw/1 'GalanoGrotesque-Regular', Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-transform: uppercase;
+    margin:0.5em auto;
+}
+#VCO .two__code{
+    border: 10px solid #FFF;
+    font:10vw/1 "AlternateGotNo2";
+    text-align: center;
+    padding: 0.5em 0;
+    color: #FFF;
+}
+#VCO .two__title{
+    margin:1em 0 0 0;
+    text-align: left;
+    color: #FFF;
+}
+#VCO .two__title--bold{
+    font:8vw/1 'GalanoGrotesque-Semibold', Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+#VCO .two__title--small{
+    font:3vw/1.5 'GalanoGrotesque-Regular', Arial, "Helvetica Neue", Helvetica, sans-serif;
+    
+}
+
+@media only screen and (min-width: 768px) {
+      #VCO .two__box{
+        -webkit-box-flex: 1;
+        -ms-flex: 1;
+        flex: 1;
+}
+    #VCO .two__box--inner{
+    display: -webkit-box;  
+    display: -ms-flexbox;  
+    display: flex;
+    margin: 3em 0 0 0;
+}
+    #VCO .two__col > div:nth-child(1){
+        margin-right: 3em
+    }
+
+    #VCO .two__code{
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    
+}
+#VCO .two__title{
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    margin:0 0 0 2em;
+    text-align: left;
+}
+  
+#VCO > section > article.two__col > a:nth-child(1){
+    margin-right: 2em
+}
+    #VCO .two__title--bold,
+    #VCO .two__pretitle{ font-size: 3vw}
+    #VCO .two__title--small{ font-size: 1.6vw}
+    #VCO .two__code {font-size: 3vw}
+}
+
+
+@media only screen and (min-width:1268px) {
+
+    #VCO .two__title--bold,
+    #VCO .two__pretitle{ font-size:3em}
+    #VCO .two__title--small{ font-size: 1.6em}
+    #VCO .two__code {font-size: 3em}
+    
+}
