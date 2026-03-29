@@ -1,0 +1,614 @@
+@font-face {
+	font-family:'GibsonLight';
+	src: url('https://images.drct2u.com/repo/JDW/desktop/common/04-fonts/Gibson-Light-webfont.eot');
+	src: url('https://images.drct2u.com/repo/JDW/desktop/common/04-fonts/Gibson-Light-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('https://images.drct2u.com/repo/JDW/desktop/common/04-fonts/Gibson-Light-webfont.woff') format('woff'),
+		 url('https://images.drct2u.com/repo/JDW/desktop/common/04-fonts/Gibson-Light-webfont.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family:'GibsonRegular';
+	src: url('https://images.drct2u.com/repo/JDW/desktop/common/04-fonts/Gibson-Regular-webfont.eot');
+	src: url('https://images.drct2u.com/repo/JDW/desktop/common/04-fonts/Gibson-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('https://images.drct2u.com/repo/JDW/desktop/common/04-fonts/Gibson-Regular-webfont.woff') format('woff'),
+		 url('https://images.drct2u.com/repo/JDW/desktop/common/04-fonts/Gibson-Regular-webfont.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family:'GibsonSemiBold';
+	src: url('https://images.drct2u.com/repo/JDW/desktop/common/04-fonts/Gibson-SemiBold-webfont.eot');
+	src: url('https://images.drct2u.com/repo/JDW/desktop/common/04-fonts/Gibson-SemiBold-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('https://images.drct2u.com/repo/JDW/desktop/common/04-fonts/Gibson-SemiBold-webfont.woff') format('woff'),
+		 url('https://images.drct2u.com/repo/JDW/desktop/common/04-fonts/Gibson-SemiBold-webfont.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+    font-family: 'GaramondItalic';
+    src: url(https://images.drct2u.com/repo/JDW/desktop/common/04-fonts/Garamond-Italic.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#FreeFormatPage {
+  width: 130%;
+  max-width: 1280px;
+  position: relative;
+  margin: 0 -13.8%;
+}
+
+#FreeFormatPage {
+  width: 130%;
+  max-width: 1280px;
+  position: relative;
+  margin: 0 auto;
+}
+.hide{ display:none;}
+
+@media only screen and (max-width : 1024px) {
+#FreeFormatPage{
+  width: 100%;
+  margin: 0
+}
+}
+#FreeFormatPage a{
+  text-decoration:none;
+  color:#222;
+}
+#FreeFormatPage img{
+  width: 87%;
+  margin: 0 6.5%;
+}
+#FreeFormatPage .Lifestyle.Two img,
+#FreeFormatPage .Lifestyle.Four img,
+#FreeFormatPage .Lifestyle.Five img,
+#FreeFormatPage .Lifestyle.Seven img{	
+width: 100%;
+margin: 0;
+}
+
+/*-------------------------------------
+INTRO
+--------------------------------------*/
+
+#FreeFormatPage header {
+width:100%;
+text-align:center;
+}
+
+#FreeFormatPage header img{
+  width: 100%;
+  margin: 0;
+}
+#FreeFormatPage nav{ display: none;}
+
+#FreeFormatPage header .Button{
+  display: inline-block;
+  font: 1em/1em GibsonRegular,Arial,Helvetica,sans-serif;
+  text-transform: uppercase;
+  color: #000;
+  letter-spacing: 0.3em;
+z-index:2;
+  border: 1px solid #FFF;
+  margin: 7%;
+  padding: 10px 0;
+  width: 86%;
+  -webkit-box-shadow: 1px 1px 6px 2px #ccc;
+  box-shadow: 1px 1px 6px 2px #ccc;
+  background-color: rgba(255, 255, 255, 0.5); 
+}
+#FreeFormatPage header .Button:hover{
+  background: #222;
+}
+#FreeFormatPage header h1 {
+color:#222;
+padding:0;
+z-index:1;
+width: 100%;
+height: auto;
+position: relative;
+font:1em/1em GibsonLight,Arial,Helvetica,sans-serif;
+text-transform: uppercase;
+margin:3% 0;
+}
+#FreeFormatPage header h1 span {
+color:#222;
+}
+#FreeFormatPage header h1 span.Text1 {
+  font:1.4em/1em GibsonRegular,Arial,Helvetica,sans-serif;
+  letter-spacing: 0.1em;
+  display:block;
+  text-indent:-8.5em;
+
+}
+#FreeFormatPage header h1 span.Text2 {
+  font:2.25em/1.2em GibsonLight,Arial,Helvetica,sans-serif;
+  letter-spacing: 0.23em;
+  display:block;
+}
+#FreeFormatPage header h1 span.Text3 {
+  font:3.1em/0.7em GibsonRegular,Arial,Helvetica,sans-serif;
+
+}
+#FreeFormatPage section.Trend {
+margin:10px 0;
+position:relative;
+padding:0;
+width:100%;
+float:left;
+border-bottom:4px solid #222;
+}
+
+#FreeFormatPage section.Trend .Copy {
+position:relative;
+text-align:center;
+z-index:3;
+margin:0 auto;
+width: 100%;
+padding:0;
+top:-30px;
+}
+
+#FreeFormatPage section.Trend .Copy h2 {
+margin:0;
+padding:0;
+color:#222;
+font:3em/1em GibsonLight,Arial,Helvetica,sans-serif;
+width:100%;
+letter-spacing:0.02em;
+text-align:center;
+}
+#FreeFormatPage section.Trend .Copy h2 strong{ 
+  font-weight:normal;
+  display:block;
+}
+#FreeFormatPage section.Trend span {
+text-align:center;
+margin:0 auto;
+font:0.8em/1em GibsonSemiBold,Arial,Helvetica,sans-serif;
+text-transform:uppercase;
+display:none;
+padding:10px 0 0 0;
+letter-spacing:0.3em;
+}
+
+#FreeFormatPage section.Trend .Lifestyle {
+display:block;
+width:100%;
+}
+
+#FreeFormatPage section.Trend .Lifestyle .Box {
+display:block;
+width:100%;
+}
+/*-----------------
+SECTION2 - Essentials
+----------------*/
+#FreeFormatPage section.Essentials{
+  width: 100%;
+  float: left;
+  position: relative;
+}
+
+#FreeFormatPage section h2{
+  font: 3em/0.8em GibsonLight,Arial,Helvetica,sans-serif;
+  text-align: center;
+  width: 100%;
+  padding-bottom: 20px;
+}
+#FreeFormatPage section.Essentials .ProductNav{
+    margin-bottom: 35px;
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 0 6%;
+}
+
+.product-prev,
+.product-next {
+  cursor: pointer;
+  height: 80px;
+  position: absolute;
+  text-indent: -99999px;
+  -webkit-transition: .3s;
+  transition: .3s;
+  top: calc(50% - 40px);
+  top: 100px\9;
+  width: 46px;
+  z-index: 10;
+}
+
+.product-prev:hover,
+.product-next:hover {
+  background-color: #eee;
+}
+.product-prev {
+    background: url(/repo/FW/desktop/pages/homepage/standard/2016/week10/02-images/160309_FW_HP_Prev.png) center center no-repeat;
+    left: 15px;
+    height: 100%;
+    top: 0;
+}
+.product-next {
+    background: #FFF url(/repo/FW/desktop/pages/homepage/standard/2016/week10/02-images/160309_FW_HP_Next.png) center center no-repeat;
+    right: 15px;
+    height: 100%;
+    top: 0;
+}
+
+#FreeFormatPage section.Essentials .Product{
+  display: block;
+  height: 286px;
+  margin: 4% 0;
+  position: relative;
+}
+#FreeFormatPage section.Essentials .Product span.Price{
+    position: absolute;
+    bottom: 43px;
+    text-transform: uppercase;
+    font: 0.8em/1em GibsonLight,Arial,Helvetica,sans-serif;
+    margin: 0 auto;
+    letter-spacing: 0.1em;
+    width: 100%;
+    text-align: center;
+    left: 0;
+}
+#FreeFormatPage section.Essentials .Product span.Shop{
+  border: 1px solid #000;
+  padding: 10px 10%;
+  text-transform: uppercase;
+  margin: 0 30%;
+  font: 0.8em/1em GibsonLight,Arial,Helvetica,sans-serif;
+  letter-spacing: 0.1em;
+  text-align: center;
+  position: relative;
+  top: 27px;
+  display: block;
+}
+#FreeFormatPage section.Essentials .Product:hover span.Shop{
+  background: #222;
+  color: #FFF;
+}
+#FreeFormatPage section.Essentials .Product img{
+  margin: 0 auto;
+  width: auto;
+  text-align: center;
+}
+
+/*-----------------
+SECTION4 - DON'T FORGET
+----------------*/
+#FreeFormatPage section.SectionFour .Link{
+  display: block;
+  height: auto;
+  width: 100%;
+  float: left;
+  margin: 0;
+  position: relative;
+}
+#FreeFormatPage section.SectionFour .Link h3{
+    font: 3em/1em GibsonLight,Arial,Helvetica,sans-serif;
+    margin: 3% auto 2%;
+    letter-spacing: 0.02em;
+    width: 100%;
+    text-align: center;
+    float: left;
+    padding: 0;
+}
+#FreeFormatPage section.SectionFour .Link span.Shop{
+  padding: 10px 10%;
+  text-transform: uppercase;
+  margin: 0 35%;
+  font: 1em/1em GibsonLight,Arial,Helvetica,sans-serif;
+  letter-spacing: 0.1em;
+  float: left;
+}
+#FreeFormatPage section.SectionFour .Link:hover span.Shop{
+  background-color: #222;
+  color: white;
+}
+/*--------------------------------------------------
+DESKTOP QUERIES -  Anything above 667px
+---------------------------------------------------*/
+
+@media only screen and (min-width : 667px) {
+
+#FreeFormatPage section.Trend{
+  height: 1240px;
+  width: 94%;
+  margin: 3%;
+}
+
+#FreeFormatPage header{
+  margin-top: 3em;
+  background: #e1dde1;
+  overflow: hidden;
+    }
+#FreeFormatPage header h1{
+  position: absolute;
+  top: 140px;
+  left: 37%;
+  width: auto;
+  overflow: hidden;
+  display: block;
+  font: 1.15em/1em GibsonLight,Arial,Helvetica,sans-serif;
+  margin: 0;
+}
+#FreeFormatPage section h2{
+   font: 5em/0.8em GibsonLight,Arial,Helvetica,sans-serif;
+   float: left;
+
+}
+#FreeFormatPage header img{
+  width: auto;
+  float: right;
+}
+
+#FreeFormatPage header img.MobileImage{ display:none; }
+
+#FreeFormatPage header h1 span {
+display:block;
+}
+#FreeFormatPage header .Button{
+  margin: 0;
+  position: absolute;
+  left: 37%;
+  width: 18em;
+  top: 279px;
+  font-family:GibsonLight,Arial,Helvetica,sans-serif;
+  letter-spacing:0.1em;
+
+}
+#FreeFormatPage nav{
+display: block;
+z-index: 10;
+width: 98%;
+padding:0 1%;
+margin: 0;
+position: relative;
+float: left;
+left: 0;
+height: auto;
+background: #cde6e7;
+}
+
+#FreeFormatPage nav .GreyBtn{ 
+    width: 11.5%;
+    padding: 1% 0;
+    display: block;
+    background: #FFF;
+    margin: 1% 0.5%;
+    float: left;
+    text-align: center;
+    font: 1em/1em "GibsonLight",Arial,Helvetica,sans-serif;
+}
+#FreeFormatPage nav .GreyBtn:hover{
+  background:#222;
+  color:#FFF;
+  }
+#FreeFormatPage section.Trend span {
+    text-align: center;
+    margin: 0 auto;
+    font: 1em/1em GibsonLight,Arial,Helvetica,sans-serif;
+    text-transform: uppercase;
+    display: inline-block;
+    letter-spacing: 0.1em;
+    border: 1px solid #FFF;
+    padding: 10px 0;
+    margin-top: 2%;
+    height: auto;
+    width: 90%;
+    -webkit-box-shadow: 1px 1px 6px 2px #ccc;
+    box-shadow: 1px 1px 6px 2px #ccc;
+    background-color: rgba(255, 255, 255, 0.5); 
+}
+#FreeFormatPage section.Trend .Lifestyle{
+  width: auto;
+  position: absolute;
+  overflow: visible;
+  float: left;
+}
+#FreeFormatPage section.Trend .Copy h2{
+  font: 3.2em/1em GibsonLight,Arial,Helvetica,sans-serif;
+}
+#FreeFormatPage section.Trend .Copy h2 strong{ 
+  display: block; 
+  line-height: 0.5em; 
+  padding-bottom: 8%; 
+  font-weight: normal;
+}
+#FreeFormatPage section.Trend .Copy{
+width: auto;
+position: absolute;
+top: 0;
+left: 0;
+}
+  #FreeFormatPage section.Trend img{
+    width: auto;
+    margin: 0;
+    float: left;
+  }
+
+#FreeFormatPage section.Trend.SectionOne .Lifestyle.One{left: 0;  top: 4%;}
+#FreeFormatPage section.Trend.SectionOne .Lifestyle.One .Copy {top: 22%;left: 71%;}
+#FreeFormatPage section.Trend.SectionOne .Lifestyle.Two{right: 0;top: 8%;}
+#FreeFormatPage section.Trend.SectionOne .Lifestyle.Two .Copy {top: 13%;width: 38%;left: 64%;}
+#FreeFormatPage section.Trend.SectionOne .Lifestyle.Three{left: 0; top:60%;}
+#FreeFormatPage section.Trend.SectionOne .Lifestyle.Three .Copy {top: 24%;left: -11%;}
+#FreeFormatPage section.Trend.SectionOne .Lifestyle.Four{right: 0; top:38%;}
+#FreeFormatPage section.Trend.SectionOne .Lifestyle.Four .Copy {top: 34%;left: -36%;}
+/*-----------------
+SECTION2 - Essentials
+----------------*/
+#FreeFormatPage section.Essentials .Product{
+    margin: 0 auto;
+    text-align: center;
+}
+/*-----------------
+SECTION3 - MORE TRENDS
+----------------*/
+
+#FreeFormatPage section.Trend.SectionThree .Lifestyle.Five{left: 0;  top: 5%;}
+#FreeFormatPage section.Trend.SectionThree .Lifestyle.Five .Copy {top: 60%;left: -9%;}
+#FreeFormatPage section.Trend.SectionThree .Lifestyle.Six{right: 0;top: 0;}
+#FreeFormatPage section.Trend.SectionThree .Lifestyle.Six .Copy {top: 77%;width: auto;left: 53%;}
+#FreeFormatPage section.Trend.SectionThree .Lifestyle.Seven{left: 0; top:36%;}
+#FreeFormatPage section.Trend.SectionThree .Lifestyle.Seven .Copy {top: 79%;left: -13%;}
+#FreeFormatPage section.Trend.SectionThree .Lifestyle.Eight{right: 0%; top:55%;}
+#FreeFormatPage section.Trend.SectionThree .Lifestyle.Eight .Copy {top: 10%;left: -18%;}
+/*-----------------
+SECTION4 - DON'T FORGET
+----------------*/
+#FreeFormatPage section.SectionFour .Link{width: 50%; margin: 1.5% 0;}
+
+}
+
+/*--------------------------------------------------
+MEDIA QUERIES -  Between 667px and 1024px
+---------------------------------------------------*/
+
+@media only screen and (max-width: 1024px) and (min-width: 667px){
+  #FreeFormatPage section.Trend .Lifestyle{
+    width: 45%;
+    margin: 0 2.5%;
+  }
+#FreeFormatPage section.Trend .Lifestyle img{ width: 100%}
+#FreeFormatPage header h1{
+  top:22%;
+  left:35%;}
+#FreeFormatPage header .Button{
+  left:35%;
+  top:51%;}
+
+/*----------Copy position tweek-------------------*/
+#FreeFormatPage section.Trend.SectionOne .Lifestyle.Four .Copy{  left: -16%;}
+#FreeFormatPage section.Trend.SectionThree .Lifestyle.Eight .Copy {left: -23%;}
+}
+/*--------------------------------------------------
+TABLET HEIGHT FIX
+---------------------------------------------------*/
+@media only screen and (max-width: 1024px) and (min-width: 1000px){
+  #FreeFormatPage section.Trend {height: 1020px;}}
+@media only screen and (max-width: 900px) and (min-width: 667px){
+  #FreeFormatPage section.Trend {height: 900px;}}
+
+/*--------------------------------------------------
+MEDIA QUERIES -  iPad Landscape
+---------------------------------------------------*/
+
+@media only screen and (max-width: 1024px){
+#FreeFormatPage nav .GreyBtn{width: 11.5%;}
+}
+
+
+/*--------------------------------------------------
+MEDIA QUERIES -  iPad Portrait
+---------------------------------------------------*/
+@media only screen and (max-width: 768px){
+#FreeFormatPage nav .GreyBtn{width: 23.8%;}
+}
+
+/*--------------------------------------------------
+MEDIA QUERIES - Font fix Styles
+---------------------------------------------------*/
+@media only screen and (max-width: 1024px) {
+#FreeFormatPage {font-size:90%!important}}
+
+@media only screen and (max-width: 768px) {
+#FreeFormatPage {font-size:80%!important}}
+
+@media only screen and (max-width: 667px) {
+#FreeFormatPage {font-size:70%!important}
+#FreeFormatPage header img.MobileImage { display:block; }
+#FreeFormatPage header img.DesktopImage { display:none; }}
+
+@media only screen and (max-width: 640px) {
+.carousel-product{ width: auto !important;}
+#FreeFormatPage section.Essentials .ProductNav { padding: 0 19%;}
+#FreeFormatPage {font-size:130%!important}}
+
+@media only screen and (max-width: 480px) {
+#FreeFormatPage section.Essentials .ProductNav { padding: 0 23%;}
+#FreeFormatPage {font-size: 120% !important;}}
+
+@media only screen and (max-width: 360px) {
+#FreeFormatPage {font-size: 110% !important;}
+#FreeFormatPage section.Essentials .ProductNav { padding: 0 25%;}}
+
+@media only screen and (max-width: 320px) {
+#FreeFormatPage {font-size: 100% !important;}
+#FreeFormatPage section.Essentials .ProductNav { padding: 0 19%;}}
+
+/*--------------------------------------------------
+MEDIA QUERIES - Kids,mens, garden buttons on mobile
+---------------------------------------------------*/
+@media only screen and (max-width: 667px) {
+#FreeFormatPage section.SectionFour .Link img,
+#FreeFormatPage section.SectionFour .Link span.Shop{ display:none}
+#FreeFormatPage section.SectionFour .Link h3{
+	text-transform: uppercase;
+	font: 1em/1em GibsonSemiBold,Arial,Helvetica,sans-serif;
+	border: 1px solid #000;
+    margin: 2.5% 5%;
+	width: 80%;
+	padding: 5%;
+}
+}
+/*--------------------------------------------------
+MEDIA QUERIES - Main Image position per device
+---------------------------------------------------*/
+@media only screen and (max-width: 1024px){
+#FreeFormatPage header img {position: relative;right: 0;}}
+@media only screen and (max-width: 768px){
+#FreeFormatPage header img{}
+#FreeFormatPage header img {position: relative;right: 0;}}
+@media only screen and (max-width: 667px){
+#FreeFormatPage header img {position: relative;right: 0;}}
+@media only screen and (max-width: 666px){
+#FreeFormatPage header img {position: relative;right: 0;float: left;}}
+
+
+/* Bounce In */
+.hvr-bounce-in {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+.hvr-bounce-in:hover, .hvr-bounce-in:focus, .hvr-bounce-in:active {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+}
+
+/* Fade */
+.hvr-fade {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: color, background-color;
+  transition-property: color, background-color;
+  background: none;
+}
+.hvr-fade:hover, .hvr-fade:focus, .hvr-fade:active {
+  background-color: #222;
+  color: white !important;
+}
