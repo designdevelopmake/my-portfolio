@@ -1,0 +1,109 @@
+.ff-container{
+	background: url(/images/MobileMainImage.jpg) ;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-position:top center;
+	position: relative;
+	background-size: cover;
+	margin: 0 auto;
+	max-width: 1200px;
+}
+.ff-container .Wrapper{
+	padding: 6%;
+}
+.ff-container .Wrapper section{
+	text-align: center;
+	padding: 6% 6% 6% 6%;
+	background: #FFF;
+	margin-bottom: 80%;
+}
+.ff-container section h1{
+	display: block;
+	width: 100%;
+	margin: 0 auto;
+	text-transform: uppercase;
+	letter-spacing: 0vw;
+	text-align: left;
+	background: url(/images/Title.jpg) no-repeat top center;
+	background-size: contain;
+}
+.ff-container section h1 span.Text1{
+	font: 11vw/5vw 'LatoRegular';
+	padding-top: 11%;
+	display: block;
+	color: #3f225a;
+}
+.ff-container section h1 span.Text2{
+	font: 9.5vw/12vw 'LatoRegular';
+	display: block;
+	text-align: right;
+	padding-right: 5%;
+	color: #e55d2a;
+}
+.ff-container section h1 span.Text3{
+	font: 5.5vw/5vw 'LatoRegular';
+	text-align: right;
+	display: block;
+	padding-right: 5%;
+	color: #b72235;
+}
+.ff-container section h2{
+	width: 100%;
+	font: 4.5vw/5vw 'LatoRegular';
+	text-transform: uppercase;
+	color: #b72235;
+	padding-top: 12%;
+	letter-spacing: 0.13vw;
+}
+.ff-container section h2 span{ display: block; width: 100%;}
+.ff-container section p{
+	font: 4.5vw/5vw 'LatoRegular';
+	width: 68%;
+	padding-top: 7%;
+	margin: 0 auto;
+	letter-spacing: 0.05vw;
+	color: #3f225a;
+}
+.ff-container section h3{
+	width: 100%;
+	font: 4vw/5vw 'LatoRegular';
+	text-transform: uppercase;
+	color: #3f225a;
+	padding-top: 2%;
+	letter-spacing: 0.1vw;
+	border-top: 1px solid #3f225a;
+	margin-top: 12%;
+}
+.ff-container section nav{
+	margin-top: 7%;
+}
+.ff-container section nav .Link{
+	display: inline-block;
+	background: #eee;
+	text-decoration: none;
+	color: #3f225a;
+	padding: 3% 10%;
+	margin: 1%;
+	width: 27%;
+	text-transform: uppercase;
+	font: 3.7vw/5vw 'LatoRegular';
+	letter-spacing: 0.2vw;
+}
+
+@media only screen and (min-device-width : 768px){
+.ff-container .Wrapper{	padding: 9% 13% ;}
+.ff-container .Wrapper section{border: 10px solid #FFF; margin: 0;  box-shadow: 0 0 0 1px #000 inset;}
+.ff-container{background-image: url(/images/DesktopMainImage.jpg) ;background-size:contain; background-color: #caa3b6}
+.ff-container section h1 span.Text1{font: 62px/67px 'LatoRegular';padding-top: 9%;}
+.ff-container section h1 span.Text2{font: 56px/56px 'LatoRegular';}
+.ff-container section h1 span.Text3{font: 36px/35px 'LatoRegular';}
+.ff-container section h2{font-size: 20px;line-height: 26px;margin: 0;padding-top: 4%;}
+.ff-container section p{ font-size: 18px; line-height: 21px;width: 74%;padding-top: 2%;}
+.ff-container section h3{width:72%;margin: 3% auto 3%;font-size:21px;line-height:23px;padding-top:3%}
+.ff-container section nav{margin:0}
+.ff-container section nav .Link{font-size:15px;padding:1.5% 0;margin:.5%;width:17%;line-height:15px}
+}
+@media only screen and (min-device-width : 900px){
+	.ff-container section h1 {width: 510px;}
+	.ff-container section h2 span{display: none;}
+}
