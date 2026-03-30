@@ -1,0 +1,137 @@
+
+#FreeFormatPage{
+position:relative;
+background:url(http://images2.drct2u.com/content/images/freeformat/120103ss_VLD_FF_Trends_bg_smudge.jpg);
+width:1000px;
+height:710px;
+font-family:Arial,Helvetica,sans-serif;
+margin: 0 auto;
+}
+.first_image  h3.button a{
+position:absolute;
+top:16px;
+z-index:100;
+right:15px;
+}
+
+#trendHeader p{
+    color: #FFFFFF;
+    font-size: 14px;
+    left: 509px;
+    line-height: 23px;
+    position: absolute;
+    top: 29px;
+    width: 478px;
+    z-index: 10;
+}
+.first_image p.text{
+padding:0;
+position:absolute;
+top:390px;
+z-index:1000;
+left:16px;
+width:206px;
+    color: #000000;
+    font-size: 12px;
+    margin: 0;
+}
+.first_image, .second_image, .third_image, .fourth_image, .fifth_image{
+position:absolute;
+left:22px;
+width:240px;
+/**top:450px;
+_top:453px;
+z-index:1;*/
+}
+.first_image{
+left:19px;
+}
+.second_image{
+left:260px;
+}
+.third_image{
+left:501px;
+}
+.fourth_image{
+left:742px;
+}
+.second_image p{
+padding:0;
+position:absolute;
+top:390px;
+z-index:1000;
+left:16px;
+width:206px;
+    color: #000000;
+    font-size: 12px;
+    margin: 0;
+}
+.third_image p{
+position:absolute;
+top:390px;
+z-index:1000;
+height:191px;
+left:16px;
+width:206px;
+    color: #000000;
+    font-size: 12px;
+    margin: 0;
+}
+.fourth_image p{
+position:absolute;
+top:390px;
+z-index:1000;
+height:191px;
+left:16px;
+width:206px;
+    color: #000000;
+    font-size: 12px;
+    margin: 0;
+}
+.first_image, .second_image, .third_image, .fourth_image{top:152px; width:240px;}
+
+.second_image h3.button a{
+position:absolute;
+top:16px;
+z-index:100;
+right:15px;
+}
+.third_image h3.button a{
+position:absolute;
+top:16px;
+z-index:100;
+right:15px;
+}
+.fourth_image h3.button a{
+position:absolute;
+top:16px;
+z-index:1000;
+right:15px;
+}
+a h3.button{
+text-decoration:none;
+color:#fff;
+font-weight:bold;
+float:right;
+    background:url(http://images2.drct2u.com/content/images/freeformat/120103ss_VLD_FF_Trends_pinkbtn.jpg) no-repeat;
+    border: 1px solid #FFFFFF;
+    display: block;
+    height: 19px;
+    position: absolute;
+    top: 0;
+    width: 218px;
+	padding:10px;
+	z-index:999;
+}
+a:hover h3.button{
+color:#000;
+ background:url(http://images2.drct2u.com/content/images/freeformat/120103ss_VLD_FF_Trends_pale-btn.jpg);}
+ .extra{
+    display: block;
+    height: 16px;
+    left: 387px;
+    position: absolute;
+    top: -16px;
+    width: 84px;
+	}
+
