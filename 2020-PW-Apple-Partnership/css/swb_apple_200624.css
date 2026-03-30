@@ -1,0 +1,82 @@
+#swb.swb__apple .swb__hero--one .swb__text-container {
+    top: 60%;
+    width: 90%;
+}
+#swb.swb__apple .swb__hero--one .swb__cta {
+    margin-top: 19%;
+}
+#swb.swb__apple .swb__hero--two .swb__text-container {
+    top:60%;
+    margin: 0 1em;
+    -webkit-transform:none;
+    transform:none;
+}
+#swb.swb__apple .swb__hero--two .swb__text--p {
+    margin-bottom: 1em;
+}
+
+@media all and (min-width:768px) {
+    #swb.swb__apple .swb__hero--one .swb__text-container {
+        top: 50%;
+        width: 50%;
+    }
+    #swb.swb__apple .swb__hero--two .swb__text-container {
+    margin: 0;
+    }
+    #swb.swb__apple .swb__hero--two .swb__text--p {
+        font-size: 0.8em;
+    }
+    #swb.swb__apple .swb__hero--one .swb__cta {
+        margin-top: 0;
+    }
+    #swb.swb__apple .swb__hero--two .swb__text-container {
+        top: 70%;
+        -webkit-transform: none;
+        transform: none;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media all and (min-width:1000px) {
+        #swb.swb__apple .swb__hero--two .swb__text--p {
+        font-size:1em;
+    }
+}
+
+
+
+
+
+/*-------------------------------------------------
+SELF CONTAINED CSS EXTRA BANNER - GB = Grey Banner
+--------------------------------------------------*/
+
+#GB{
+    background: #EEE;
+    overflow: hidden;
+    display: block;
+    text-align: center;
+    padding:1.5em 1em
+}
+#GB h3{
+font: 7vw/1.3 'GalanoGrotesque-Regular', Arial, "Helvetica Neue", Helvetica, sans-serif ;
+    margin: 0 0 0.4em 0
+}
+#GB h3 small{
+    font-size: 0.7em;
+    display: block;
+}
+#GB p{
+font:  3vw/1.5 'GalanoGrotesque-Regular', Arial, "Helvetica Neue", Helvetica, sans-serif ;
+    margin: 0;
+}
+#GB p u{
+    display: block;
+}
+
+@media all and (min-width:768px) {
+#GB h3{font-size: 1.8em; }
+#GB p{font-size: 1em}
+#GB p u{display: inline;}   
+}
