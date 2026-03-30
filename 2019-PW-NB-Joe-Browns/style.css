@@ -1,0 +1,258 @@
+.BR{
+    font-size: 62.5%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    max-width: 1300px;
+    background: url(https://images2.drct2u.com/content/images/FGN/m_210919_JDW_pw_JoeBrowns_AW_Collection.jpg) top center no-repeat #ebebeb;
+    background-size: cover;
+}
+.BR__TextArea{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+position: relative;
+    min-height: 225px;
+        -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+}
+.BR__TextArea-innerbg{
+       background: url(https://images2.drct2u.com/content/images/FGN/m_190919_JDW_pw_JoeBrowns_TL.png),
+        url(https://images2.drct2u.com/content/images/FGN/m_190919_JDW_pw_JoeBrowns_TR.png),
+        url(https://images2.drct2u.com/content/images/FGN/m_190919_JDW_pw_JoeBrowns_BL.png),
+        url(https://images2.drct2u.com/content/images/FGN/m_190919_JDW_pw_JoeBrowns_BR.png);
+    background-size: contain;      
+    background-repeat: no-repeat;
+    background-position: top left, top right, bottom left, bottom right; 
+    height: 60vw;
+    width: 100%;
+    pointer-events: none !important;
+}
+.BR__TextArea-innerimg{
+    position: absolute;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+.BR__image1,.BR__image2{
+    display: none;
+}
+.BR__image1{
+    border-right: 5px solid #FFF;
+}
+.BR__image2{
+    border-left: 5px solid #FFF;
+}
+.BR__heading{
+    position: relative;
+    border-right: 10px solid #bcd4eb;
+    border-left: 10px solid #bcd4eb;
+    border-top: 10px solid #bcd4eb;
+    height: 215px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 0;
+    text-align: left;
+    text-transform: uppercase;
+    font: 7vw/1  GalanoGrotesque-SemiBold,Arial,'Helvetica Neue',Helvetica,sans-serif;
+}
+.BR__break{ display: block}
+
+
+/*------------------------
+dropdown FUNCTION
+-------------------------*/
+
+.dropDown { 
+    text-align: center;
+      display: block;
+      background: #bcd4eb;
+      padding: 1em;
+      text-transform: uppercase;
+      font: 4vw/1 "GalanoGrotesque-Regular", Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+.hiddenContent {
+    border-top:2px solid #000;
+    display: none;
+    background: #bcd4eb;
+    text-align: center;
+    font: 3.5vw/1.5  GalanoGrotesque-Regular,Arial,'Helvetica Neue',Helvetica,sans-serif;
+    padding: 4vw;
+}
+
+
+
+.chevron {
+    display: inline-block;
+    font: 5vw/1  GalanoGrotesque-Regular,Arial,'Helvetica Neue',Helvetica,sans-serif;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    width: 10vw;
+}
+
+.chevron::before {
+    content: "\f078";
+    font: 5vw/1  GalanoGrotesque-Regular,Arial,'Helvetica Neue',Helvetica,sans-serif;
+	border-style: solid;
+	border-width: 0.1em 0.1em 0 0;
+	content: '';
+	display: inline-block;
+	height: 0.45em;
+	right: 0;
+	position: relative;
+	top: 0;
+	-webkit-transform: rotate(135deg);
+	    -ms-transform: rotate(135deg);
+	        transform: rotate(135deg);
+	vertical-align: top;
+	width: 0.45em;
+}
+
+.dropDown .chevron-down,.dropDown .chevron-down2,
+.dropDown .chevron-down3,.dropDown .chevron-down4{
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.rtoate180--1,.rtoate180--2,
+.rtoate180--3,.rtoate180--4{
+    -webkit-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+            transform: rotate(180deg);
+}
+.BR__links{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+a.BR__links--cta{
+    width: 50%;
+    text-decoration: underline !important;
+    font: 3.5vw/2  GalanoGrotesque-Regular,Arial,'Helvetica Neue',Helvetica,sans-serif;
+    color: #000
+}
+.DesktopOnly{ display: none}
+/*-----------------------
+QUERIES
+--------------------------*/
+@media all and (min-width: 768px) {
+
+.DesktopOnly{ display: block}
+    
+.BR__TextArea{
+    min-height: 300px;
+}
+.BR{
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row
+    }
+.dropDown,.BR__break { display: none;}
+.BR__TextArea{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    width: 100%;
+    }
+a.BR__links--cta{ width: auto; margin-right: 10px;} 
+
+.BR__heading,
+.hiddenContent{
+    display: inline !important;
+    background: none;
+    border: none;
+    padding: 0;
+    height: auto;
+        text-align: center;
+    
+    } 
+    .BR__heading{
+        width: 100%;
+    }
+    .hiddenContent{max-width: 638px; margin: 0 auto; padding: 0 5%}
+    .BR__TextArea-innerimg{
+        -webkit-transform: translate(0, 0);
+            -ms-transform: translate(0, 0);
+                transform: translate(0, 0);
+    top: auto;
+    left: auto;
+    right: auto;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    } 
+    .BR__TextArea-innerbg{
+       background: url(https://images2.drct2u.com/content/images/FGN/m_190919_JDW_pw_JoeBrowns_TL.png),
+        url(https://images2.drct2u.com/content/images/FGN/m_190919_JDW_pw_JoeBrowns_TR.png),
+        url(https://images2.drct2u.com/content/images/FGN/m_190919_JDW_pw_JoeBrowns_BL.png),
+        url(https://images2.drct2u.com/content/images/FGN/m_190919_JDW_pw_JoeBrowns_BR.png);
+       background-size: contain;
+       background-repeat: no-repeat;
+       background-position: top left, top right, bottom left, bottom right;
+       height: 300px;
+       position: absolute;
+       width: 100%;
+       top: 0;
+       left: 0;
+}
+        .BR__roundal{
+        position: absolute;
+            top: 40px;
+            left: 15%;
+    }
+/*---------------
+FONT SIZES
+----------------*/
+    
+.BR__heading{font-size: 3em;}
+.hiddenContent{font-size: 1.2em;}
+a.BR__links--cta{font-size: 1em; }
+    
+
+}
+
+@media all and (min-width: 1000px) {
+.BR__TextArea{
+            background: url(https://images2.drct2u.com/content/images/FGN/m_210919_JDW_pw_JoeBrowns_AW_Collection.jpg) top center no-repeat #ebebeb;
+    background-size: cover;
+    }
+.BR__image1, .BR__TextArea{display: -webkit-box;display: -ms-flexbox;display: flex; }
+}
+@media all and (min-width: 1200px) {
+.BR__image2{display: -webkit-box;display: -ms-flexbox;display: flex; }
+}
