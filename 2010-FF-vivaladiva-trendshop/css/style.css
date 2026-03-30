@@ -1,0 +1,151 @@
+
+#FreeFormatPage{
+position:relative;
+background:url(../images/1010AW_VLD_FF_Trends_bg.jpg);
+width:1000px;
+height:1074px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+margin: 0 auto;
+}
+#FreeFormatPage p{
+font-size: 14px;
+margin: 0;
+}
+#trendHeader{
+text-indent:-9999px;
+}
+#FreeFormatPage .first_image{
+left:38px;
+position:absolute;
+top:170px;
+width:929px;
+z-index:1000;
+height:340px;
+}
+#FreeFormatPage  h3.button a{
+text-decoration:none;
+color:#FFFFFF;
+font-weight:normal;
+float:right;
+}
+#FreeFormatPage  h3.button a:hover{
+text-decoration:underline;
+color:#FFFFFF !important;
+}
+.first_image  h3.button a{
+left:260px;
+position:absolute;
+top:180px;
+}
+.first_image .big_button a{
+font-size:20px;
+display:block;
+background:#000;
+left:604px;
+position:absolute;
+top:160px;
+padding:10px;
+color:#FFFFFF;
+text-decoration:none;
+width:303px;
+text-align:right;
+}
+.first_image .big_button a:hover{
+text-decoration:underline;
+}
+#FreeFormatPage .first_image p.maintext{
+font-size:19px;
+left:448px;
+line-height:26px;
+position:absolute;
+top:0;
+width:469px;
+color:#FFFFFF;
+}
+.first_image p.seo{
+position:absolute;
+top:241px;
+width:400px;
+z-index:2000;
+left:20px;
+overflow:hidden;
+margin: 0;
+}
+.second_image, .third_image, .fourth_image, .fifth_image{
+position:absolute;
+top:480px;
+/**top:450px;
+_top:453px;
+z-index:1;*/
+}
+.third_image{
+left:258px;
+}
+.fourth_image{
+left:497px;
+}
+.fifth_image{
+right:0;
+}
+.second_image p{
+padding:0;
+position:absolute;
+top:390px;
+z-index:1000;
+left:36px;
+width:205px;
+}
+.third_image p{
+position:absolute;
+top:390px;
+z-index:1000;
+height:191px;
+left:15px;
+width:204px;
+}
+.fourth_image p{
+position:absolute;
+top:390px;
+z-index:1000;
+height:191px;
+left:18px;
+width:204px;
+}
+.fifth_image p{
+position:absolute;
+top:390px;
+z-index:1000;
+height:191px;
+left:23px;
+width:205px;
+}
+.second_image{width:258px;}
+.third_image{width:239px;}
+.fourth_image{width:240px;}
+.fifth_image{width:263px;}
+
+.second_image h3.button a{
+position:absolute;
+top:147px;
+z-index:100;
+right:15px;
+}
+.third_image h3.button a{
+position:absolute;
+top:77px;
+z-index:100;
+right:15px;
+}
+.fourth_image h3.button a{
+position:absolute;
+top:23px;
+z-index:1000;
+right:10px;
+}
+.fifth_image h3.button a{
+position:absolute;
+z-index:100;
+right:29px;
+top:82px;
+}
+
