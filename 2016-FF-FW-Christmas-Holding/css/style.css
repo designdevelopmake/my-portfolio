@@ -93,7 +93,7 @@
 @media only screen and (min-device-width : 768px){
 .ff-container .Wrapper{	padding: 9% 13% ;}
 .ff-container .Wrapper section{border: 10px solid #FFF; margin: 0;  box-shadow: 0 0 0 1px #000 inset;}
-.ff-container{background-image: url(/images/DesktopMainImage.jpg) ;background-size:contain; background-color: #caa3b6}
+.ff-container{background-image: url(images/DesktopMainImage.jpg) ;background-size:contain; background-color: #caa3b6}
 .ff-container section h1 span.Text1{font: 62px/67px 'LatoRegular';padding-top: 9%;}
 .ff-container section h1 span.Text2{font: 56px/56px 'LatoRegular';}
 .ff-container section h1 span.Text3{font: 36px/35px 'LatoRegular';}
